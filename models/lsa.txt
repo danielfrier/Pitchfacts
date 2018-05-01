@@ -1,0 +1,1575 @@
+5
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.518*"rap" + 0.350*"rapper" + 0.180*"hip-hop" + -0.159*"metal" + 0.153*"mixtape" + -0.097*"drone" + -0.088*"piece" + 0.086*"verse" + -0.083*"guitar" + 0.080*"rhyme"
+
+0.227*"techno" + 0.207*"rap" + -0.180*"metal" + 0.165*"house" + 0.157*"electronic" + 0.144*"producer" + 0.138*"beat" + 0.136*"dance" + 0.134*"rapper" + 0.133*"hip-hop"
+
+0.723*"metal" + 0.263*"black" + 0.204*"rap" + 0.128*"rapper" + 0.126*"doom" + 0.108*"death" + 0.103*"hardcore" + 0.101*"riff" + 0.081*"thrash" + -0.077*"pop"
+
+-0.183*"disc" + -0.176*"compilation" + 0.170*"rap" + -0.157*"version" + -0.148*"remix" + -0.139*"metal" + -0.134*"original" + -0.132*"label" + -0.127*"punk" + 0.125*"rapper"
+
+6
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.350*"rapper" + -0.179*"hip-hop" + 0.160*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.087*"piece" + -0.085*"verse" + 0.083*"guitar" + 0.080*"noise"
+
+-0.227*"techno" + -0.207*"rap" + 0.180*"metal" + -0.166*"house" + -0.157*"electronic" + -0.145*"producer" + -0.139*"beat" + -0.135*"dance" + -0.133*"rapper" + -0.133*"hip-hop"
+
+-0.723*"metal" + -0.262*"black" + -0.201*"rap" + -0.131*"rapper" + -0.126*"doom" + -0.107*"death" + -0.105*"hardcore" + -0.099*"riff" + -0.080*"thrash" + 0.077*"pop"
+
+0.185*"disc" + 0.176*"compilation" + -0.173*"rap" + 0.157*"version" + 0.146*"remix" + 0.138*"metal" + 0.133*"label" + 0.131*"original" + -0.126*"rapper" + 0.125*"dance"
+
+-0.243*"film" + -0.173*"jazz" + 0.172*"techno" + -0.164*"piece" + 0.163*"house" + 0.153*"dance" + -0.149*"composer" + -0.135*"rap" + -0.126*"score" + -0.125*"soundtrack"
+
+7
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.518*"rap" + 0.350*"rapper" + 0.179*"hip-hop" + -0.159*"metal" + 0.153*"mixtape" + -0.097*"drone" + -0.088*"piece" + 0.086*"verse" + -0.083*"guitar" + -0.081*"noise"
+
+-0.227*"techno" + -0.207*"rap" + 0.179*"metal" + -0.165*"house" + -0.156*"electronic" + -0.145*"producer" + -0.138*"beat" + -0.137*"dance" + -0.136*"rapper" + -0.132*"hip-hop"
+
+0.723*"metal" + 0.263*"black" + 0.202*"rap" + 0.131*"rapper" + 0.127*"doom" + 0.108*"death" + 0.106*"hardcore" + 0.101*"riff" + 0.081*"thrash" + -0.077*"pop"
+
+0.183*"disc" + 0.175*"compilation" + -0.169*"rap" + 0.160*"version" + 0.147*"remix" + 0.137*"metal" + 0.134*"original" + 0.130*"label" + -0.130*"rapper" + 0.126*"dance"
+
+-0.245*"film" + 0.171*"techno" + -0.168*"jazz" + -0.162*"piece" + 0.162*"house" + 0.149*"dance" + -0.144*"composer" + -0.134*"rap" + -0.132*"soundtrack" + -0.130*"disc"
+
+-0.269*"film" + -0.195*"techno" + -0.170*"house" + -0.158*"soundtrack" + 0.154*"rap" + 0.134*"group" + -0.130*"score" + -0.127*"dance" + -0.121*"metal" + 0.110*"guitar"
+
+8
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.350*"rapper" + -0.180*"hip-hop" + 0.160*"metal" + -0.152*"mixtape" + 0.098*"drone" + 0.087*"piece" + -0.086*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+0.227*"techno" + 0.207*"rap" + -0.180*"metal" + 0.165*"house" + 0.156*"electronic" + 0.144*"producer" + 0.137*"beat" + 0.137*"dance" + 0.135*"rapper" + 0.133*"hip-hop"
+
+-0.724*"metal" + -0.262*"black" + -0.202*"rap" + -0.129*"rapper" + -0.126*"doom" + -0.109*"death" + -0.104*"hardcore" + -0.099*"riff" + -0.079*"thrash" + 0.077*"pop"
+
+-0.185*"disc" + -0.176*"compilation" + 0.170*"rap" + -0.158*"version" + -0.148*"remix" + -0.138*"metal" + -0.130*"original" + -0.129*"label" + 0.126*"rapper" + -0.125*"dance"
+
+0.243*"film" + 0.172*"jazz" + -0.171*"techno" + -0.163*"house" + 0.159*"piece" + -0.152*"dance" + 0.144*"composer" + 0.134*"rap" + 0.130*"score" + 0.129*"soundtrack"
+
+-0.277*"film" + -0.199*"techno" + -0.161*"house" + -0.152*"soundtrack" + 0.151*"rap" + 0.144*"group" + -0.134*"dance" + -0.129*"score" + -0.118*"metal" + 0.108*"guitar"
+
+-0.164*"metal" + 0.154*"noise" + 0.131*"punk" + 0.117*"drone" + -0.116*"country" + 0.114*"guy" + -0.111*"house" + -0.108*"folk" + -0.107*"singer" + -0.102*"&"
+
+9
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.350*"rapper" + -0.180*"hip-hop" + 0.160*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.086*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+-0.227*"techno" + -0.206*"rap" + 0.180*"metal" + -0.166*"house" + -0.157*"electronic" + -0.144*"producer" + -0.138*"beat" + -0.136*"dance" + -0.135*"sample" + -0.135*"rapper"
+
+0.724*"metal" + 0.263*"black" + 0.201*"rap" + 0.131*"rapper" + 0.126*"doom" + 0.108*"death" + 0.104*"hardcore" + 0.099*"riff" + 0.080*"thrash" + 0.076*"heavy"
+
+-0.187*"disc" + -0.177*"compilation" + 0.170*"rap" + -0.156*"version" + -0.148*"remix" + -0.138*"metal" + -0.132*"original" + -0.130*"label" + 0.125*"rapper" + -0.125*"dance"
+
+0.241*"film" + 0.176*"jazz" + -0.174*"techno" + -0.163*"house" + 0.159*"piece" + -0.145*"dance" + 0.144*"composer" + 0.131*"rap" + 0.128*"score" + 0.128*"disc"
+
+0.275*"film" + 0.192*"techno" + 0.169*"house" + 0.159*"soundtrack" + -0.154*"rap" + -0.134*"group" + 0.131*"dance" + 0.129*"score" + 0.118*"metal" + -0.111*"guitar"
+
+-0.161*"metal" + 0.161*"noise" + 0.126*"punk" + -0.118*"house" + -0.116*"country" + -0.112*"singer" + 0.110*"drone" + 0.106*"guy" + 0.106*"piece" + -0.103*"folk"
+
+0.473*"film" + 0.292*"soundtrack" + 0.247*"score" + -0.168*"jazz" + 0.156*"movie" + 0.134*"metal" + -0.125*"punk" + -0.110*"techno" + 0.109*"remix" + 0.108*"pop"
+
+10
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.350*"rapper" + -0.179*"hip-hop" + 0.159*"metal" + -0.154*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.086*"verse" + 0.083*"guitar" + 0.080*"noise"
+
+-0.228*"techno" + -0.206*"rap" + 0.180*"metal" + -0.166*"house" + -0.156*"electronic" + -0.144*"producer" + -0.138*"beat" + -0.137*"dance" + -0.135*"rapper" + -0.133*"hip-hop"
+
+-0.723*"metal" + -0.262*"black" + -0.202*"rap" + -0.130*"rapper" + -0.126*"doom" + -0.108*"death" + -0.105*"hardcore" + -0.100*"riff" + -0.081*"thrash" + 0.077*"pop"
+
+0.184*"disc" + 0.176*"compilation" + -0.174*"rap" + 0.156*"version" + 0.150*"remix" + 0.137*"metal" + 0.131*"original" + 0.130*"label" + 0.124*"dance" + 0.124*"techno"
+
+-0.241*"film" + 0.172*"techno" + -0.171*"jazz" + 0.164*"house" + -0.161*"piece" + 0.147*"dance" + -0.144*"composer" + -0.133*"rap" + -0.130*"soundtrack" + -0.129*"disc"
+
+0.277*"film" + 0.197*"techno" + 0.161*"soundtrack" + 0.160*"house" + -0.152*"rap" + -0.134*"group" + 0.132*"dance" + 0.130*"score" + 0.120*"metal" + -0.108*"guitar"
+
+-0.168*"metal" + 0.152*"noise" + 0.129*"punk" + -0.118*"house" + -0.118*"singer" + -0.118*"country" + 0.111*"drone" + -0.110*"folk" + 0.103*"piece" + 0.102*"guy"
+
+0.477*"film" + 0.289*"soundtrack" + 0.246*"score" + -0.167*"jazz" + 0.155*"movie" + 0.133*"metal" + 0.123*"indie" + -0.119*"punk" + 0.112*"pop" + -0.097*"techno"
+
+-0.364*"jazz" + -0.225*"film" + -0.201*"punk" + 0.160*"remix" + 0.147*"version" + -0.138*"soundtrack" + -0.132*"funk" + 0.130*"disc" + -0.128*"rock" + -0.121*"hip-hop"
+
+11
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.350*"rapper" + -0.180*"hip-hop" + 0.159*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.085*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+0.227*"techno" + 0.208*"rap" + -0.179*"metal" + 0.166*"house" + 0.158*"electronic" + 0.145*"producer" + 0.139*"beat" + 0.136*"dance" + 0.134*"rapper" + 0.133*"sample"
+
+0.724*"metal" + 0.262*"black" + 0.204*"rap" + 0.128*"rapper" + 0.127*"doom" + 0.108*"death" + 0.106*"hardcore" + 0.101*"riff" + 0.081*"thrash" + -0.077*"pop"
+
+0.184*"disc" + 0.175*"compilation" + -0.172*"rap" + 0.158*"version" + 0.148*"remix" + 0.138*"metal" + 0.132*"original" + 0.132*"label" + -0.125*"rapper" + 0.124*"dance"
+
+0.241*"film" + 0.173*"jazz" + -0.172*"techno" + -0.162*"house" + 0.158*"piece" + -0.149*"dance" + 0.147*"composer" + 0.133*"rap" + 0.128*"score" + 0.126*"disc"
+
+-0.279*"film" + -0.192*"techno" + -0.169*"house" + -0.160*"soundtrack" + 0.155*"rap" + 0.140*"group" + -0.132*"score" + -0.130*"dance" + -0.119*"metal" + 0.114*"guitar"
+
+-0.169*"metal" + 0.160*"noise" + 0.129*"punk" + -0.120*"country" + -0.111*"house" + 0.110*"drone" + 0.109*"guy" + -0.107*"singer" + 0.102*"piece" + -0.100*"folk"
+
+0.475*"film" + 0.292*"soundtrack" + 0.244*"score" + -0.167*"jazz" + 0.157*"movie" + 0.136*"metal" + -0.130*"punk" + 0.118*"indie" + 0.115*"pop" + -0.109*"techno"
+
+-0.366*"jazz" + -0.220*"film" + -0.206*"punk" + 0.153*"version" + 0.152*"remix" + -0.143*"funk" + 0.137*"disc" + -0.125*"soundtrack" + -0.121*"hip-hop" + -0.117*"rock"
+
+-0.313*"punk" + 0.274*"jazz" + 0.196*"metal" + 0.147*"hip-hop" + -0.132*"hardcore" + 0.113*"soul" + 0.112*"horn" + 0.110*"remix" + 0.109*"folk" + -0.106*"film"
+
+12
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.349*"rapper" + -0.180*"hip-hop" + 0.160*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.086*"verse" + 0.083*"guitar" + 0.080*"noise"
+
+-0.227*"techno" + -0.206*"rap" + 0.181*"metal" + -0.165*"house" + -0.155*"electronic" + -0.145*"producer" + -0.139*"beat" + -0.136*"dance" + -0.135*"rapper" + -0.133*"sample"
+
+-0.723*"metal" + -0.264*"black" + -0.204*"rap" + -0.130*"rapper" + -0.127*"doom" + -0.107*"death" + -0.105*"hardcore" + -0.101*"riff" + -0.081*"thrash" + -0.076*"heavy"
+
+-0.185*"disc" + -0.178*"compilation" + 0.171*"rap" + -0.157*"version" + -0.148*"remix" + -0.139*"metal" + -0.133*"original" + -0.131*"label" + 0.127*"rapper" + -0.124*"house"
+
+0.242*"film" + 0.174*"jazz" + -0.171*"techno" + -0.162*"house" + 0.161*"piece" + -0.150*"dance" + 0.147*"composer" + 0.133*"rap" + 0.128*"soundtrack" + 0.127*"score"
+
+-0.269*"film" + -0.197*"techno" + -0.170*"house" + -0.158*"soundtrack" + 0.154*"rap" + 0.136*"group" + -0.125*"score" + -0.125*"dance" + -0.120*"metal" + 0.112*"guitar"
+
+-0.159*"noise" + 0.156*"metal" + -0.131*"punk" + 0.126*"country" + -0.118*"drone" + 0.116*"house" + 0.110*"singer" + 0.108*"black" + -0.106*"guy" + 0.100*"producer"
+
+-0.474*"film" + -0.283*"soundtrack" + -0.243*"score" + 0.182*"jazz" + -0.152*"movie" + -0.138*"metal" + 0.132*"punk" + -0.126*"indie" + -0.118*"pop" + -0.102*"remix"
+
+0.377*"jazz" + 0.228*"film" + 0.199*"punk" + -0.158*"version" + -0.158*"remix" + 0.135*"funk" + -0.135*"disc" + 0.126*"soundtrack" + 0.124*"hip-hop" + 0.123*"score"
+
+0.306*"punk" + -0.278*"jazz" + -0.196*"metal" + -0.159*"hip-hop" + 0.132*"hardcore" + 0.116*"film" + -0.109*"remix" + -0.108*"folk" + -0.105*"horn" + 0.104*"post-punk"
+
+0.196*"film" + -0.156*"electronic" + -0.151*"jazz" + -0.148*"pop" + 0.136*"country" + 0.135*"rap" + 0.135*"punk" + 0.129*"guitar" + 0.127*"soundtrack" + -0.118*"composer"
+
+13
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.349*"rapper" + -0.180*"hip-hop" + 0.159*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.087*"piece" + -0.086*"verse" + 0.084*"guitar" + -0.080*"rhyme"
+
+0.228*"techno" + 0.208*"rap" + -0.180*"metal" + 0.165*"house" + 0.157*"electronic" + 0.146*"producer" + 0.138*"beat" + 0.137*"dance" + 0.134*"rapper" + 0.133*"sample"
+
+0.724*"metal" + 0.262*"black" + 0.201*"rap" + 0.131*"rapper" + 0.125*"doom" + 0.107*"death" + 0.107*"hardcore" + 0.100*"riff" + 0.080*"thrash" + 0.076*"heavy"
+
+0.183*"disc" + 0.174*"compilation" + -0.169*"rap" + 0.157*"version" + 0.149*"remix" + 0.137*"metal" + 0.132*"label" + -0.130*"rapper" + 0.129*"original" + 0.125*"house"
+
+-0.244*"film" + -0.175*"jazz" + 0.170*"techno" + -0.164*"piece" + 0.162*"house" + 0.150*"dance" + -0.145*"composer" + -0.135*"rap" + -0.128*"disc" + -0.127*"score"
+
+0.276*"film" + 0.196*"techno" + 0.163*"house" + 0.160*"soundtrack" + -0.151*"rap" + -0.136*"group" + 0.129*"dance" + 0.128*"score" + 0.122*"metal" + -0.112*"guitar"
+
+-0.164*"metal" + 0.160*"noise" + 0.139*"punk" + -0.118*"house" + 0.113*"drone" + -0.111*"country" + 0.105*"guy" + -0.105*"singer" + 0.104*"piece" + 0.103*"think"
+
+-0.466*"film" + -0.297*"soundtrack" + -0.242*"score" + 0.170*"jazz" + -0.156*"movie" + -0.144*"metal" + 0.134*"punk" + -0.122*"indie" + -0.113*"pop" + -0.103*"remix"
+
+-0.378*"jazz" + -0.224*"film" + -0.189*"punk" + 0.157*"remix" + -0.144*"funk" + 0.140*"version" + -0.133*"soundtrack" + -0.126*"hip-hop" + 0.123*"disc" + -0.123*"score"
+
+-0.299*"punk" + 0.253*"jazz" + 0.196*"metal" + 0.156*"hip-hop" + -0.141*"hardcore" + -0.125*"film" + -0.114*"group" + -0.109*"post-punk" + 0.106*"soul" + 0.105*"horn"
+
+0.195*"film" + -0.157*"jazz" + -0.141*"electronic" + 0.139*"soundtrack" + 0.138*"punk" + -0.138*"pop" + -0.130*"indie" + 0.127*"guitar" + -0.126*"composer" + 0.114*"rap"
+
+-0.223*"compilation" + 0.217*"jazz" + 0.211*"remix" + -0.199*"label" + -0.196*"folk" + -0.172*"&" + -0.163*"hip-hop" + 0.149*"live" + -0.143*"country" + 0.140*"remixes"
+
+14
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.518*"rap" + 0.350*"rapper" + 0.179*"hip-hop" + -0.160*"metal" + 0.153*"mixtape" + -0.098*"drone" + -0.088*"piece" + 0.085*"verse" + -0.083*"guitar" + 0.080*"rhyme"
+
+-0.229*"techno" + -0.205*"rap" + 0.179*"metal" + -0.167*"house" + -0.155*"electronic" + -0.145*"producer" + -0.139*"beat" + -0.136*"rapper" + -0.136*"dance" + -0.133*"hip-hop"
+
+-0.724*"metal" + -0.262*"black" + -0.202*"rap" + -0.132*"rapper" + -0.126*"doom" + -0.107*"death" + -0.104*"hardcore" + -0.100*"riff" + -0.081*"thrash" + 0.078*"pop"
+
+0.185*"disc" + 0.174*"compilation" + -0.171*"rap" + 0.158*"version" + 0.148*"remix" + 0.138*"metal" + 0.132*"label" + 0.132*"original" + -0.127*"rapper" + 0.123*"house"
+
+0.241*"film" + 0.174*"jazz" + -0.172*"techno" + -0.163*"house" + 0.162*"piece" + -0.147*"dance" + 0.146*"composer" + 0.132*"rap" + 0.130*"disc" + 0.127*"score"
+
+-0.279*"film" + -0.198*"techno" + -0.167*"house" + -0.160*"soundtrack" + 0.147*"rap" + 0.138*"group" + -0.132*"score" + -0.130*"dance" + -0.120*"metal" + 0.111*"rapper"
+
+0.160*"noise" + -0.160*"metal" + 0.130*"punk" + -0.123*"country" + -0.116*"house" + 0.110*"drone" + -0.105*"singer" + 0.103*"guy" + -0.103*"folk" + 0.101*"piece"
+
+0.466*"film" + 0.296*"soundtrack" + 0.234*"score" + -0.169*"jazz" + 0.149*"movie" + 0.145*"metal" + -0.137*"punk" + 0.114*"pop" + 0.114*"indie" + -0.105*"techno"
+
+0.374*"jazz" + 0.218*"film" + 0.202*"punk" + 0.150*"funk" + -0.149*"remix" + -0.145*"version" + 0.135*"soundtrack" + -0.125*"disc" + 0.121*"hip-hop" + 0.118*"rock"
+
+0.310*"punk" + -0.274*"jazz" + -0.200*"metal" + -0.162*"hip-hop" + 0.131*"hardcore" + 0.125*"film" + -0.115*"folk" + -0.106*"funk" + 0.104*"post-punk" + -0.104*"remix"
+
+-0.201*"film" + 0.142*"jazz" + 0.137*"indie" + 0.136*"electronic" + -0.132*"punk" + 0.131*"pop" + -0.127*"rap" + -0.125*"soundtrack" + -0.125*"guitar" + 0.115*"composer"
+
+-0.233*"label" + 0.226*"remix" + -0.225*"compilation" + 0.188*"jazz" + -0.183*"folk" + -0.176*"&" + 0.157*"remixes" + -0.156*"country" + 0.146*"original" + -0.139*"indie"
+
+0.368*"hip-hop" + -0.270*"techno" + 0.233*"remix" + 0.202*"punk" + 0.172*"original" + -0.165*"house" + 0.157*"remixes" + 0.151*"sample" + 0.123*"hardcore" + -0.115*"label"
+
+15
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.350*"rapper" + -0.180*"hip-hop" + 0.159*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.085*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+-0.228*"techno" + -0.206*"rap" + 0.179*"metal" + -0.165*"house" + -0.155*"electronic" + -0.145*"producer" + -0.139*"beat" + -0.137*"dance" + -0.136*"rapper" + -0.132*"hip-hop"
+
+0.725*"metal" + 0.262*"black" + 0.202*"rap" + 0.130*"rapper" + 0.125*"doom" + 0.108*"death" + 0.103*"hardcore" + 0.100*"riff" + 0.081*"thrash" + -0.076*"pop"
+
+0.183*"disc" + 0.177*"compilation" + -0.172*"rap" + 0.157*"version" + 0.147*"remix" + 0.138*"metal" + 0.135*"label" + 0.130*"original" + -0.126*"rapper" + 0.126*"house"
+
+-0.242*"film" + -0.174*"jazz" + 0.172*"techno" + 0.162*"house" + -0.160*"piece" + -0.148*"composer" + 0.146*"dance" + -0.135*"rap" + -0.128*"score" + -0.127*"disc"
+
+0.275*"film" + 0.196*"techno" + 0.172*"house" + 0.163*"soundtrack" + -0.149*"rap" + -0.141*"group" + 0.130*"score" + 0.126*"dance" + 0.118*"metal" + -0.112*"guitar"
+
+-0.166*"metal" + 0.155*"noise" + 0.133*"punk" + -0.120*"country" + -0.117*"house" + 0.113*"drone" + -0.111*"singer" + 0.106*"guy" + -0.106*"&" + 0.102*"piece"
+
+-0.477*"film" + -0.295*"soundtrack" + -0.238*"score" + 0.177*"jazz" + -0.152*"movie" + 0.134*"punk" + -0.133*"metal" + -0.114*"pop" + -0.114*"indie" + 0.107*"techno"
+
+-0.354*"jazz" + -0.227*"film" + -0.218*"punk" + 0.167*"remix" + 0.142*"version" + 0.137*"disc" + -0.134*"funk" + -0.129*"soundtrack" + -0.128*"rock" + -0.122*"score"
+
+-0.292*"jazz" + 0.287*"punk" + -0.192*"metal" + -0.162*"hip-hop" + -0.116*"funk" + -0.115*"horn" + -0.115*"soul" + 0.114*"hardcore" + 0.107*"film" + -0.102*"remix"
+
+-0.192*"film" + 0.150*"electronic" + 0.131*"pop" + 0.127*"jazz" + -0.125*"guitar" + 0.123*"indie" + -0.123*"soundtrack" + -0.118*"punk" + 0.115*"hip-hop" + -0.113*"rap"
+
+-0.241*"folk" + -0.218*"compilation" + -0.218*"label" + 0.211*"jazz" + 0.205*"remix" + -0.163*"country" + 0.150*"live" + -0.148*"&" + 0.147*"remixes" + -0.130*"indie"
+
+0.339*"hip-hop" + 0.266*"remix" + -0.243*"techno" + 0.239*"punk" + 0.185*"original" + 0.180*"remixes" + 0.157*"sample" + -0.153*"house" + 0.134*"hardcore" + -0.107*"label"
+
+0.256*"tiny_mce" + 0.256*"langs" + 0.255*"js]" + 0.255*"j" + 0.255*"http" + 0.252*"backend" + 0.248*"pitchfork" + 0.243*"com" + 0.234*"en" + 0.226*"script"
+
+16
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.518*"rap" + 0.350*"rapper" + 0.180*"hip-hop" + -0.159*"metal" + 0.152*"mixtape" + -0.097*"drone" + -0.088*"piece" + 0.086*"verse" + -0.084*"guitar" + 0.080*"rhyme"
+
+-0.227*"techno" + -0.206*"rap" + 0.180*"metal" + -0.165*"house" + -0.157*"electronic" + -0.146*"producer" + -0.139*"beat" + -0.136*"dance" + -0.135*"rapper" + -0.133*"hip-hop"
+
+0.723*"metal" + 0.263*"black" + 0.203*"rap" + 0.128*"rapper" + 0.127*"doom" + 0.107*"death" + 0.104*"hardcore" + 0.100*"riff" + 0.080*"thrash" + -0.077*"pop"
+
+0.185*"disc" + 0.178*"compilation" + -0.169*"rap" + 0.159*"version" + 0.149*"remix" + 0.138*"metal" + 0.133*"original" + 0.131*"label" + -0.128*"rapper" + 0.126*"dance"
+
+-0.243*"film" + -0.174*"jazz" + 0.170*"techno" + 0.164*"house" + -0.160*"piece" + 0.149*"dance" + -0.144*"composer" + -0.132*"rap" + -0.129*"soundtrack" + -0.129*"disc"
+
+0.274*"film" + 0.193*"techno" + 0.164*"house" + 0.157*"soundtrack" + -0.154*"rap" + -0.135*"group" + 0.133*"score" + 0.133*"dance" + 0.119*"metal" + -0.112*"guitar"
+
+0.166*"metal" + -0.163*"noise" + -0.134*"punk" + 0.123*"house" + 0.117*"country" + -0.111*"drone" + 0.106*"singer" + -0.106*"guy" + -0.102*"piece" + 0.100*"folk"
+
+0.477*"film" + 0.296*"soundtrack" + 0.245*"score" + -0.170*"jazz" + 0.157*"movie" + 0.134*"metal" + -0.130*"punk" + 0.119*"indie" + 0.111*"pop" + -0.101*"techno"
+
+0.375*"jazz" + 0.207*"film" + 0.200*"punk" + -0.161*"remix" + -0.146*"version" + 0.145*"funk" + -0.137*"disc" + 0.130*"soundtrack" + 0.123*"hip-hop" + 0.118*"rock"
+
+0.305*"punk" + -0.268*"jazz" + -0.198*"metal" + -0.152*"hip-hop" + 0.131*"hardcore" + 0.115*"film" + -0.111*"funk" + -0.106*"horn" + 0.105*"post-punk" + 0.104*"group"
+
+0.201*"film" + -0.144*"electronic" + -0.143*"jazz" + -0.135*"pop" + 0.132*"punk" + 0.121*"rap" + -0.118*"indie" + 0.116*"soundtrack" + 0.114*"guitar" + -0.111*"composer"
+
+-0.226*"jazz" + 0.221*"folk" + 0.217*"compilation" + -0.208*"remix" + 0.195*"label" + 0.154*"country" + 0.151*"&" + 0.141*"punk" + -0.140*"live" + -0.136*"remixes"
+
+0.337*"hip-hop" + 0.268*"remix" + -0.264*"techno" + 0.235*"punk" + 0.176*"original" + 0.176*"remixes" + -0.171*"house" + 0.162*"sample" + -0.149*"label" + 0.139*"hardcore"
+
+-0.257*"tiny_mce" + -0.256*"langs" + -0.256*"js]" + -0.256*"j" + -0.255*"http" + -0.253*"backend" + -0.249*"pitchfork" + -0.245*"com" + -0.234*"en" + -0.224*"script"
+
+-0.271*"hip-hop" + 0.254*"punk" + -0.217*"techno" + 0.213*"remix" + 0.171*"disco" + 0.160*"composer" + 0.158*"rap" + 0.153*"pop" + 0.132*"remixes" + 0.131*"dance"
+
+17
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.518*"rap" + 0.350*"rapper" + 0.180*"hip-hop" + -0.160*"metal" + 0.152*"mixtape" + -0.098*"drone" + -0.088*"piece" + 0.086*"verse" + -0.083*"guitar" + 0.080*"rhyme"
+
+0.227*"techno" + 0.207*"rap" + -0.179*"metal" + 0.166*"house" + 0.155*"electronic" + 0.145*"producer" + 0.139*"beat" + 0.137*"dance" + 0.134*"rapper" + 0.133*"sample"
+
+0.724*"metal" + 0.264*"black" + 0.202*"rap" + 0.129*"rapper" + 0.125*"doom" + 0.107*"death" + 0.105*"hardcore" + 0.101*"riff" + 0.080*"thrash" + -0.076*"pop"
+
+-0.182*"disc" + -0.175*"compilation" + 0.173*"rap" + -0.158*"version" + -0.149*"remix" + -0.137*"metal" + -0.132*"original" + -0.132*"label" + -0.127*"dance" + 0.126*"rapper"
+
+0.242*"film" + 0.175*"jazz" + -0.171*"techno" + -0.162*"house" + 0.159*"piece" + -0.147*"dance" + 0.145*"composer" + 0.133*"rap" + 0.128*"score" + 0.126*"soundtrack"
+
+-0.273*"film" + -0.197*"techno" + -0.165*"house" + -0.159*"soundtrack" + 0.152*"rap" + 0.140*"group" + -0.132*"dance" + -0.130*"score" + -0.119*"metal" + 0.109*"guitar"
+
+-0.167*"metal" + 0.164*"noise" + 0.130*"punk" + -0.120*"house" + -0.114*"singer" + 0.113*"drone" + -0.112*"country" + 0.105*"guy" + -0.102*"folk" + 0.102*"piece"
+
+0.480*"film" + 0.302*"soundtrack" + 0.239*"score" + -0.166*"jazz" + 0.156*"movie" + 0.141*"metal" + -0.130*"punk" + 0.125*"indie" + -0.110*"techno" + 0.107*"pop"
+
+0.346*"jazz" + 0.230*"punk" + 0.222*"film" + -0.163*"remix" + -0.139*"version" + 0.131*"funk" + -0.127*"disc" + 0.125*"soundtrack" + -0.122*"metal" + 0.121*"rock"
+
+0.293*"jazz" + -0.286*"punk" + 0.186*"metal" + 0.163*"hip-hop" + -0.126*"hardcore" + 0.117*"funk" + 0.113*"soul" + 0.111*"horn" + 0.111*"folk" + -0.104*"post-punk"
+
+0.199*"film" + -0.156*"pop" + 0.144*"punk" + 0.131*"soundtrack" + -0.131*"electronic" + 0.130*"rap" + -0.129*"indie" + 0.127*"guitar" + -0.125*"jazz" + -0.122*"composer"
+
+0.225*"compilation" + 0.222*"label" + -0.217*"remix" + 0.216*"folk" + -0.195*"jazz" + -0.159*"live" + 0.158*"&" + -0.151*"remixes" + 0.147*"country" + -0.134*"original"
+
+0.371*"hip-hop" + -0.253*"techno" + 0.243*"remix" + 0.220*"punk" + 0.168*"original" + 0.164*"remixes" + -0.161*"house" + 0.147*"hardcore" + 0.143*"sample" + -0.123*"label"
+
+0.268*"j" + 0.260*"tiny_mce" + 0.260*"langs" + 0.260*"js]" + 0.259*"http" + 0.257*"backend" + 0.253*"pitchfork" + 0.249*"com" + 0.237*"en" + 0.228*"script"
+
+0.248*"techno" + 0.244*"hip-hop" + -0.242*"remix" + -0.237*"punk" + -0.209*"disco" + -0.165*"remixes" + -0.164*"pop" + -0.152*"rap" + -0.150*"composer" + -0.120*"indie"
+
+-0.366*"techno" + -0.223*"punk" + 0.205*"funk" + 0.204*"&" + 0.191*"soul" + -0.187*"hardcore" + -0.175*"folk" + 0.135*"disco" + -0.098*"dubstep" + -0.097*"original"
+
+18
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.519*"rap" + 0.350*"rapper" + 0.179*"hip-hop" + -0.160*"metal" + 0.153*"mixtape" + -0.097*"drone" + -0.088*"piece" + 0.085*"verse" + -0.084*"guitar" + -0.080*"noise"
+
+0.228*"techno" + 0.206*"rap" + -0.180*"metal" + 0.164*"house" + 0.156*"electronic" + 0.145*"producer" + 0.139*"beat" + 0.136*"dance" + 0.134*"rapper" + 0.133*"hip-hop"
+
+0.724*"metal" + 0.263*"black" + 0.203*"rap" + 0.128*"rapper" + 0.126*"doom" + 0.106*"hardcore" + 0.106*"death" + 0.100*"riff" + 0.081*"thrash" + -0.077*"pop"
+
+0.186*"disc" + 0.175*"compilation" + -0.171*"rap" + 0.157*"version" + 0.147*"remix" + 0.138*"metal" + 0.133*"original" + 0.131*"label" + -0.126*"rapper" + 0.125*"dance"
+
+0.243*"film" + 0.176*"jazz" + -0.172*"techno" + -0.163*"house" + 0.161*"piece" + -0.148*"dance" + 0.146*"composer" + 0.134*"rap" + 0.128*"disc" + 0.127*"score"
+
+0.279*"film" + 0.191*"techno" + 0.166*"house" + 0.157*"soundtrack" + -0.153*"rap" + -0.140*"group" + 0.135*"dance" + 0.131*"score" + 0.117*"metal" + -0.112*"guitar"
+
+-0.167*"metal" + 0.162*"noise" + 0.129*"punk" + -0.115*"house" + -0.114*"country" + 0.110*"drone" + -0.108*"singer" + 0.106*"guy" + 0.104*"piece" + 0.102*"think"
+
+-0.473*"film" + -0.294*"soundtrack" + -0.238*"score" + 0.171*"jazz" + -0.152*"movie" + -0.137*"metal" + 0.135*"punk" + -0.121*"indie" + -0.110*"pop" + -0.110*"remix"
+
+0.361*"jazz" + 0.226*"film" + 0.204*"punk" + -0.157*"remix" + -0.150*"version" + 0.147*"funk" + -0.136*"disc" + 0.132*"soundtrack" + 0.124*"score" + 0.121*"rock"
+
+-0.290*"punk" + 0.280*"jazz" + 0.196*"metal" + 0.168*"hip-hop" + 0.113*"funk" + -0.112*"hardcore" + -0.112*"post-punk" + 0.111*"horn" + 0.105*"remix" + -0.105*"film"
+
+-0.201*"film" + 0.146*"electronic" + 0.141*"pop" + 0.130*"jazz" + 0.128*"indie" + -0.125*"soundtrack" + -0.124*"guitar" + -0.123*"rap" + -0.120*"punk" + 0.115*"composer"
+
+-0.239*"compilation" + 0.231*"remix" + -0.222*"label" + -0.211*"folk" + 0.205*"jazz" + -0.160*"country" + 0.153*"remixes" + 0.141*"original" + -0.138*"&" + 0.132*"live"
+
+0.358*"hip-hop" + -0.258*"techno" + 0.247*"remix" + 0.221*"punk" + -0.178*"house" + 0.169*"original" + 0.165*"sample" + 0.157*"remixes" + 0.143*"hardcore" + -0.116*"label"
+
+-0.261*"j" + -0.260*"tiny_mce" + -0.259*"langs" + -0.259*"js]" + -0.258*"http" + -0.257*"backend" + -0.253*"pitchfork" + -0.249*"com" + -0.236*"en" + -0.228*"script"
+
+0.277*"punk" + -0.271*"hip-hop" + 0.223*"remix" + -0.185*"techno" + 0.161*"rap" + 0.157*"composer" + 0.156*"remixes" + 0.153*"disco" + 0.134*"pop" + 0.125*"duo"
+
+-0.384*"techno" + 0.195*"&" + -0.187*"punk" + 0.182*"funk" + -0.178*"folk" + 0.170*"disco" + 0.161*"soul" + -0.131*"dubstep" + 0.131*"pop" + -0.129*"hardcore"
+
+0.227*"duo" + 0.195*"folk" + 0.187*"remix" + 0.181*"&" + -0.151*"hardcore" + 0.136*"group" + -0.132*"punk" + -0.131*"dubstep" + -0.112*"soul" + 0.110*"remixes"
+
+19
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.350*"rapper" + -0.179*"hip-hop" + 0.160*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.085*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+-0.226*"techno" + -0.207*"rap" + 0.180*"metal" + -0.166*"house" + -0.156*"electronic" + -0.145*"producer" + -0.138*"beat" + -0.137*"dance" + -0.135*"rapper" + -0.132*"hip-hop"
+
+-0.724*"metal" + -0.263*"black" + -0.201*"rap" + -0.130*"rapper" + -0.126*"doom" + -0.107*"death" + -0.105*"hardcore" + -0.099*"riff" + -0.081*"thrash" + -0.077*"heavy"
+
+-0.181*"disc" + -0.178*"compilation" + 0.172*"rap" + -0.158*"version" + -0.149*"remix" + -0.138*"metal" + -0.133*"original" + -0.129*"label" + 0.127*"rapper" + -0.125*"dance"
+
+0.241*"film" + 0.172*"jazz" + -0.169*"techno" + -0.165*"house" + 0.164*"piece" + 0.148*"composer" + -0.148*"dance" + 0.130*"rap" + 0.129*"score" + 0.129*"soundtrack"
+
+0.271*"film" + 0.192*"techno" + 0.167*"house" + 0.163*"soundtrack" + -0.153*"rap" + -0.130*"group" + 0.129*"dance" + 0.128*"score" + 0.121*"metal" + -0.112*"guitar"
+
+-0.163*"metal" + 0.160*"noise" + 0.121*"punk" + -0.117*"country" + -0.116*"house" + 0.111*"drone" + 0.109*"piece" + -0.106*"singer" + 0.103*"guy" + -0.102*"producer"
+
+-0.472*"film" + -0.294*"soundtrack" + -0.242*"score" + 0.168*"jazz" + -0.148*"movie" + -0.136*"metal" + 0.135*"punk" + -0.123*"indie" + 0.119*"techno" + -0.114*"pop"
+
+0.358*"jazz" + 0.223*"film" + 0.214*"punk" + -0.169*"remix" + -0.150*"version" + 0.146*"funk" + -0.140*"disc" + 0.124*"soundtrack" + 0.122*"score" + 0.119*"hip-hop"
+
+-0.301*"punk" + 0.271*"jazz" + 0.196*"metal" + 0.164*"hip-hop" + -0.124*"hardcore" + 0.115*"funk" + 0.113*"soul" + -0.111*"film" + 0.111*"folk" + 0.109*"horn"
+
+0.199*"film" + -0.147*"jazz" + -0.145*"electronic" + 0.128*"punk" + -0.125*"pop" + 0.124*"rap" + -0.121*"indie" + 0.120*"guitar" + 0.119*"soundtrack" + -0.113*"composer"
+
+-0.240*"compilation" + 0.238*"remix" + -0.230*"label" + -0.197*"folk" + 0.188*"jazz" + -0.162*"country" + -0.160*"&" + 0.158*"original" + 0.156*"remixes" + 0.144*"version"
+
+-0.370*"hip-hop" + 0.270*"techno" + -0.218*"punk" + -0.198*"remix" + 0.181*"house" + -0.170*"sample" + -0.149*"original" + 0.135*"jazz" + -0.132*"remixes" + -0.122*"hardcore"
+
+0.257*"j" + 0.252*"tiny_mce" + 0.251*"langs" + 0.251*"js]" + 0.250*"http" + 0.249*"backend" + 0.244*"pitchfork" + 0.241*"com" + 0.229*"en" + 0.218*"script"
+
+0.253*"punk" + 0.237*"remix" + -0.235*"hip-hop" + -0.183*"techno" + 0.176*"disco" + 0.174*"composer" + 0.167*"remixes" + 0.163*"rap" + 0.147*"pop" + 0.140*"original"
+
+0.336*"techno" + 0.213*"punk" + 0.190*"hardcore" + -0.179*"soul" + -0.166*"funk" + 0.151*"folk" + 0.138*"dubstep" + -0.138*"disco" + -0.134*"pop" + -0.131*"&"
+
+-0.251*"remix" + -0.200*"duo" + 0.196*"dubstep" + -0.168*"&" + -0.150*"folk" + 0.136*"hardcore" + -0.130*"remixes" + 0.126*"punk" + 0.115*"pop" + -0.113*"rock"
+
+0.278*"jazz" + -0.196*"live" + 0.187*"remix" + 0.168*"label" + -0.157*"performance" + -0.135*"dance" + 0.133*"remixes" + 0.127*"disc" + 0.125*"indie" + -0.112*"electronic"
+
+20
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.350*"rapper" + -0.179*"hip-hop" + 0.159*"metal" + -0.153*"mixtape" + 0.097*"drone" + 0.088*"piece" + -0.085*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+-0.227*"techno" + -0.206*"rap" + 0.179*"metal" + -0.166*"house" + -0.156*"electronic" + -0.144*"producer" + -0.139*"beat" + -0.136*"dance" + -0.135*"rapper" + -0.132*"hip-hop"
+
+-0.724*"metal" + -0.262*"black" + -0.202*"rap" + -0.129*"rapper" + -0.126*"doom" + -0.107*"death" + -0.106*"hardcore" + -0.100*"riff" + -0.080*"thrash" + -0.076*"heavy"
+
+0.182*"disc" + 0.176*"compilation" + -0.169*"rap" + 0.160*"version" + 0.150*"remix" + 0.137*"metal" + 0.132*"original" + 0.129*"label" + -0.128*"rapper" + 0.124*"dance"
+
+0.241*"film" + 0.172*"jazz" + -0.171*"techno" + 0.161*"piece" + -0.159*"house" + -0.148*"dance" + 0.145*"composer" + 0.135*"rap" + 0.129*"soundtrack" + 0.129*"disc"
+
+0.272*"film" + 0.195*"techno" + 0.166*"house" + -0.157*"rap" + 0.156*"soundtrack" + -0.136*"group" + 0.134*"dance" + 0.126*"score" + 0.120*"metal" + -0.111*"guitar"
+
+0.167*"metal" + -0.166*"noise" + 0.129*"country" + -0.127*"punk" + 0.120*"house" + -0.113*"drone" + -0.108*"guy" + 0.101*"singer" + -0.101*"piece" + -0.100*"think"
+
+0.479*"film" + 0.295*"soundtrack" + 0.237*"score" + -0.169*"jazz" + 0.157*"movie" + 0.136*"metal" + -0.125*"punk" + 0.117*"indie" + 0.114*"pop" + -0.103*"techno"
+
+-0.369*"jazz" + -0.218*"film" + -0.204*"punk" + 0.164*"remix" + 0.152*"version" + -0.149*"funk" + -0.134*"soundtrack" + 0.128*"disc" + -0.124*"hip-hop" + -0.118*"score"
+
+0.315*"punk" + -0.262*"jazz" + -0.203*"metal" + -0.173*"hip-hop" + 0.127*"hardcore" + 0.114*"film" + -0.112*"horn" + -0.107*"funk" + 0.107*"post-punk" + -0.103*"folk"
+
+0.192*"film" + -0.153*"pop" + -0.136*"jazz" + 0.135*"punk" + 0.128*"rap" + -0.126*"indie" + -0.126*"electronic" + 0.120*"guitar" + 0.120*"soundtrack" + 0.110*"country"
+
+0.229*"compilation" + 0.225*"label" + -0.220*"jazz" + 0.220*"folk" + -0.167*"remix" + 0.159*"country" + 0.144*"&" + -0.143*"live" + 0.139*"indie" + 0.137*"punk"
+
+0.346*"hip-hop" + 0.263*"remix" + -0.251*"techno" + 0.213*"punk" + 0.191*"original" + 0.167*"remixes" + -0.159*"house" + 0.153*"sample" + 0.146*"hardcore" + -0.132*"label"
+
+0.264*"tiny_mce" + 0.264*"langs" + 0.263*"js]" + 0.263*"http" + 0.261*"backend" + 0.259*"j" + 0.257*"pitchfork" + 0.251*"com" + 0.241*"en" + 0.231*"script"
+
+0.277*"hip-hop" + -0.273*"punk" + -0.243*"remix" + -0.193*"composer" + -0.172*"rap" + -0.161*"disco" + -0.150*"hardcore" + -0.149*"remixes" + -0.137*"dance" + -0.127*"classical"
+
+0.439*"techno" + -0.186*"disco" + -0.185*"&" + 0.183*"folk" + 0.173*"hardcore" + -0.156*"pop" + -0.148*"funk" + 0.129*"punk" + -0.118*"soul" + -0.107*"group"
+
+-0.256*"remix" + -0.197*"&" + 0.186*"dubstep" + -0.163*"folk" + -0.158*"duo" + -0.146*"rock" + 0.137*"punk" + -0.135*"remixes" + 0.121*"pop" + -0.104*"drone"
+
+-0.258*"duo" + -0.157*"electronic" + 0.150*"compilation" + -0.141*"live" + 0.127*"disc" + -0.126*"project" + -0.125*"&" + 0.118*"post-rock" + 0.114*"remix" + -0.109*"cover"
+
+-0.359*"dubstep" + 0.222*"techno" + 0.222*"disc" + -0.165*"reggae" + -0.156*"&" + -0.129*"grime" + 0.120*"jazz" + -0.119*"folk" + -0.109*"producer" + -0.105*"dub"
+
+21
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.351*"rapper" + -0.180*"hip-hop" + 0.159*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.086*"verse" + 0.083*"guitar" + 0.081*"noise"
+
+0.228*"techno" + 0.206*"rap" + -0.179*"metal" + 0.165*"house" + 0.155*"electronic" + 0.145*"producer" + 0.138*"beat" + 0.136*"dance" + 0.135*"rapper" + 0.133*"hip-hop"
+
+-0.723*"metal" + -0.265*"black" + -0.202*"rap" + -0.130*"rapper" + -0.126*"doom" + -0.107*"death" + -0.106*"hardcore" + -0.100*"riff" + -0.080*"thrash" + -0.076*"heavy"
+
+-0.183*"disc" + -0.176*"compilation" + 0.172*"rap" + -0.158*"version" + -0.151*"remix" + -0.138*"metal" + -0.131*"original" + -0.131*"label" + -0.125*"dance" + 0.125*"rapper"
+
+-0.242*"film" + -0.176*"jazz" + 0.173*"techno" + 0.162*"house" + -0.160*"piece" + -0.148*"composer" + 0.147*"dance" + -0.133*"rap" + -0.129*"score" + -0.128*"disc"
+
+0.274*"film" + 0.196*"techno" + 0.171*"house" + -0.156*"rap" + 0.155*"soundtrack" + -0.138*"group" + 0.131*"dance" + 0.130*"score" + 0.119*"metal" + -0.112*"guitar"
+
+0.164*"metal" + -0.156*"noise" + -0.131*"punk" + 0.116*"house" + 0.112*"country" + -0.111*"drone" + -0.105*"guy" + -0.104*"piece" + 0.103*"singer" + 0.101*"folk"
+
+0.478*"film" + 0.292*"soundtrack" + 0.245*"score" + -0.168*"jazz" + 0.156*"movie" + 0.140*"metal" + -0.133*"punk" + 0.117*"indie" + 0.109*"pop" + 0.099*"remix"
+
+-0.364*"jazz" + -0.224*"film" + -0.192*"punk" + 0.156*"remix" + 0.147*"version" + -0.129*"funk" + -0.125*"hip-hop" + -0.124*"score" + -0.121*"rock" + 0.121*"disc"
+
+0.309*"punk" + -0.272*"jazz" + -0.193*"metal" + -0.156*"hip-hop" + 0.121*"hardcore" + 0.120*"film" + -0.114*"remix" + -0.107*"horn" + -0.104*"folk" + -0.103*"funk"
+
+0.197*"film" + -0.150*"pop" + -0.144*"electronic" + -0.144*"jazz" + -0.129*"indie" + 0.128*"soundtrack" + 0.120*"guitar" + 0.118*"rap" + 0.111*"punk" + -0.111*"composer"
+
+-0.245*"remix" + 0.243*"compilation" + 0.213*"label" + 0.213*"folk" + -0.182*"jazz" + 0.171*"&" + -0.165*"original" + -0.164*"remixes" + 0.151*"country" + -0.145*"live"
+
+0.356*"hip-hop" + 0.278*"punk" + -0.243*"techno" + 0.243*"remix" + 0.159*"remixes" + 0.152*"original" + 0.151*"hardcore" + 0.150*"sample" + -0.150*"house" + -0.130*"jazz"
+
+-0.256*"tiny_mce" + -0.256*"langs" + -0.256*"js]" + -0.256*"j" + -0.255*"http" + -0.253*"backend" + -0.249*"pitchfork" + -0.244*"com" + -0.235*"en" + -0.225*"script"
+
+-0.251*"disco" + -0.238*"remix" + 0.236*"hip-hop" + 0.222*"techno" + -0.211*"punk" + -0.163*"rap" + -0.161*"composer" + 0.156*"dubstep" + -0.146*"remixes" + -0.136*"indie"
+
+-0.360*"techno" + -0.207*"punk" + 0.188*"funk" + -0.183*"hardcore" + 0.176*"&" + -0.172*"folk" + 0.170*"soul" + 0.130*"hip-hop" + -0.124*"dubstep" + 0.121*"disco"
+
+0.225*"remix" + 0.191*"duo" + -0.173*"dubstep" + -0.162*"punk" + 0.158*"folk" + -0.155*"hardcore" + 0.155*"&" + 0.132*"remixes" + 0.131*"group" + 0.127*"techno"
+
+-0.216*"live" + 0.208*"remix" + -0.174*"duo" + -0.143*"electronic" + -0.121*"performance" + 0.118*"compilation" + 0.113*"remixes" + -0.110*"studio" + 0.108*"label" + -0.100*"group"
+
+0.435*"jazz" + 0.250*"techno" + -0.163*"disco" + 0.162*"indie" + -0.145*"dance" + 0.132*"label" + 0.125*"disc" + -0.120*"house" + -0.117*"piece" + -0.110*"reggae"
+
+-0.249*"dubstep" + 0.209*"disc" + 0.168*"techno" + -0.141*"project" + -0.127*"&" + -0.122*"collaboration" + -0.116*"producer" + 0.098*"rap" + 0.096*"black" + -0.096*"grime"
+
+22
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.519*"rap" + 0.350*"rapper" + 0.179*"hip-hop" + -0.160*"metal" + 0.153*"mixtape" + -0.098*"drone" + -0.088*"piece" + 0.085*"verse" + -0.083*"guitar" + -0.080*"noise"
+
+0.226*"techno" + 0.206*"rap" + -0.179*"metal" + 0.167*"house" + 0.156*"electronic" + 0.145*"producer" + 0.138*"beat" + 0.137*"dance" + 0.135*"rapper" + 0.133*"hip-hop"
+
+0.724*"metal" + 0.263*"black" + 0.202*"rap" + 0.131*"rapper" + 0.127*"doom" + 0.107*"hardcore" + 0.105*"death" + 0.101*"riff" + 0.080*"thrash" + -0.078*"pop"
+
+-0.185*"disc" + -0.176*"compilation" + 0.172*"rap" + -0.158*"version" + -0.149*"remix" + -0.138*"metal" + -0.132*"original" + -0.132*"label" + 0.127*"rapper" + -0.124*"house"
+
+0.239*"film" + 0.173*"jazz" + -0.169*"techno" + -0.160*"house" + 0.160*"piece" + -0.149*"dance" + 0.146*"composer" + 0.132*"rap" + 0.132*"soundtrack" + 0.126*"disc"
+
+0.274*"film" + 0.196*"techno" + 0.165*"house" + 0.157*"soundtrack" + -0.151*"rap" + -0.140*"group" + 0.131*"score" + 0.129*"dance" + 0.119*"metal" + -0.111*"guitar"
+
+0.165*"metal" + -0.158*"noise" + -0.132*"punk" + 0.114*"house" + 0.114*"country" + -0.108*"drone" + 0.107*"singer" + -0.106*"guy" + 0.103*"folk" + -0.101*"piece"
+
+-0.483*"film" + -0.293*"soundtrack" + -0.249*"score" + 0.170*"jazz" + -0.151*"movie" + -0.135*"metal" + 0.120*"punk" + -0.116*"indie" + -0.109*"pop" + 0.094*"techno"
+
+-0.367*"jazz" + -0.215*"film" + -0.203*"punk" + 0.158*"remix" + 0.142*"version" + -0.138*"funk" + -0.133*"rock" + -0.129*"soundtrack" + 0.128*"disc" + -0.120*"score"
+
+-0.303*"punk" + 0.273*"jazz" + 0.194*"metal" + 0.160*"hip-hop" + -0.139*"hardcore" + 0.115*"remix" + 0.112*"horn" + 0.109*"funk" + -0.107*"film" + 0.103*"soul"
+
+-0.195*"film" + 0.149*"pop" + 0.147*"electronic" + 0.145*"jazz" + -0.141*"punk" + -0.128*"soundtrack" + 0.128*"indie" + -0.122*"guitar" + -0.116*"country" + -0.112*"rap"
+
+0.229*"compilation" + -0.227*"remix" + 0.213*"folk" + -0.207*"jazz" + 0.206*"label" + -0.157*"remixes" + 0.154*"country" + -0.145*"version" + -0.138*"live" + -0.137*"original"
+
+0.377*"hip-hop" + -0.249*"techno" + 0.238*"punk" + 0.226*"remix" + -0.172*"house" + 0.164*"original" + 0.145*"sample" + 0.140*"remixes" + 0.136*"hardcore" + -0.114*"rapper"
+
+0.260*"tiny_mce" + 0.259*"langs" + 0.259*"js]" + 0.258*"http" + 0.258*"j" + 0.257*"backend" + 0.251*"pitchfork" + 0.247*"com" + 0.236*"en" + 0.227*"script"
+
+0.299*"punk" + -0.268*"hip-hop" + 0.229*"remix" + 0.176*"composer" + -0.164*"funk" + 0.163*"hardcore" + 0.156*"rap" + 0.154*"remixes" + 0.138*"original" + 0.137*"folk"
+
+-0.417*"techno" + 0.226*"disco" + 0.191*"pop" + 0.169*"&" + -0.149*"dubstep" + 0.131*"group" + 0.129*"compilation" + 0.122*"duo" + 0.116*"soul" + -0.112*"folk"
+
+-0.234*"duo" + 0.199*"dubstep" + -0.195*"remix" + -0.156*"folk" + -0.140*"&" + 0.130*"punk" + 0.124*"hardcore" + -0.124*"group" + 0.113*"producer" + -0.110*"noise"
+
+-0.227*"remix" + 0.171*"live" + 0.168*"duo" + 0.167*"electronic" + -0.150*"indie" + -0.131*"label" + -0.126*"mix" + -0.123*"remixes" + 0.120*"performance" + -0.120*"rock"
+
+-0.330*"dubstep" + -0.282*"&" + -0.204*"reggae" + -0.189*"dub" + 0.177*"hip-hop" + 0.169*"techno" + 0.163*"disc" + -0.106*"grime" + -0.106*"duo" + -0.105*"collaboration"
+
+0.346*"&" + 0.308*"techno" + 0.219*"jazz" + -0.179*"house" + -0.155*"rock" + -0.148*"dubstep" + -0.145*"folk" + 0.137*"disc" + -0.130*"hip-hop" + 0.130*"punk"
+
+0.359*"jazz" + -0.244*"&" + -0.151*"dance" + -0.133*"disco" + 0.133*"indie" + -0.130*"composer" + 0.122*"original" + -0.122*"piece" + 0.112*"remix" + 0.104*"techno"
+
+23
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.519*"rap" + 0.350*"rapper" + 0.180*"hip-hop" + -0.160*"metal" + 0.152*"mixtape" + -0.098*"drone" + -0.088*"piece" + 0.085*"verse" + -0.083*"guitar" + -0.080*"noise"
+
+0.228*"techno" + 0.206*"rap" + -0.180*"metal" + 0.166*"house" + 0.157*"electronic" + 0.143*"producer" + 0.139*"beat" + 0.135*"rapper" + 0.135*"dance" + 0.133*"sample"
+
+-0.723*"metal" + -0.264*"black" + -0.202*"rap" + -0.130*"rapper" + -0.127*"doom" + -0.109*"death" + -0.105*"hardcore" + -0.101*"riff" + -0.079*"thrash" + -0.077*"heavy"
+
+0.184*"disc" + 0.175*"compilation" + -0.171*"rap" + 0.158*"version" + 0.149*"remix" + 0.138*"metal" + 0.133*"original" + 0.132*"label" + -0.127*"rapper" + 0.125*"house"
+
+-0.243*"film" + -0.176*"jazz" + 0.172*"techno" + 0.161*"house" + -0.160*"piece" + 0.148*"dance" + -0.145*"composer" + -0.135*"rap" + -0.129*"soundtrack" + -0.127*"score"
+
+-0.277*"film" + -0.193*"techno" + -0.165*"house" + -0.156*"soundtrack" + 0.155*"rap" + 0.135*"group" + -0.133*"dance" + -0.129*"score" + -0.120*"metal" + 0.112*"guitar"
+
+-0.164*"metal" + 0.155*"noise" + 0.131*"punk" + -0.126*"house" + -0.114*"country" + -0.112*"singer" + 0.108*"drone" + 0.106*"guy" + -0.104*"folk" + -0.101*"producer"
+
+0.468*"film" + 0.298*"soundtrack" + 0.245*"score" + -0.161*"jazz" + 0.157*"movie" + 0.139*"metal" + 0.122*"indie" + -0.121*"punk" + 0.119*"pop" + -0.109*"techno"
+
+-0.364*"jazz" + -0.219*"film" + -0.209*"punk" + 0.161*"remix" + -0.144*"funk" + 0.136*"version" + 0.127*"disc" + -0.125*"rock" + -0.125*"score" + -0.124*"soundtrack"
+
+0.308*"punk" + -0.256*"jazz" + -0.197*"metal" + -0.164*"hip-hop" + 0.135*"hardcore" + 0.120*"film" + -0.119*"funk" + -0.116*"horn" + -0.106*"soul" + -0.105*"folk"
+
+-0.196*"film" + 0.153*"electronic" + 0.149*"jazz" + 0.148*"pop" + 0.133*"indie" + -0.124*"rap" + -0.124*"soundtrack" + -0.124*"guitar" + 0.123*"composer" + -0.120*"punk"
+
+0.227*"jazz" + -0.225*"compilation" + -0.215*"folk" + -0.195*"label" + 0.175*"remix" + -0.172*"punk" + -0.165*"country" + -0.157*"&" + 0.153*"live" + -0.151*"hip-hop"
+
+-0.357*"hip-hop" + -0.261*"remix" + 0.253*"techno" + -0.192*"original" + -0.173*"punk" + -0.169*"remixes" + 0.159*"house" + -0.158*"sample" + 0.142*"label" + -0.112*"hardcore"
+
+-0.260*"j" + -0.259*"tiny_mce" + -0.259*"langs" + -0.258*"js]" + -0.258*"http" + -0.256*"backend" + -0.252*"pitchfork" + -0.246*"com" + -0.236*"en" + -0.226*"script"
+
+0.268*"remix" + 0.267*"punk" + -0.260*"hip-hop" + 0.191*"rap" + 0.169*"disco" + 0.168*"composer" + 0.160*"remixes" + 0.143*"hardcore" + 0.139*"original" + 0.125*"pop"
+
+-0.434*"techno" + 0.188*"disco" + -0.182*"folk" + 0.164*"&" + 0.153*"pop" + 0.147*"funk" + -0.144*"hardcore" + -0.127*"punk" + 0.123*"compilation" + 0.123*"soul"
+
+-0.270*"remix" + 0.187*"hardcore" + 0.183*"punk" + -0.175*"folk" + -0.150*"rock" + -0.135*"remixes" + -0.130*"duo" + -0.122*"group" + 0.121*"producer" + 0.112*"dubstep"
+
+-0.191*"duo" + -0.160*"live" + -0.141*"folk" + 0.136*"disc" + 0.136*"compilation" + -0.130*"electronic" + 0.128*"remix" + -0.125*"performance" + -0.124*"group" + -0.114*"studio"
+
+-0.295*"jazz" + -0.161*"remix" + 0.156*"disco" + 0.142*"dance" + 0.137*"composer" + 0.136*"performance" + 0.134*"house" + 0.126*"string" + 0.125*"live" + -0.120*"project"
+
+-0.365*"techno" + -0.277*"jazz" + 0.237*"dubstep" + -0.200*"disc" + -0.154*"indie" + 0.130*"house" + -0.116*"&" + 0.114*"producer" + 0.110*"folk" + 0.109*"disco"
+
+-0.531*"&" + 0.249*"indie" + -0.226*"duo" + 0.184*"rock" + -0.112*"hardcore" + 0.110*"hip-hop" + -0.104*"punk" + -0.101*"collaboration" + 0.093*"tape" + -0.092*"solo"
+
+0.232*"hip-hop" + -0.221*"reggae" + -0.191*"dub" + -0.149*"&" + 0.149*"hardcore" + 0.138*"label" + -0.135*"country" + 0.131*"group" + -0.128*"rap" + 0.123*"house"
+
+24
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.519*"rap" + 0.350*"rapper" + 0.180*"hip-hop" + -0.160*"metal" + 0.152*"mixtape" + -0.098*"drone" + -0.088*"piece" + 0.086*"verse" + -0.083*"guitar" + -0.080*"noise"
+
+-0.227*"techno" + -0.207*"rap" + 0.180*"metal" + -0.167*"house" + -0.155*"electronic" + -0.144*"producer" + -0.138*"beat" + -0.136*"dance" + -0.134*"rapper" + -0.134*"sample"
+
+-0.724*"metal" + -0.264*"black" + -0.202*"rap" + -0.130*"rapper" + -0.126*"doom" + -0.107*"death" + -0.105*"hardcore" + -0.102*"riff" + -0.080*"thrash" + -0.076*"heavy"
+
+-0.184*"disc" + -0.176*"compilation" + 0.171*"rap" + -0.158*"version" + -0.151*"remix" + -0.139*"metal" + -0.132*"label" + -0.130*"original" + 0.129*"rapper" + -0.126*"dance"
+
+0.240*"film" + 0.174*"jazz" + -0.171*"techno" + 0.160*"piece" + -0.159*"house" + -0.152*"dance" + 0.148*"composer" + 0.134*"rap" + 0.128*"soundtrack" + 0.127*"score"
+
+-0.273*"film" + -0.193*"techno" + -0.165*"house" + -0.157*"soundtrack" + 0.148*"rap" + 0.136*"group" + -0.132*"dance" + -0.131*"score" + -0.120*"metal" + 0.109*"rapper"
+
+-0.165*"metal" + 0.159*"noise" + 0.134*"punk" + -0.119*"house" + 0.113*"drone" + -0.113*"country" + -0.107*"singer" + 0.106*"guy" + 0.104*"piece" + -0.103*"folk"
+
+-0.477*"film" + -0.297*"soundtrack" + -0.240*"score" + 0.167*"jazz" + -0.155*"movie" + -0.136*"metal" + 0.132*"punk" + -0.117*"indie" + -0.115*"pop" + 0.096*"techno"
+
+0.363*"jazz" + 0.219*"film" + 0.196*"punk" + -0.155*"remix" + 0.144*"funk" + -0.144*"version" + -0.134*"disc" + 0.130*"soundtrack" + 0.124*"rock" + 0.121*"hip-hop"
+
+-0.300*"punk" + 0.267*"jazz" + 0.193*"metal" + 0.159*"hip-hop" + -0.122*"hardcore" + 0.115*"remix" + 0.112*"horn" + -0.112*"film" + 0.110*"soul" + -0.109*"post-punk"
+
+-0.206*"film" + 0.143*"jazz" + 0.143*"pop" + -0.141*"punk" + 0.139*"electronic" + -0.125*"soundtrack" + -0.123*"guitar" + 0.123*"indie" + -0.122*"rap" + 0.115*"composer"
+
+0.257*"remix" + -0.231*"label" + -0.219*"compilation" + 0.214*"jazz" + -0.195*"folk" + -0.168*"country" + 0.165*"remixes" + 0.164*"original" + -0.147*"&" + 0.147*"live"
+
+-0.378*"hip-hop" + 0.278*"techno" + -0.229*"remix" + -0.216*"punk" + 0.171*"house" + -0.170*"original" + -0.150*"remixes" + -0.146*"sample" + -0.145*"hardcore" + 0.113*"jazz"
+
+0.260*"tiny_mce" + 0.259*"langs" + 0.259*"js]" + 0.259*"j" + 0.259*"http" + 0.256*"backend" + 0.251*"pitchfork" + 0.248*"com" + 0.235*"en" + 0.228*"["
+
+-0.299*"punk" + 0.258*"hip-hop" + -0.222*"remix" + -0.188*"disco" + -0.183*"rap" + -0.169*"composer" + 0.167*"techno" + -0.136*"remixes" + -0.133*"pop" + -0.130*"original"
+
+0.383*"techno" + 0.208*"folk" + -0.192*"&" + 0.175*"punk" + -0.174*"disco" + 0.168*"hardcore" + -0.158*"funk" + -0.149*"pop" + 0.136*"dubstep" + -0.131*"soul"
+
+0.218*"duo" + 0.200*"remix" + -0.200*"dubstep" + 0.175*"disco" + 0.171*"folk" + -0.142*"hardcore" + 0.133*"&" + -0.126*"punk" + -0.124*"producer" + 0.124*"group"
+
+0.219*"remix" + -0.202*"live" + -0.184*"duo" + 0.182*"label" + -0.143*"performance" + -0.135*"electronic" + 0.133*"compilation" + 0.128*"indie" + 0.127*"remixes" + -0.108*"studio"
+
+0.366*"jazz" + 0.308*"&" + 0.237*"techno" + -0.227*"disco" + -0.175*"house" + -0.167*"dance" + -0.140*"piece" + -0.120*"composer" + -0.119*"string" + 0.106*"duo"
+
+-0.312*"dubstep" + 0.287*"techno" + -0.237*"&" + 0.169*"indie" + 0.161*"disc" + 0.134*"jazz" + 0.133*"rap" + -0.127*"folk" + 0.123*"hip-hop" + -0.120*"duo"
+
+0.496*"&" + 0.198*"hardcore" + -0.189*"rock" + 0.168*"punk" + -0.157*"indie" + 0.143*"disc" + 0.129*"duo" + -0.116*"remix" + 0.110*"techno" + 0.096*"composer"
+
+-0.424*"dubstep" + 0.262*"disco" + -0.154*"indie" + 0.143*"house" + 0.139*"hardcore" + 0.138*"funk" + 0.131*"punk" + -0.126*"grime" + -0.116*"disc" + -0.106*"composer"
+
+-0.219*"reggae" + -0.209*"techno" + -0.185*"&" + -0.182*"dub" + 0.173*"house" + -0.139*"soul" + 0.136*"sample" + 0.135*"hip-hop" + -0.129*"country" + 0.125*"solo"
+
+25
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.350*"rapper" + -0.179*"hip-hop" + 0.159*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.085*"verse" + 0.083*"guitar" + 0.080*"noise"
+
+-0.229*"techno" + -0.206*"rap" + 0.180*"metal" + -0.164*"house" + -0.154*"electronic" + -0.144*"producer" + -0.139*"beat" + -0.136*"dance" + -0.135*"rapper" + -0.133*"hip-hop"
+
+0.724*"metal" + 0.263*"black" + 0.202*"rap" + 0.131*"rapper" + 0.126*"doom" + 0.107*"death" + 0.105*"hardcore" + 0.100*"riff" + 0.079*"thrash" + 0.076*"heavy"
+
+-0.187*"disc" + -0.177*"compilation" + 0.172*"rap" + -0.157*"version" + -0.149*"remix" + -0.138*"metal" + -0.133*"label" + -0.132*"original" + 0.126*"rapper" + -0.125*"house"
+
+-0.241*"film" + -0.174*"jazz" + 0.169*"techno" + 0.164*"house" + -0.163*"piece" + 0.148*"dance" + -0.147*"composer" + -0.133*"rap" + -0.129*"soundtrack" + -0.128*"disc"
+
+0.277*"film" + 0.198*"techno" + 0.168*"house" + 0.158*"soundtrack" + -0.152*"rap" + 0.134*"score" + 0.132*"dance" + -0.131*"group" + 0.118*"metal" + -0.110*"guitar"
+
+-0.164*"metal" + 0.159*"noise" + 0.126*"punk" + -0.117*"house" + -0.112*"country" + 0.106*"guy" + -0.106*"singer" + 0.105*"drone" + 0.105*"piece" + -0.101*"folk"
+
+0.473*"film" + 0.294*"soundtrack" + 0.242*"score" + -0.170*"jazz" + 0.156*"movie" + 0.139*"metal" + -0.126*"punk" + 0.121*"indie" + 0.109*"pop" + -0.103*"techno"
+
+-0.358*"jazz" + -0.224*"film" + -0.210*"punk" + 0.164*"remix" + 0.144*"version" + -0.138*"funk" + 0.132*"disc" + -0.130*"soundtrack" + -0.124*"rock" + -0.122*"score"
+
+0.285*"punk" + -0.274*"jazz" + -0.194*"metal" + -0.160*"hip-hop" + 0.122*"hardcore" + -0.116*"folk" + -0.116*"horn" + -0.107*"funk" + 0.106*"film" + 0.105*"post-punk"
+
+0.202*"film" + -0.149*"jazz" + -0.146*"pop" + 0.139*"rap" + 0.138*"punk" + -0.130*"electronic" + 0.129*"soundtrack" + 0.126*"guitar" + -0.116*"indie" + 0.113*"country"
+
+-0.242*"remix" + 0.241*"compilation" + 0.200*"label" + 0.199*"folk" + -0.188*"jazz" + 0.166*"country" + -0.157*"original" + -0.154*"remixes" + 0.150*"&" + 0.144*"indie"
+
+-0.352*"hip-hop" + 0.262*"techno" + -0.253*"remix" + -0.238*"punk" + -0.181*"original" + -0.161*"remixes" + -0.149*"sample" + -0.144*"hardcore" + 0.143*"house" + 0.122*"label"
+
+-0.261*"j" + -0.257*"tiny_mce" + -0.257*"langs" + -0.257*"js]" + -0.256*"http" + -0.254*"backend" + -0.250*"pitchfork" + -0.246*"com" + -0.234*"en" + -0.224*"script"
+
+0.277*"hip-hop" + -0.236*"punk" + -0.225*"remix" + -0.187*"disco" + 0.175*"techno" + -0.170*"composer" + -0.165*"rap" + -0.147*"pop" + -0.145*"remixes" + -0.136*"hardcore"
+
+0.394*"techno" + 0.192*"punk" + -0.183*"funk" + -0.178*"soul" + -0.173*"&" + 0.171*"folk" + -0.165*"disco" + 0.155*"hardcore" + 0.153*"dubstep" + -0.123*"pop"
+
+-0.255*"remix" + -0.187*"duo" + -0.173*"folk" + 0.150*"dubstep" + 0.148*"punk" + 0.147*"hardcore" + -0.132*"remixes" + -0.129*"rock" + -0.122*"group" + 0.121*"pop"
+
+-0.214*"live" + 0.186*"remix" + -0.165*"performance" + 0.149*"compilation" + -0.146*"duo" + -0.146*"electronic" + 0.141*"jazz" + 0.131*"label" + 0.122*"&" + -0.115*"folk"
+
+0.342*"jazz" + 0.223*"techno" + -0.200*"disco" + -0.175*"dance" + 0.167*"&" + -0.166*"house" + 0.153*"duo" + -0.128*"string" + -0.115*"piece" + 0.101*"project"
+
+-0.415*"&" + -0.300*"dubstep" + 0.183*"indie" + 0.177*"techno" + 0.159*"disc" + 0.144*"jazz" + -0.131*"reggae" + -0.119*"duo" + 0.117*"hip-hop" + -0.097*"dub"
+
+-0.234*"hip-hop" + 0.180*"techno" + 0.172*"reggae" + 0.168*"dub" + -0.148*"dubstep" + 0.145*"rap" + -0.139*"sample" + -0.129*"piece" + 0.126*"&" + -0.124*"house"
+
+0.297*"&" + 0.198*"disc" + -0.185*"rock" + 0.141*"duo" + -0.125*"indie" + 0.120*"label" + 0.117*"composer" + 0.115*"hardcore" + 0.115*"electronic" + -0.111*"dub"
+
+-0.423*"dubstep" + 0.213*"disco" + 0.210*"punk" + 0.180*"house" + 0.176*"hardcore" + -0.161*"dub" + -0.149*"reggae" + -0.147*"indie" + -0.126*"grime" + -0.120*"dancehall"
+
+-0.262*"&" + -0.238*"duo" + -0.210*"live" + -0.208*"indie" + -0.168*"hip-hop" + -0.143*"house" + -0.129*"rap" + 0.116*"mixtape" + -0.114*"group" + 0.113*"electronic"
+
+26
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.518*"rap" + 0.350*"rapper" + 0.180*"hip-hop" + -0.159*"metal" + 0.153*"mixtape" + -0.097*"drone" + -0.088*"piece" + 0.085*"verse" + -0.084*"guitar" + 0.080*"rhyme"
+
+-0.227*"techno" + -0.205*"rap" + 0.180*"metal" + -0.164*"house" + -0.156*"electronic" + -0.145*"producer" + -0.138*"beat" + -0.136*"rapper" + -0.136*"dance" + -0.134*"hip-hop"
+
+-0.723*"metal" + -0.263*"black" + -0.202*"rap" + -0.129*"rapper" + -0.126*"doom" + -0.107*"death" + -0.106*"hardcore" + -0.100*"riff" + -0.081*"thrash" + 0.077*"pop"
+
+0.184*"disc" + 0.176*"compilation" + -0.172*"rap" + 0.156*"version" + 0.148*"remix" + 0.138*"metal" + 0.134*"original" + 0.130*"label" + 0.126*"dance" + -0.126*"rapper"
+
+-0.242*"film" + -0.175*"jazz" + 0.171*"techno" + 0.164*"house" + -0.163*"piece" + 0.147*"dance" + -0.145*"composer" + -0.133*"rap" + -0.128*"score" + -0.127*"disc"
+
+-0.273*"film" + -0.195*"techno" + -0.169*"house" + -0.156*"soundtrack" + 0.154*"rap" + -0.133*"dance" + 0.132*"group" + -0.126*"score" + -0.117*"metal" + 0.111*"guitar"
+
+-0.164*"metal" + 0.163*"noise" + 0.129*"punk" + -0.118*"country" + 0.116*"drone" + -0.115*"house" + -0.111*"singer" + -0.107*"folk" + 0.105*"guy" + 0.100*"think"
+
+-0.473*"film" + -0.295*"soundtrack" + -0.242*"score" + 0.175*"jazz" + -0.152*"movie" + -0.139*"metal" + 0.134*"punk" + -0.118*"indie" + -0.110*"pop" + -0.104*"remix"
+
+-0.365*"jazz" + -0.227*"film" + -0.202*"punk" + 0.160*"remix" + 0.145*"version" + -0.134*"soundtrack" + -0.133*"funk" + 0.132*"disc" + -0.126*"hip-hop" + -0.114*"rock"
+
+0.308*"punk" + -0.272*"jazz" + -0.197*"metal" + -0.167*"hip-hop" + 0.123*"hardcore" + 0.116*"film" + -0.111*"horn" + -0.110*"funk" + -0.109*"folk" + 0.108*"group"
+
+-0.200*"film" + 0.141*"pop" + 0.136*"jazz" + 0.136*"electronic" + 0.136*"indie" + -0.125*"soundtrack" + -0.125*"guitar" + -0.122*"rap" + -0.120*"punk" + 0.118*"composer"
+
+-0.275*"remix" + 0.225*"label" + 0.216*"compilation" + -0.186*"jazz" + 0.184*"folk" + -0.179*"remixes" + -0.172*"original" + 0.154*"&" + 0.145*"indie" + 0.145*"country"
+
+-0.342*"hip-hop" + -0.281*"punk" + 0.237*"techno" + -0.223*"remix" + -0.167*"hardcore" + -0.161*"original" + 0.161*"house" + -0.151*"remixes" + -0.146*"sample" + 0.130*"jazz"
+
+-0.260*"j" + -0.260*"tiny_mce" + -0.259*"langs" + -0.259*"js]" + -0.258*"http" + -0.256*"backend" + -0.252*"pitchfork" + -0.247*"com" + -0.238*"en" + -0.228*"script"
+
+-0.310*"hip-hop" + 0.289*"punk" + 0.211*"remix" + 0.179*"composer" + 0.163*"rap" + 0.151*"disco" + 0.137*"rapper" + 0.132*"remixes" + 0.131*"hardcore" + 0.131*"pop"
+
+-0.416*"techno" + 0.179*"disco" + 0.171*"&" + -0.162*"dubstep" + -0.157*"folk" + -0.156*"punk" + 0.154*"funk" + -0.142*"hardcore" + 0.133*"soul" + 0.126*"pop"
+
+-0.238*"remix" + -0.192*"duo" + -0.170*"folk" + -0.157*"&" + -0.137*"remixes" + 0.132*"hardcore" + -0.130*"rock" + 0.127*"dubstep" + 0.126*"punk" + 0.124*"sample"
+
+0.220*"live" + -0.202*"remix" + -0.200*"dubstep" + -0.150*"label" + 0.148*"duo" + 0.146*"performance" + 0.144*"electronic" + -0.139*"compilation" + -0.116*"&" + -0.110*"remixes"
+
+-0.370*"jazz" + -0.241*"techno" + 0.220*"disco" + -0.184*"&" + 0.160*"dance" + 0.145*"house" + -0.129*"project" + -0.122*"duo" + 0.120*"string" + 0.118*"composer"
+
+0.324*"dubstep" + -0.257*"techno" + 0.183*"duo" + 0.166*"&" + 0.163*"reggae" + -0.144*"hip-hop" + 0.137*"collaboration" + -0.132*"jazz" + -0.129*"disc" + 0.123*"grime"
+
+0.372*"&" + -0.263*"indie" + -0.174*"hip-hop" + 0.156*"duo" + -0.151*"rock" + -0.137*"folk" + -0.126*"remix" + 0.117*"techno" + -0.114*"dubstep" + 0.110*"punk"
+
+0.252*"reggae" + 0.238*"dub" + -0.230*"hardcore" + -0.224*"&" + -0.220*"house" + -0.200*"hip-hop" + -0.149*"punk" + 0.145*"country" + 0.130*"rap" + 0.124*"techno"
+
+0.369*"&" + 0.237*"dubstep" + 0.216*"indie" + -0.210*"disco" + 0.169*"live" + 0.113*"performance" + 0.107*"hip-hop" + -0.107*"punk" + -0.102*"hardcore" + 0.100*"composer"
+
+-0.260*"&" + -0.210*"house" + -0.144*"live" + 0.140*"composer" + -0.130*"mix" + -0.126*"indie" + 0.122*"dubstep" + -0.122*"disco" + 0.117*"electronic" + -0.109*"duo"
+
+0.274*"disc" + 0.225*"dubstep" + -0.223*"&" + 0.201*"group" + -0.146*"hip-hop" + 0.136*"compilation" + -0.121*"punk" + -0.119*"techno" + -0.116*"composer" + 0.113*"noise"
+
+27
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.350*"rapper" + -0.180*"hip-hop" + 0.159*"metal" + -0.153*"mixtape" + 0.097*"drone" + 0.087*"piece" + -0.086*"verse" + 0.083*"guitar" + 0.080*"noise"
+
+-0.227*"techno" + -0.206*"rap" + 0.179*"metal" + -0.164*"house" + -0.157*"electronic" + -0.144*"producer" + -0.138*"beat" + -0.138*"dance" + -0.135*"rapper" + -0.133*"sample"
+
+0.723*"metal" + 0.263*"black" + 0.200*"rap" + 0.131*"rapper" + 0.126*"doom" + 0.108*"death" + 0.104*"hardcore" + 0.101*"riff" + 0.080*"thrash" + -0.077*"pop"
+
+0.184*"disc" + 0.177*"compilation" + -0.172*"rap" + 0.157*"version" + 0.149*"remix" + 0.137*"metal" + 0.132*"original" + 0.130*"label" + 0.127*"dance" + -0.126*"rapper"
+
+-0.240*"film" + 0.174*"techno" + -0.173*"jazz" + -0.158*"piece" + 0.157*"house" + -0.148*"composer" + 0.147*"dance" + -0.134*"rap" + -0.129*"soundtrack" + -0.127*"score"
+
+-0.278*"film" + -0.197*"techno" + -0.168*"house" + -0.159*"soundtrack" + 0.155*"rap" + 0.134*"group" + -0.132*"dance" + -0.129*"score" + -0.121*"metal" + 0.110*"guitar"
+
+-0.167*"metal" + 0.162*"noise" + 0.132*"punk" + -0.119*"country" + 0.113*"drone" + -0.112*"house" + -0.107*"singer" + 0.106*"guy" + -0.101*"folk" + 0.099*"piece"
+
+-0.476*"film" + -0.296*"soundtrack" + -0.241*"score" + 0.173*"jazz" + -0.153*"movie" + -0.133*"metal" + 0.128*"punk" + -0.115*"indie" + -0.115*"pop" + -0.100*"remix"
+
+0.356*"jazz" + 0.227*"film" + 0.211*"punk" + -0.166*"remix" + -0.145*"version" + 0.140*"funk" + -0.138*"disc" + 0.131*"soundtrack" + 0.126*"rock" + 0.120*"hip-hop"
+
+-0.299*"punk" + 0.284*"jazz" + 0.194*"metal" + 0.165*"hip-hop" + -0.125*"hardcore" + 0.114*"funk" + 0.113*"horn" + 0.110*"soul" + 0.108*"folk" + -0.103*"post-punk"
+
+-0.201*"film" + -0.139*"punk" + 0.137*"jazz" + 0.133*"pop" + 0.133*"electronic" + -0.128*"guitar" + 0.125*"indie" + -0.124*"rap" + -0.118*"&" + -0.116*"soundtrack"
+
+0.244*"remix" + -0.223*"compilation" + -0.215*"label" + 0.204*"jazz" + -0.183*"folk" + 0.169*"remixes" + -0.163*"&" + -0.156*"country" + 0.149*"original" + 0.142*"version"
+
+-0.360*"hip-hop" + -0.255*"remix" + 0.247*"techno" + -0.231*"punk" + -0.178*"original" + 0.175*"house" + -0.159*"remixes" + -0.159*"sample" + -0.154*"hardcore" + 0.109*"label"
+
+0.261*"j" + 0.260*"tiny_mce" + 0.260*"langs" + 0.259*"js]" + 0.259*"http" + 0.257*"backend" + 0.253*"pitchfork" + 0.248*"com" + 0.238*"en" + 0.230*"["
+
+-0.238*"punk" + 0.214*"hip-hop" + -0.210*"disco" + 0.207*"techno" + -0.206*"remix" + -0.185*"pop" + -0.161*"composer" + -0.160*"rap" + -0.134*"remixes" + -0.131*"indie"
+
+0.358*"techno" + 0.225*"punk" + 0.185*"hardcore" + 0.183*"folk" + -0.180*"soul" + -0.178*"funk" + -0.164*"&" + -0.145*"disco" + 0.139*"dubstep" + -0.112*"hip-hop"
+
+-0.231*"remix" + -0.207*"&" + -0.187*"folk" + -0.187*"duo" + 0.147*"dubstep" + -0.139*"group" + -0.137*"remixes" + 0.129*"producer" + 0.126*"punk" + 0.121*"hardcore"
+
+-0.215*"remix" + 0.201*"live" + -0.170*"label" + -0.167*"dubstep" + 0.162*"duo" + -0.158*"jazz" + 0.156*"performance" + -0.135*"compilation" + -0.123*"remixes" + 0.120*"studio"
+
+0.414*"jazz" + 0.237*"techno" + 0.178*"&" + 0.162*"duo" + -0.157*"dubstep" + -0.156*"dance" + -0.148*"piece" + -0.142*"disco" + -0.121*"composer" + -0.109*"rock"
+
+-0.249*"dubstep" + 0.244*"disc" + -0.196*"&" + 0.190*"techno" + -0.182*"reggae" + -0.135*"dub" + -0.117*"collaboration" + -0.115*"producer" + -0.112*"dancehall" + -0.108*"duo"
+
+0.504*"&" + -0.197*"indie" + -0.194*"rock" + 0.166*"duo" + 0.145*"punk" + -0.140*"folk" + -0.122*"jazz" + 0.118*"disc" + -0.104*"remix" + 0.101*"composer"
+
+0.389*"dubstep" + -0.252*"disco" + 0.216*"indie" + -0.206*"punk" + -0.185*"house" + -0.157*"hardcore" + -0.126*"funk" + 0.125*"reggae" + 0.123*"&" + 0.118*"rock"
+
+0.241*"hip-hop" + -0.240*"dub" + -0.230*"reggae" + 0.176*"sample" + 0.174*"house" + -0.154*"rap" + -0.153*"country" + -0.145*"techno" + 0.140*"dubstep" + 0.135*"label"
+
+-0.301*"&" + -0.267*"hip-hop" + -0.229*"techno" + -0.163*"indie" + 0.139*"label" + -0.134*"rock" + 0.134*"jazz" + 0.129*"dubstep" + 0.128*"electronic" + 0.126*"mixtape"
+
+-0.226*"techno" + -0.203*"dub" + -0.189*"composer" + 0.184*"house" + 0.183*"duo" + 0.181*"disc" + -0.148*"reggae" + 0.133*"dubstep" + 0.129*"folk" + -0.125*"piano"
+
+0.315*"group" + 0.278*"dub" + -0.200*"country" + 0.187*"reggae" + -0.182*"jazz" + 0.143*"member" + -0.140*"electronic" + -0.136*"&" + 0.136*"house" + -0.124*"blue"
+
+28
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.350*"rapper" + -0.180*"hip-hop" + 0.159*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.085*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+-0.227*"techno" + -0.205*"rap" + 0.179*"metal" + -0.166*"house" + -0.156*"electronic" + -0.145*"producer" + -0.139*"beat" + -0.136*"dance" + -0.136*"rapper" + -0.133*"hip-hop"
+
+0.724*"metal" + 0.263*"black" + 0.202*"rap" + 0.129*"rapper" + 0.125*"doom" + 0.106*"hardcore" + 0.106*"death" + 0.101*"riff" + 0.080*"thrash" + 0.077*"heavy"
+
+-0.184*"disc" + -0.176*"compilation" + 0.172*"rap" + -0.159*"version" + -0.150*"remix" + -0.137*"metal" + -0.131*"label" + -0.131*"original" + 0.126*"rapper" + -0.123*"dance"
+
+-0.241*"film" + -0.176*"jazz" + 0.174*"techno" + 0.162*"house" + -0.158*"piece" + 0.148*"dance" + -0.146*"composer" + -0.135*"rap" + -0.127*"soundtrack" + -0.127*"disc"
+
+0.274*"film" + 0.193*"techno" + 0.161*"house" + 0.160*"soundtrack" + -0.153*"rap" + 0.136*"dance" + -0.135*"group" + 0.127*"score" + 0.121*"metal" + -0.111*"guitar"
+
+0.163*"metal" + -0.161*"noise" + -0.129*"punk" + 0.118*"country" + 0.117*"house" + 0.112*"singer" + -0.106*"drone" + -0.106*"guy" + -0.104*"piece" + 0.100*"folk"
+
+-0.478*"film" + -0.298*"soundtrack" + -0.242*"score" + 0.171*"jazz" + -0.152*"movie" + -0.131*"metal" + -0.123*"indie" + 0.122*"punk" + -0.112*"pop" + 0.101*"techno"
+
+0.388*"jazz" + 0.208*"film" + 0.186*"punk" + 0.155*"funk" + -0.154*"remix" + -0.151*"version" + 0.133*"hip-hop" + -0.130*"disc" + 0.122*"soundtrack" + 0.116*"rock"
+
+-0.317*"punk" + 0.247*"jazz" + 0.201*"metal" + 0.157*"hip-hop" + -0.130*"hardcore" + -0.121*"film" + 0.120*"remix" + 0.106*"horn" + -0.105*"post-punk" + 0.105*"folk"
+
+0.202*"film" + -0.142*"electronic" + 0.140*"punk" + -0.137*"pop" + -0.136*"jazz" + 0.134*"rap" + 0.126*"guitar" + -0.124*"composer" + 0.123*"country" + -0.120*"indie"
+
+-0.234*"compilation" + 0.221*"remix" + 0.215*"jazz" + -0.212*"label" + -0.204*"folk" + -0.162*"country" + -0.160*"&" + 0.143*"remixes" + 0.138*"live" + -0.135*"indie"
+
+0.364*"hip-hop" + -0.252*"techno" + 0.247*"remix" + 0.244*"punk" + 0.182*"original" + 0.170*"remixes" + 0.164*"sample" + 0.146*"hardcore" + -0.142*"house" + -0.114*"jazz"
+
+0.258*"j" + 0.255*"tiny_mce" + 0.255*"langs" + 0.255*"js]" + 0.254*"http" + 0.252*"backend" + 0.248*"pitchfork" + 0.243*"com" + 0.232*"en" + 0.222*"script"
+
+0.279*"hip-hop" + -0.274*"punk" + -0.224*"remix" + -0.187*"composer" + -0.167*"rap" + -0.166*"disco" + -0.149*"hardcore" + -0.144*"remixes" + 0.137*"techno" + -0.127*"original"
+
+0.441*"techno" + 0.169*"folk" + -0.156*"funk" + -0.154*"soul" + 0.151*"punk" + -0.147*"&" + -0.144*"disco" + -0.139*"duo" + 0.134*"hardcore" + -0.129*"pop"
+
+-0.226*"&" + -0.222*"remix" + -0.221*"duo" + -0.167*"folk" + 0.146*"punk" + -0.129*"disco" + -0.124*"remixes" + 0.120*"hip-hop" + -0.116*"blue" + 0.115*"disc"
+
+0.215*"remix" + -0.179*"live" + -0.177*"duo" + 0.168*"dubstep" + -0.143*"electronic" + -0.142*"performance" + 0.127*"compilation" + 0.125*"label" + -0.121*"studio" + -0.118*"techno"
+
+0.217*"jazz" + 0.206*"dubstep" + -0.202*"disco" + 0.158*"&" + 0.145*"project" + -0.126*"house" + -0.124*"dance" + 0.115*"hardcore" + 0.112*"collaboration" + -0.112*"string"
+
+0.324*"techno" + 0.299*"jazz" + 0.215*"&" + -0.209*"dubstep" + 0.191*"disc" + -0.144*"reggae" + -0.113*"footwork" + -0.112*"folk" + 0.109*"group" + 0.108*"rap"
+
+0.538*"&" + -0.187*"indie" + -0.164*"rock" + 0.155*"punk" + -0.144*"jazz" + 0.134*"hardcore" + 0.131*"duo" + -0.128*"remix" + 0.109*"dubstep" + -0.108*"lo-fi"
+
+0.273*"reggae" + 0.265*"dub" + -0.229*"house" + -0.182*"hip-hop" + 0.176*"techno" + 0.148*"country" + -0.142*"hardcore" + 0.133*"funk" + -0.115*"folk" + -0.114*"sample"
+
+0.248*"dubstep" + 0.231*"&" + 0.225*"indie" + 0.211*"hip-hop" + -0.194*"disco" + -0.155*"punk" + 0.154*"live" + -0.152*"house" + -0.139*"compilation" + 0.136*"rock"
+
+-0.308*"&" + 0.264*"dubstep" + -0.195*"house" + 0.150*"disc" + 0.147*"electronic" + -0.128*"disco" + 0.124*"reggae" + -0.123*"sample" + 0.121*"grime" + 0.119*"dub"
+
+0.226*"dubstep" + -0.190*"punk" + 0.188*"disc" + -0.171*"techno" + -0.155*"composer" + -0.128*"ambient" + -0.128*"soul" + -0.127*"solo" + 0.127*"group" + -0.124*"hip-hop"
+
+0.313*"group" + 0.232*"dub" + 0.202*"reggae" + 0.172*"hip-hop" + -0.155*"jazz" + -0.138*"country" + 0.138*"member" + 0.113*"hardcore" + -0.109*"cover" + -0.106*"footwork"
+
+0.223*"label" + -0.212*"disc" + -0.188*"hardcore" + -0.174*"folk" + -0.155*"jazz" + -0.144*"duo" + -0.141*"rap" + 0.131*"member" + 0.117*"remix" + 0.113*"compilation"
+
+29
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.519*"rap" + 0.350*"rapper" + 0.180*"hip-hop" + -0.159*"metal" + 0.152*"mixtape" + -0.097*"drone" + -0.088*"piece" + 0.085*"verse" + -0.083*"guitar" + -0.080*"noise"
+
+-0.227*"techno" + -0.207*"rap" + 0.179*"metal" + -0.166*"house" + -0.156*"electronic" + -0.145*"producer" + -0.138*"beat" + -0.137*"dance" + -0.135*"rapper" + -0.133*"sample"
+
+-0.725*"metal" + -0.260*"black" + -0.202*"rap" + -0.131*"rapper" + -0.126*"doom" + -0.107*"death" + -0.105*"hardcore" + -0.100*"riff" + -0.080*"thrash" + 0.077*"pop"
+
+0.184*"disc" + 0.174*"compilation" + -0.171*"rap" + 0.158*"version" + 0.148*"remix" + 0.137*"metal" + 0.134*"original" + 0.131*"label" + -0.125*"rapper" + 0.123*"dance"
+
+0.241*"film" + 0.175*"jazz" + -0.170*"techno" + -0.165*"house" + 0.161*"piece" + -0.147*"dance" + 0.146*"composer" + 0.133*"rap" + 0.130*"soundtrack" + 0.129*"score"
+
+0.274*"film" + 0.193*"techno" + 0.168*"house" + 0.158*"soundtrack" + -0.154*"rap" + -0.134*"group" + 0.131*"score" + 0.128*"dance" + 0.121*"metal" + -0.111*"guitar"
+
+-0.166*"metal" + 0.159*"noise" + 0.125*"punk" + -0.120*"house" + -0.117*"country" + 0.112*"drone" + -0.108*"singer" + 0.107*"guy" + 0.099*"think" + -0.099*"folk"
+
+-0.475*"film" + -0.295*"soundtrack" + -0.238*"score" + 0.164*"jazz" + -0.153*"movie" + -0.137*"metal" + 0.136*"punk" + -0.123*"indie" + -0.117*"pop" + -0.100*"remix"
+
+-0.352*"jazz" + -0.228*"film" + -0.199*"punk" + 0.161*"remix" + 0.146*"version" + -0.137*"funk" + -0.137*"soundtrack" + 0.131*"disc" + -0.127*"hip-hop" + -0.120*"score"
+
+0.293*"punk" + -0.269*"jazz" + -0.197*"metal" + -0.165*"hip-hop" + 0.133*"hardcore" + 0.115*"film" + -0.110*"horn" + -0.110*"funk" + -0.106*"remix" + 0.104*"post-punk"
+
+0.195*"film" + -0.152*"jazz" + -0.137*"pop" + -0.136*"electronic" + 0.131*"rap" + 0.127*"guitar" + 0.123*"soundtrack" + -0.119*"indie" + 0.116*"country" + 0.116*"&"
+
+0.212*"jazz" + -0.206*"compilation" + -0.204*"folk" + -0.177*"hip-hop" + -0.177*"label" + -0.165*"&" + -0.160*"country" + -0.155*"punk" + 0.154*"remix" + 0.143*"live"
+
+-0.332*"hip-hop" + -0.297*"remix" + 0.251*"techno" + -0.216*"punk" + -0.209*"original" + -0.198*"remixes" + -0.148*"hardcore" + 0.147*"label" + -0.140*"sample" + 0.137*"house"
+
+-0.260*"j" + -0.259*"tiny_mce" + -0.259*"langs" + -0.259*"js]" + -0.258*"http" + -0.257*"backend" + -0.251*"pitchfork" + -0.248*"com" + -0.238*"en" + -0.227*"script"
+
+0.273*"hip-hop" + -0.248*"punk" + -0.247*"remix" + 0.215*"techno" + -0.190*"disco" + -0.183*"rap" + -0.164*"composer" + -0.156*"remixes" + -0.144*"pop" + -0.129*"dance"
+
+-0.375*"techno" + -0.177*"punk" + -0.163*"folk" + 0.158*"disco" + 0.158*"soul" + 0.155*"funk" + 0.149*"&" + -0.144*"hardcore" + -0.143*"dubstep" + 0.127*"pop"
+
+0.221*"duo" + 0.218*"&" + 0.209*"remix" + 0.173*"folk" + 0.161*"group" + -0.158*"punk" + 0.121*"remixes" + -0.120*"hardcore" + 0.119*"blue" + -0.117*"disc"
+
+0.230*"&" + 0.227*"remix" + -0.207*"live" + 0.185*"label" + 0.180*"jazz" + -0.162*"performance" + 0.133*"remixes" + 0.129*"compilation" + 0.116*"dubstep" + -0.111*"electronic"
+
+-0.294*"jazz" + -0.191*"duo" + 0.163*"disco" + 0.153*"house" + 0.148*"string" + -0.145*"techno" + -0.139*"punk" + -0.132*"&" + -0.129*"project" + 0.123*"piece"
+
+-0.281*"techno" + 0.248*"dubstep" + -0.229*"jazz" + -0.224*"disc" + -0.173*"indie" + 0.163*"reggae" + -0.136*"hip-hop" + 0.106*"producer" + -0.098*"rap" + 0.097*"folk"
+
+-0.560*"&" + -0.169*"techno" + 0.143*"indie" + 0.141*"remix" + -0.134*"duo" + 0.123*"folk" + 0.116*"house" + -0.116*"reggae" + 0.116*"jazz" + 0.116*"rock"
+
+-0.245*"hardcore" + -0.231*"house" + 0.228*"dubstep" + 0.224*"dub" + 0.204*"reggae" + -0.176*"punk" + -0.154*"hip-hop" + -0.147*"disco" + 0.137*"indie" + 0.131*"rock"
+
+0.397*"dubstep" + -0.239*"disco" + 0.151*"indie" + -0.140*"funk" + 0.140*"grime" + 0.127*"composer" + 0.120*"producer" + 0.112*"hip-hop" + -0.111*"house" + 0.105*"&"
+
+0.333*"&" + 0.248*"hip-hop" + 0.184*"indie" + 0.170*"live" + 0.138*"rock" + 0.136*"house" + -0.126*"label" + 0.113*"duo" + -0.104*"disc" + -0.104*"reggae"
+
+-0.227*"techno" + 0.207*"dubstep" + -0.207*"dub" + -0.179*"hip-hop" + 0.173*"disc" + 0.170*"jazz" + 0.156*"dance" + -0.142*"composer" + 0.134*"footwork" + -0.132*"reggae"
+
+-0.372*"group" + -0.249*"dub" + -0.210*"reggae" + 0.179*"cover" + 0.161*"blue" + 0.147*"jazz" + -0.139*"member" + 0.137*"&" + 0.126*"country" + 0.110*"electronic"
+
+-0.217*"rap" + -0.183*"disc" + 0.182*"remix" + 0.176*"label" + -0.161*"duo" + -0.157*"jazz" + -0.153*"dub" + 0.151*"techno" + -0.137*"punk" + 0.134*"soul"
+
+-0.281*"dub" + -0.211*"reggae" + -0.202*"house" + 0.188*"techno" + 0.176*"group" + 0.167*"country" + 0.165*"pop" + 0.154*"disc" + 0.131*"hip-hop" + -0.111*"tape"
+
+30
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.350*"rapper" + -0.180*"hip-hop" + 0.160*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.085*"verse" + 0.083*"guitar" + 0.080*"noise"
+
+0.227*"techno" + 0.207*"rap" + -0.180*"metal" + 0.166*"house" + 0.157*"electronic" + 0.145*"producer" + 0.138*"beat" + 0.136*"dance" + 0.135*"rapper" + 0.133*"hip-hop"
+
+0.723*"metal" + 0.263*"black" + 0.202*"rap" + 0.130*"rapper" + 0.126*"doom" + 0.107*"death" + 0.104*"hardcore" + 0.101*"riff" + 0.080*"thrash" + -0.076*"pop"
+
+0.185*"disc" + 0.176*"compilation" + -0.171*"rap" + 0.157*"version" + 0.148*"remix" + 0.137*"metal" + 0.133*"original" + 0.131*"label" + -0.128*"rapper" + 0.125*"dance"
+
+0.240*"film" + 0.172*"jazz" + -0.172*"techno" + -0.163*"house" + 0.161*"piece" + -0.149*"dance" + 0.148*"composer" + 0.135*"rap" + 0.129*"soundtrack" + 0.126*"score"
+
+0.269*"film" + 0.197*"techno" + 0.165*"house" + 0.158*"soundtrack" + -0.154*"rap" + -0.132*"group" + 0.130*"dance" + 0.129*"score" + 0.118*"metal" + -0.110*"guitar"
+
+-0.166*"metal" + 0.164*"noise" + 0.135*"punk" + -0.121*"house" + -0.115*"country" + 0.109*"drone" + -0.108*"folk" + 0.107*"guy" + -0.106*"singer" + -0.102*"producer"
+
+0.472*"film" + 0.301*"soundtrack" + 0.240*"score" + -0.179*"jazz" + 0.155*"movie" + 0.138*"metal" + -0.129*"punk" + 0.120*"indie" + 0.113*"pop" + 0.103*"remix"
+
+0.365*"jazz" + 0.220*"film" + 0.191*"punk" + -0.155*"remix" + -0.148*"version" + 0.142*"funk" + 0.132*"soundtrack" + -0.129*"disc" + 0.123*"score" + 0.120*"hip-hop"
+
+0.314*"punk" + -0.265*"jazz" + -0.205*"metal" + -0.163*"hip-hop" + 0.128*"hardcore" + 0.113*"film" + 0.110*"group" + -0.109*"funk" + -0.107*"horn" + 0.106*"post-punk"
+
+-0.203*"film" + 0.153*"electronic" + 0.140*"pop" + -0.133*"rap" + 0.133*"jazz" + -0.129*"guitar" + -0.124*"soundtrack" + 0.123*"indie" + -0.122*"punk" + 0.110*"hip-hop"
+
+-0.261*"remix" + 0.238*"label" + 0.218*"compilation" + 0.195*"folk" + -0.185*"remixes" + -0.175*"jazz" + -0.164*"original" + 0.162*"&" + 0.148*"indie" + 0.146*"country"
+
+0.368*"hip-hop" + 0.250*"punk" + -0.242*"techno" + 0.206*"remix" + -0.177*"house" + 0.153*"original" + 0.147*"sample" + -0.141*"jazz" + 0.136*"hardcore" + 0.132*"remixes"
+
+-0.265*"j" + -0.256*"tiny_mce" + -0.255*"langs" + -0.255*"js]" + -0.254*"http" + -0.253*"backend" + -0.248*"pitchfork" + -0.243*"com" + -0.234*"en" + -0.221*"script"
+
+-0.248*"hip-hop" + -0.234*"techno" + 0.232*"punk" + 0.213*"remix" + 0.199*"disco" + 0.194*"pop" + 0.174*"rap" + 0.158*"composer" + 0.135*"remixes" + 0.115*"dance"
+
+-0.362*"techno" + -0.224*"punk" + -0.186*"hardcore" + 0.170*"funk" + 0.161*"&" + -0.160*"folk" + 0.147*"soul" + 0.118*"disco" + 0.110*"hip-hop" + 0.108*"pop"
+
+-0.270*"remix" + -0.198*"&" + -0.179*"folk" + -0.157*"duo" + 0.145*"dubstep" + -0.142*"remixes" + -0.127*"disco" + 0.125*"punk" + -0.124*"group" + 0.123*"sample"
+
+-0.279*"duo" + -0.161*"techno" + 0.150*"rock" + -0.142*"project" + -0.138*"&" + 0.129*"piece" + -0.124*"group" + 0.123*"remix" + -0.121*"electronic" + -0.120*"noise"
+
+0.405*"jazz" + 0.177*"remix" + -0.158*"dance" + -0.155*"live" + 0.150*"indie" + -0.141*"performance" + 0.135*"techno" + 0.126*"remixes" + -0.119*"disco" + 0.107*"label"
+
+0.280*"techno" + -0.251*"dubstep" + 0.218*"disc" + -0.144*"&" + -0.141*"reggae" + 0.136*"indie" + 0.134*"hip-hop" + 0.134*"jazz" + -0.124*"grime" + 0.113*"group"
+
+-0.485*"&" + 0.182*"indie" + 0.163*"rock" + -0.161*"punk" + 0.151*"folk" + 0.126*"house" + 0.120*"lo-fi" + -0.119*"label" + -0.110*"duo" + -0.107*"techno"
+
+-0.261*"hip-hop" + 0.228*"reggae" + 0.226*"dub" + -0.226*"house" + 0.169*"rap" + 0.165*"techno" + -0.146*"label" + 0.129*"funk" + 0.115*"country" + 0.110*"rhythm"
+
+0.414*"dubstep" + -0.227*"&" + -0.195*"house" + -0.165*"disco" + 0.148*"grime" + -0.145*"hip-hop" + 0.144*"dub" + -0.140*"funk" + 0.136*"reggae" + 0.133*"label"
+
+-0.381*"&" + -0.252*"indie" + 0.181*"disco" + -0.180*"dubstep" + -0.178*"live" + -0.165*"hip-hop" + 0.159*"hardcore" + -0.140*"techno" + 0.138*"punk" + -0.099*"performance"
+
+0.257*"techno" + -0.211*"disc" + -0.180*"&" + 0.177*"dub" + 0.174*"composer" + -0.155*"jazz" + 0.154*"reggae" + -0.152*"dubstep" + 0.147*"hip-hop" + -0.135*"dance"
+
+0.280*"group" + 0.247*"dub" + 0.213*"reggae" + -0.189*"electronic" + -0.149*"country" + -0.148*"blue" + -0.146*"jazz" + -0.145*"cover" + 0.127*"duo" + 0.126*"mix"
+
+-0.214*"label" + 0.202*"disc" + 0.194*"rap" + 0.183*"folk" + 0.170*"dubstep" + 0.151*"hip-hop" + 0.144*"duo" + -0.137*"remix" + 0.136*"jazz" + -0.136*"compilation"
+
+0.231*"dub" + 0.231*"house" + 0.183*"reggae" + -0.167*"techno" + 0.161*"ambient" + 0.153*"&" + -0.136*"noise" + 0.129*"producer" + 0.126*"emo" + -0.122*"mix"
+
+-0.228*"country" + 0.192*"house" + 0.163*"dub" + 0.142*"tape" + 0.140*"mix" + -0.135*"electronic" + 0.134*"mixtape" + 0.129*"lo-fi" + 0.124*"&" + -0.119*"duo"
+
+31
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.518*"rap" + 0.350*"rapper" + 0.180*"hip-hop" + -0.159*"metal" + 0.153*"mixtape" + -0.097*"drone" + -0.088*"piece" + 0.086*"verse" + -0.083*"guitar" + -0.080*"noise"
+
+-0.227*"techno" + -0.206*"rap" + 0.180*"metal" + -0.165*"house" + -0.156*"electronic" + -0.144*"producer" + -0.138*"beat" + -0.137*"dance" + -0.135*"rapper" + -0.133*"hip-hop"
+
+0.724*"metal" + 0.264*"black" + 0.201*"rap" + 0.131*"rapper" + 0.125*"doom" + 0.107*"death" + 0.106*"hardcore" + 0.100*"riff" + 0.080*"thrash" + -0.076*"pop"
+
+-0.183*"disc" + -0.176*"compilation" + 0.170*"rap" + -0.156*"version" + -0.149*"remix" + -0.137*"metal" + -0.133*"label" + -0.132*"original" + 0.126*"rapper" + -0.125*"house"
+
+-0.240*"film" + -0.174*"jazz" + 0.171*"techno" + 0.163*"house" + -0.163*"piece" + 0.149*"dance" + -0.145*"composer" + -0.134*"rap" + -0.130*"soundtrack" + -0.129*"score"
+
+0.274*"film" + 0.197*"techno" + 0.166*"house" + 0.154*"soundtrack" + -0.149*"rap" + -0.138*"group" + 0.135*"dance" + 0.131*"score" + 0.118*"metal" + -0.112*"guitar"
+
+0.165*"metal" + -0.162*"noise" + -0.133*"punk" + 0.122*"country" + -0.113*"drone" + 0.110*"house" + 0.109*"singer" + 0.105*"folk" + 0.103*"producer" + -0.102*"guy"
+
+0.478*"film" + 0.292*"soundtrack" + 0.248*"score" + -0.170*"jazz" + 0.157*"movie" + 0.139*"metal" + -0.132*"punk" + 0.120*"indie" + 0.111*"pop" + 0.103*"remix"
+
+0.359*"jazz" + 0.222*"film" + 0.214*"punk" + -0.165*"remix" + -0.148*"version" + 0.136*"funk" + 0.135*"soundtrack" + -0.131*"disc" + -0.121*"original" + 0.121*"rock"
+
+-0.292*"punk" + 0.287*"jazz" + 0.191*"metal" + 0.166*"hip-hop" + -0.125*"hardcore" + 0.113*"folk" + 0.112*"funk" + 0.109*"soul" + 0.109*"horn" + -0.105*"post-punk"
+
+0.200*"film" + -0.162*"jazz" + -0.149*"electronic" + -0.138*"pop" + 0.137*"punk" + 0.130*"country" + 0.127*"guitar" + 0.127*"rap" + 0.122*"soundtrack" + -0.116*"indie"
+
+0.214*"compilation" + -0.205*"jazz" + 0.197*"label" + 0.191*"folk" + 0.176*"hip-hop" + 0.159*"punk" + -0.151*"live" + 0.142*"country" + -0.140*"remix" + 0.126*"indie"
+
+-0.312*"hip-hop" + -0.302*"remix" + 0.256*"techno" + -0.203*"original" + -0.203*"remixes" + -0.195*"punk" + 0.163*"label" + 0.143*"house" + -0.141*"hardcore" + -0.134*"sample"
+
+-0.256*"tiny_mce" + -0.256*"langs" + -0.256*"js]" + -0.255*"http" + -0.254*"j" + -0.253*"backend" + -0.248*"pitchfork" + -0.244*"com" + -0.233*"en" + -0.224*"script"
+
+-0.275*"hip-hop" + 0.245*"remix" + 0.230*"punk" + 0.211*"disco" + -0.186*"techno" + 0.174*"composer" + 0.172*"rap" + 0.153*"pop" + 0.152*"remixes" + 0.142*"dance"
+
+-0.399*"techno" + -0.187*"punk" + 0.175*"funk" + 0.167*"soul" + -0.162*"folk" + -0.162*"hardcore" + 0.154*"disco" + 0.124*"pop" + 0.119*"&" + 0.110*"single"
+
+-0.188*"punk" + 0.178*"remix" + 0.170*"duo" + -0.156*"hardcore" + 0.156*"folk" + -0.153*"dubstep" + 0.134*"&" + 0.127*"group" + 0.125*"disco" + -0.119*"demo"
+
+0.257*"remix" + -0.187*"live" + 0.181*"label" + 0.167*"indie" + -0.157*"duo" + 0.149*"jazz" + 0.140*"remixes" + 0.138*"compilation" + -0.122*"performance" + -0.112*"recording"
+
+-0.325*"&" + -0.320*"jazz" + 0.217*"disco" + -0.209*"duo" + -0.139*"project" + 0.136*"house" + 0.125*"rock" + 0.115*"dance" + 0.112*"string" + 0.097*"piece"
+
+-0.308*"dubstep" + 0.279*"techno" + 0.249*"jazz" + -0.220*"&" + 0.184*"indie" + 0.148*"disc" + -0.139*"grime" + -0.128*"piece" + -0.123*"hardcore" + 0.120*"black"
+
+-0.501*"&" + -0.180*"techno" + -0.175*"duo" + -0.149*"disc" + 0.133*"indie" + 0.129*"house" + 0.119*"remix" + 0.106*"rock" + 0.104*"folk" + 0.100*"lo-fi"
+
+0.206*"reggae" + -0.197*"hip-hop" + 0.193*"dub" + -0.170*"label" + 0.160*"country" + -0.143*"hardcore" + -0.141*"house" + 0.130*"rock" + 0.130*"rap" + 0.117*"funk"
+
+-0.420*"dubstep" + 0.258*"disco" + -0.233*"indie" + 0.221*"punk" + 0.159*"hardcore" + -0.146*"grime" + 0.133*"funk" + -0.117*"bass" + 0.117*"soul" + -0.113*"live"
+
+0.412*"&" + 0.192*"hip-hop" + -0.183*"reggae" + -0.178*"dubstep" + -0.167*"dub" + 0.157*"indie" + 0.154*"house" + 0.147*"live" + -0.145*"disc" + -0.137*"group"
+
+-0.217*"composer" + -0.216*"techno" + 0.169*"disc" + 0.167*"dance" + 0.156*"house" + 0.150*"group" + 0.133*"duo" + 0.133*"jazz" + 0.124*"folk" + -0.123*"piece"
+
+-0.301*"group" + -0.280*"dub" + -0.263*"reggae" + -0.211*"techno" + 0.210*"jazz" + 0.165*"electronic" + 0.128*"blue" + 0.125*"cover" + 0.121*"country" + -0.118*"indie"
+
+-0.178*"label" + 0.176*"ambient" + 0.156*"duo" + 0.148*"hip-hop" + 0.133*"disc" + 0.132*"punk" + -0.116*"techno" + 0.113*"disco" + 0.110*"reggae" + -0.109*"remix"
+
+0.280*"dub" + 0.188*"house" + -0.181*"hip-hop" + -0.179*"country" + 0.175*"reggae" + 0.153*"tape" + -0.153*"duo" + -0.151*"techno" + -0.133*"hardcore" + -0.129*"group"
+
+0.230*"country" + 0.192*"electronic" + 0.170*"remix" + -0.159*"mix" + -0.158*"disc" + -0.154*"folk" + 0.138*"label" + -0.122*"noise" + -0.115*"jazz" + -0.115*"rap"
+
+-0.326*"duo" + 0.242*"hardcore" + -0.158*"compilation" + 0.138*"&" + 0.126*"soul" + 0.122*"mix" + -0.117*"chord" + -0.114*"simple" + 0.110*"indie" + -0.098*"trio"
+
+32
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.350*"rapper" + -0.180*"hip-hop" + 0.159*"metal" + -0.152*"mixtape" + 0.097*"drone" + 0.088*"piece" + -0.085*"verse" + 0.083*"guitar" + 0.081*"noise"
+
+0.227*"techno" + 0.207*"rap" + -0.179*"metal" + 0.168*"house" + 0.157*"electronic" + 0.145*"producer" + 0.138*"beat" + 0.135*"dance" + 0.135*"rapper" + 0.134*"sample"
+
+-0.723*"metal" + -0.262*"black" + -0.201*"rap" + -0.131*"rapper" + -0.127*"doom" + -0.107*"death" + -0.106*"hardcore" + -0.100*"riff" + -0.081*"thrash" + 0.077*"pop"
+
+0.184*"disc" + 0.174*"compilation" + -0.172*"rap" + 0.161*"version" + 0.149*"remix" + 0.138*"metal" + 0.132*"label" + 0.132*"original" + 0.126*"dance" + -0.125*"rapper"
+
+-0.243*"film" + -0.175*"jazz" + 0.172*"techno" + 0.162*"house" + -0.162*"piece" + 0.148*"dance" + -0.145*"composer" + -0.132*"rap" + -0.130*"disc" + -0.128*"soundtrack"
+
+-0.273*"film" + -0.194*"techno" + -0.163*"house" + -0.160*"soundtrack" + 0.157*"rap" + 0.134*"group" + -0.134*"dance" + -0.128*"score" + -0.118*"metal" + 0.111*"guitar"
+
+-0.166*"metal" + 0.161*"noise" + 0.135*"punk" + -0.117*"country" + -0.115*"house" + 0.112*"drone" + -0.110*"singer" + -0.104*"folk" + 0.104*"guy" + 0.101*"piece"
+
+-0.479*"film" + -0.298*"soundtrack" + -0.242*"score" + 0.163*"jazz" + -0.157*"movie" + -0.134*"metal" + 0.123*"punk" + -0.115*"indie" + -0.114*"pop" + 0.100*"techno"
+
+0.375*"jazz" + 0.214*"film" + 0.205*"punk" + -0.155*"remix" + -0.145*"version" + 0.143*"funk" + -0.140*"disc" + 0.127*"hip-hop" + 0.127*"soundtrack" + 0.122*"rock"
+
+-0.303*"punk" + 0.269*"jazz" + 0.196*"metal" + 0.168*"hip-hop" + -0.135*"hardcore" + 0.114*"folk" + -0.113*"film" + 0.109*"remix" + 0.107*"horn" + 0.104*"funk"
+
+0.206*"film" + -0.146*"pop" + -0.143*"electronic" + -0.125*"jazz" + 0.125*"soundtrack" + 0.122*"rap" + 0.118*"guitar" + -0.113*"indie" + -0.112*"composer" + -0.111*"hip-hop"
+
+0.279*"remix" + -0.237*"label" + -0.220*"compilation" + -0.207*"folk" + 0.191*"remixes" + 0.185*"original" + 0.169*"jazz" + -0.154*"indie" + -0.153*"country" + -0.147*"&"
+
+-0.382*"hip-hop" + 0.256*"techno" + -0.250*"punk" + -0.188*"remix" + 0.169*"house" + -0.162*"sample" + -0.153*"hardcore" + -0.137*"original" + 0.130*"jazz" + -0.129*"remixes"
+
+0.259*"j" + 0.258*"tiny_mce" + 0.258*"langs" + 0.258*"js]" + 0.257*"http" + 0.255*"backend" + 0.250*"pitchfork" + 0.246*"com" + 0.235*"en" + 0.227*"script"
+
+0.273*"hip-hop" + -0.270*"punk" + -0.220*"remix" + -0.191*"rap" + -0.189*"disco" + -0.185*"composer" + 0.177*"techno" + -0.154*"pop" + -0.133*"dance" + -0.133*"remixes"
+
+-0.393*"techno" + -0.185*"punk" + 0.174*"&" + -0.172*"folk" + 0.171*"funk" + -0.168*"hardcore" + 0.158*"disco" + 0.144*"soul" + -0.130*"dubstep" + 0.120*"duo"
+
+0.215*"duo" + 0.214*"remix" + -0.199*"dubstep" + 0.198*"folk" + 0.153*"group" + -0.134*"punk" + 0.129*"&" + -0.120*"hardcore" + 0.108*"remixes" + 0.107*"blue"
+
+0.218*"remix" + -0.175*"live" + -0.169*"electronic" + 0.150*"compilation" + -0.146*"duo" + 0.140*"mix" + 0.136*"indie" + 0.135*"disc" + 0.126*"label" + 0.120*"post-rock"
+
+0.406*"jazz" + 0.245*"techno" + -0.186*"disco" + -0.156*"dance" + -0.142*"house" + 0.119*"indie" + -0.114*"dubstep" + -0.114*"performance" + -0.113*"string" + -0.109*"composer"
+
+0.293*"dubstep" + -0.218*"techno" + -0.181*"hip-hop" + 0.170*"reggae" + -0.153*"disc" + 0.136*"folk" + 0.135*"dub" + 0.125*"remix" + -0.118*"live" + 0.107*"grime"
+
+0.561*"&" + 0.223*"duo" + 0.197*"hardcore" + -0.178*"rock" + -0.169*"indie" + 0.128*"punk" + -0.095*"blue" + 0.095*"piano" + -0.087*"remix" + 0.083*"composer"
+
+0.274*"dub" + 0.270*"reggae" + -0.248*"hip-hop" + 0.192*"techno" + -0.186*"house" + -0.159*"hardcore" + -0.147*"sample" + 0.123*"rap" + -0.118*"solo" + -0.111*"producer"
+
+0.334*"dubstep" + -0.264*"disco" + 0.227*"indie" + 0.217*"&" + -0.185*"punk" + -0.176*"house" + 0.155*"composer" + 0.142*"rock" + -0.118*"funk" + -0.107*"hardcore"
+
+-0.402*"&" + -0.173*"hip-hop" + 0.163*"dubstep" + 0.149*"group" + 0.135*"label" + -0.123*"house" + -0.122*"live" + 0.111*"disc" + -0.105*"rock" + 0.093*"dub"
+
+0.247*"dubstep" + -0.235*"techno" + 0.215*"disc" + 0.176*"jazz" + -0.173*"composer" + -0.154*"punk" + 0.154*"dance" + -0.147*"dub" + -0.129*"soul" + 0.125*"footwork"
+
+0.307*"dub" + 0.249*"group" + 0.231*"reggae" + -0.170*"country" + -0.142*"electronic" + -0.136*"blue" + 0.121*"house" + -0.117*"noise" + -0.116*"cover" + 0.115*"member"
+
+0.215*"techno" + -0.170*"jazz" + -0.167*"electronic" + -0.162*"ambient" + 0.141*"label" + -0.126*"&" + 0.125*"group" + 0.125*"noise" + -0.111*"reggae" + -0.108*"version"
+
+0.271*"duo" + 0.224*"country" + -0.159*"house" + -0.150*"lo-fi" + -0.147*"&" + 0.143*"hardcore" + -0.142*"project" + 0.134*"group" + -0.127*"tape" + -0.120*"garage"
+
+-0.195*"disc" + -0.195*"duo" + 0.192*"remix" + -0.187*"dubstep" + 0.174*"electronic" + 0.153*"label" + -0.139*"garage" + -0.116*"version" + 0.112*"indie" + -0.111*"rap"
+
+-0.289*"duo" + 0.215*"&" + 0.142*"hardcore" + -0.132*"label" + -0.112*"singer" + -0.112*"drone" + -0.101*"cover" + -0.100*"house" + 0.100*"rap" + 0.093*"techno"
+
+0.195*"hardcore" + 0.169*"soul" + -0.150*"disc" + 0.142*"mixtape" + -0.140*"house" + -0.139*"rap" + 0.135*"mix" + -0.123*"trio" + -0.120*"group" + -0.120*"solo"
+
+33
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.350*"rapper" + -0.180*"hip-hop" + 0.160*"metal" + -0.153*"mixtape" + 0.097*"drone" + 0.088*"piece" + -0.086*"verse" + 0.083*"guitar" + 0.080*"noise"
+
+-0.227*"techno" + -0.206*"rap" + 0.179*"metal" + -0.166*"house" + -0.155*"electronic" + -0.143*"producer" + -0.138*"beat" + -0.137*"dance" + -0.135*"rapper" + -0.132*"hip-hop"
+
+0.723*"metal" + 0.264*"black" + 0.201*"rap" + 0.130*"rapper" + 0.124*"doom" + 0.107*"death" + 0.106*"hardcore" + 0.100*"riff" + 0.080*"thrash" + -0.077*"pop"
+
+-0.182*"disc" + -0.174*"compilation" + 0.170*"rap" + -0.159*"version" + -0.148*"remix" + -0.138*"metal" + -0.133*"label" + -0.132*"original" + 0.127*"rapper" + -0.126*"dance"
+
+-0.243*"film" + -0.175*"jazz" + 0.170*"techno" + -0.160*"piece" + 0.160*"house" + -0.147*"composer" + 0.147*"dance" + -0.135*"rap" + -0.129*"score" + -0.128*"soundtrack"
+
+-0.273*"film" + -0.196*"techno" + -0.167*"house" + -0.158*"soundtrack" + 0.154*"rap" + 0.132*"group" + -0.131*"dance" + -0.128*"score" + -0.120*"metal" + 0.111*"guitar"
+
+0.163*"metal" + -0.158*"noise" + -0.139*"punk" + 0.116*"country" + -0.114*"drone" + 0.110*"house" + -0.106*"guy" + 0.106*"singer" + -0.105*"piece" + 0.102*"producer"
+
+0.475*"film" + 0.294*"soundtrack" + 0.248*"score" + -0.169*"jazz" + 0.155*"movie" + 0.139*"metal" + -0.125*"punk" + 0.119*"indie" + 0.106*"pop" + -0.101*"techno"
+
+0.373*"jazz" + 0.220*"film" + 0.195*"punk" + -0.155*"remix" + -0.151*"version" + 0.140*"funk" + 0.127*"soundtrack" + -0.125*"disc" + 0.125*"hip-hop" + 0.122*"rock"
+
+-0.308*"punk" + 0.267*"jazz" + 0.200*"metal" + 0.158*"hip-hop" + -0.129*"hardcore" + -0.115*"film" + 0.111*"remix" + 0.107*"folk" + -0.107*"group" + -0.105*"post-punk"
+
+0.196*"film" + -0.149*"jazz" + -0.145*"pop" + -0.134*"indie" + -0.132*"electronic" + 0.129*"soundtrack" + 0.125*"rap" + 0.125*"guitar" + 0.118*"punk" + -0.114*"hip-hop"
+
+0.245*"remix" + -0.229*"compilation" + -0.228*"label" + -0.197*"folk" + 0.197*"jazz" + 0.172*"remixes" + 0.165*"original" + -0.164*"&" + -0.162*"country" + -0.156*"indie"
+
+-0.362*"hip-hop" + -0.248*"punk" + -0.246*"remix" + 0.239*"techno" + 0.180*"house" + -0.166*"original" + -0.166*"remixes" + -0.163*"hardcore" + -0.143*"sample" + 0.103*"jazz"
+
+-0.266*"tiny_mce" + -0.265*"langs" + -0.265*"js]" + -0.264*"http" + -0.263*"j" + -0.263*"backend" + -0.257*"pitchfork" + -0.254*"com" + -0.243*"en" + -0.233*"script"
+
+0.290*"hip-hop" + 0.254*"techno" + -0.227*"remix" + -0.224*"disco" + -0.210*"punk" + -0.175*"rap" + -0.172*"pop" + -0.163*"composer" + -0.149*"remixes" + -0.126*"dance"
+
+-0.376*"techno" + -0.211*"punk" + 0.179*"funk" + 0.175*"soul" + -0.167*"folk" + -0.166*"hardcore" + 0.154*"&" + 0.122*"hip-hop" + 0.117*"pop" + 0.104*"black"
+
+0.226*"duo" + 0.219*"&" + 0.202*"remix" + 0.185*"folk" + -0.172*"punk" + 0.153*"group" + -0.128*"dubstep" + -0.127*"hardcore" + 0.106*"country" + 0.100*"remixes"
+
+0.233*"live" + -0.216*"remix" + 0.178*"duo" + 0.155*"electronic" + 0.145*"performance" + -0.126*"compilation" + -0.124*"label" + 0.123*"studio" + -0.112*"mix" + 0.111*"show"
+
+0.355*"jazz" + 0.242*"&" + 0.234*"techno" + -0.175*"disco" + -0.163*"dance" + -0.133*"house" + 0.132*"duo" + 0.129*"project" + -0.118*"string" + 0.114*"punk"
+
+-0.380*"dubstep" + 0.240*"techno" + 0.192*"disc" + -0.187*"&" + 0.148*"jazz" + -0.142*"grime" + -0.140*"reggae" + 0.128*"rap" + -0.115*"producer" + -0.113*"dancehall"
+
+0.417*"&" + -0.194*"rock" + -0.188*"indie" + 0.153*"punk" + 0.147*"duo" + -0.137*"remix" + 0.134*"hardcore" + -0.123*"jazz" + -0.123*"garage" + 0.113*"disc"
+
+0.331*"dub" + 0.331*"reggae" + -0.219*"house" + -0.202*"hip-hop" + 0.175*"dubstep" + -0.165*"&" + -0.161*"sample" + 0.147*"dancehall" + -0.146*"punk" + -0.139*"hardcore"
+
+0.269*"&" + -0.232*"dubstep" + -0.176*"label" + 0.155*"disco" + -0.136*"grime" + -0.133*"disc" + 0.130*"funk" + 0.115*"mix" + -0.108*"piano" + -0.096*"group"
+
+0.402*"&" + 0.279*"indie" + 0.169*"dubstep" + 0.160*"hip-hop" + 0.151*"rock" + -0.144*"disco" + -0.138*"folk" + 0.127*"techno" + -0.123*"group" + 0.115*"live"
+
+0.224*"dubstep" + 0.212*"disc" + -0.194*"techno" + 0.185*"jazz" + -0.160*"composer" + 0.157*"house" + 0.137*"&" + -0.135*"hip-hop" + -0.131*"solo" + 0.121*"dance"
+
+-0.331*"group" + 0.216*"jazz" + -0.180*"hip-hop" + -0.177*"dub" + 0.170*"cover" + -0.169*"member" + -0.166*"techno" + 0.164*"electronic" + -0.147*"reggae" + 0.140*"country"
+
+-0.247*"dub" + -0.219*"reggae" + -0.203*"house" + 0.197*"techno" + 0.185*"noise" + 0.185*"label" + 0.175*"soul" + -0.145*"disco" + -0.129*"disc" + -0.126*"ambient"
+
+0.312*"duo" + 0.281*"country" + -0.204*"dub" + 0.188*"disc" + -0.168*"&" + -0.150*"tape" + 0.136*"hip-hop" + -0.115*"mixtape" + -0.110*"disco" + -0.109*"lo-fi"
+
+-0.220*"electronic" + 0.173*"disc" + -0.158*"label" + 0.143*"duo" + -0.142*"remix" + 0.142*"mix" + 0.136*"hip-hop" + 0.128*"folk" + -0.125*"country" + 0.108*"pop"
+
+-0.330*"hardcore" + 0.285*"duo" + -0.226*"group" + 0.153*"dub" + -0.147*"funk" + -0.130*"&" + -0.127*"folk" + 0.117*"house" + 0.112*"noise" + -0.111*"techno"
+
+0.221*"duo" + -0.201*"cover" + 0.155*"mix" + -0.139*"group" + 0.137*"dub" + 0.124*"hardcore" + 0.123*"remix" + -0.119*"version" + -0.115*"solo" + 0.114*"pop"
+
+0.227*"disco" + -0.180*"disc" + -0.153*"house" + 0.136*"live" + 0.130*"indie" + -0.120*"footwork" + 0.118*"performance" + -0.108*"rap" + -0.106*"sample" + -0.105*"&"
+
+34
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.350*"rapper" + -0.179*"hip-hop" + 0.160*"metal" + -0.153*"mixtape" + 0.097*"drone" + 0.088*"piece" + -0.085*"verse" + 0.083*"guitar" + 0.080*"noise"
+
+0.226*"techno" + 0.207*"rap" + -0.180*"metal" + 0.166*"house" + 0.157*"electronic" + 0.145*"producer" + 0.137*"beat" + 0.137*"dance" + 0.134*"rapper" + 0.132*"hip-hop"
+
+0.723*"metal" + 0.262*"black" + 0.202*"rap" + 0.130*"rapper" + 0.127*"doom" + 0.105*"death" + 0.105*"hardcore" + 0.100*"riff" + 0.080*"thrash" + -0.077*"pop"
+
+0.183*"disc" + 0.178*"compilation" + -0.171*"rap" + 0.158*"version" + 0.149*"remix" + 0.139*"metal" + 0.133*"original" + 0.131*"label" + -0.125*"rapper" + 0.125*"house"
+
+-0.242*"film" + -0.176*"jazz" + 0.170*"techno" + 0.163*"house" + -0.162*"piece" + 0.150*"dance" + -0.145*"composer" + -0.133*"rap" + -0.127*"disc" + -0.127*"soundtrack"
+
+0.278*"film" + 0.196*"techno" + 0.163*"house" + 0.157*"soundtrack" + -0.151*"rap" + -0.137*"group" + 0.131*"dance" + 0.129*"score" + 0.119*"metal" + -0.109*"guitar"
+
+-0.164*"metal" + 0.157*"noise" + 0.127*"punk" + -0.116*"house" + 0.113*"drone" + -0.112*"country" + 0.111*"guy" + -0.105*"singer" + 0.104*"piece" + 0.103*"think"
+
+0.471*"film" + 0.294*"soundtrack" + 0.248*"score" + -0.175*"jazz" + 0.153*"movie" + 0.134*"metal" + -0.124*"punk" + 0.124*"indie" + 0.120*"pop" + 0.102*"remix"
+
+-0.366*"jazz" + -0.223*"film" + -0.200*"punk" + 0.164*"remix" + 0.146*"version" + -0.138*"funk" + 0.132*"disc" + -0.130*"soundtrack" + -0.123*"hip-hop" + -0.120*"score"
+
+-0.309*"punk" + 0.273*"jazz" + 0.197*"metal" + 0.159*"hip-hop" + -0.124*"hardcore" + 0.114*"funk" + 0.112*"soul" + 0.110*"remix" + 0.110*"piano" + -0.107*"film"
+
+-0.197*"film" + 0.149*"jazz" + 0.137*"electronic" + 0.133*"pop" + -0.131*"rap" + -0.128*"guitar" + 0.127*"indie" + -0.126*"punk" + -0.122*"soundtrack" + 0.111*"composer"
+
+0.266*"remix" + -0.222*"label" + -0.221*"compilation" + 0.201*"jazz" + -0.194*"folk" + 0.184*"remixes" + 0.172*"original" + -0.163*"country" + -0.148*"&" + -0.139*"indie"
+
+0.382*"hip-hop" + -0.246*"techno" + 0.244*"punk" + 0.204*"remix" + -0.163*"house" + 0.162*"sample" + 0.148*"original" + 0.147*"hardcore" + 0.140*"remixes" + -0.123*"jazz"
+
+0.262*"tiny_mce" + 0.261*"j" + 0.261*"langs" + 0.261*"js]" + 0.260*"http" + 0.258*"backend" + 0.254*"pitchfork" + 0.249*"com" + 0.239*"en" + 0.229*"script"
+
+0.279*"hip-hop" + -0.274*"punk" + -0.245*"remix" + -0.180*"rap" + -0.179*"composer" + -0.175*"disco" + -0.156*"remixes" + 0.139*"techno" + -0.138*"pop" + -0.124*"hardcore"
+
+-0.391*"techno" + -0.189*"folk" + 0.174*"funk" + 0.174*"disco" + 0.165*"&" + -0.155*"hardcore" + 0.150*"soul" + -0.149*"punk" + 0.128*"pop" + -0.105*"dubstep"
+
+-0.224*"remix" + 0.186*"hardcore" + -0.184*"&" + 0.173*"punk" + -0.167*"folk" + -0.163*"duo" + -0.145*"rock" + -0.125*"blue" + -0.120*"remixes" + -0.115*"group"
+
+-0.179*"techno" + -0.178*"jazz" + -0.163*"duo" + -0.163*"electronic" + 0.145*"disco" + 0.132*"dubstep" + 0.128*"post-rock" + -0.126*"live" + 0.125*"mix" + 0.120*"piece"
+
+-0.321*"jazz" + -0.286*"techno" + -0.204*"disc" + -0.180*"indie" + 0.147*"dubstep" + -0.141*"label" + 0.139*"dance" + -0.133*"&" + 0.124*"folk" + 0.114*"live"
+
+0.305*"&" + 0.292*"dubstep" + 0.167*"jazz" + -0.159*"disco" + -0.147*"hip-hop" + 0.139*"duo" + 0.130*"dub" + 0.129*"reggae" + -0.115*"live" + 0.109*"remix"
+
+0.479*"&" + -0.223*"indie" + -0.191*"jazz" + -0.185*"rock" + -0.145*"remix" + -0.126*"blue" + -0.125*"folk" + -0.119*"hip-hop" + 0.105*"duo" + 0.100*"techno"
+
+-0.230*"hardcore" + 0.225*"reggae" + 0.204*"dub" + -0.200*"house" + -0.170*"punk" + 0.148*"rap" + 0.145*"techno" + 0.135*"indie" + -0.133*"solo" + -0.133*"hip-hop"
+
+-0.432*"dubstep" + 0.204*"disco" + -0.163*"grime" + 0.142*"funk" + -0.141*"indie" + 0.130*"soul" + -0.110*"piano" + -0.106*"group" + 0.106*"punk" + -0.105*"footwork"
+
+-0.477*"&" + -0.224*"hip-hop" + 0.194*"dub" + 0.186*"reggae" + -0.152*"indie" + -0.139*"live" + 0.139*"disc" + -0.137*"house" + 0.110*"electronic" + 0.108*"group"
+
+-0.262*"disc" + 0.199*"techno" + -0.193*"house" + 0.170*"composer" + 0.162*"hip-hop" + -0.157*"dance" + -0.153*"duo" + -0.139*"jazz" + 0.137*"cover" + 0.127*"original"
+
+0.404*"group" + -0.208*"jazz" + 0.177*"hip-hop" + 0.169*"member" + 0.164*"dub" + 0.162*"reggae" + 0.148*"techno" + -0.129*"&" + -0.129*"electronic" + -0.122*"cover"
+
+0.271*"house" + 0.264*"dub" + 0.216*"reggae" + -0.190*"techno" + -0.173*"country" + -0.165*"label" + -0.164*"remix" + 0.162*"disco" + 0.149*"jazz" + 0.137*"ambient"
+
+0.231*"label" + -0.200*"rap" + -0.175*"country" + -0.168*"disc" + 0.160*"mixtape" + -0.156*"duo" + 0.143*"dub" + -0.137*"group" + 0.136*"tape" + 0.128*"rapper"
+
+-0.291*"electronic" + 0.184*"techno" + -0.164*"country" + 0.158*"folk" + 0.142*"pop" + 0.136*"mix" + -0.119*"rock" + 0.105*"noise" + -0.101*"ambient" + -0.095*"house"
+
+0.245*"duo" + 0.228*"disco" + -0.221*"disc" + -0.199*"group" + -0.184*"house" + 0.173*"label" + -0.160*"footwork" + -0.135*"&" + 0.131*"compilation" + 0.126*"live"
+
+0.227*"hardcore" + -0.188*"duo" + 0.174*"soul" + -0.151*"rap" + -0.140*"compilation" + 0.139*"mix" + 0.138*"rapper" + -0.127*"hip-hop" + 0.121*"pop" + 0.119*"horn"
+
+-0.219*"cover" + 0.192*"duo" + 0.180*"dub" + -0.167*"black" + -0.142*"drone" + -0.117*"ambient" + -0.112*"trio" + 0.112*"reggae" + -0.105*"shoegaze" + -0.104*"soul"
+
+-0.201*"house" + 0.198*"disco" + 0.184*"funk" + -0.157*"duo" + -0.136*"pop" + -0.136*"label" + 0.134*"indie" + 0.118*"hardcore" + -0.118*"country" + 0.116*"dubstep"
+
+35
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+0.518*"rap" + 0.350*"rapper" + 0.180*"hip-hop" + -0.159*"metal" + 0.153*"mixtape" + -0.098*"drone" + -0.089*"piece" + 0.086*"verse" + -0.083*"guitar" + -0.080*"noise"
+
+0.227*"techno" + 0.206*"rap" + -0.180*"metal" + 0.167*"house" + 0.156*"electronic" + 0.144*"producer" + 0.138*"beat" + 0.137*"dance" + 0.136*"rapper" + 0.132*"sample"
+
+-0.724*"metal" + -0.263*"black" + -0.201*"rap" + -0.130*"rapper" + -0.124*"doom" + -0.106*"death" + -0.106*"hardcore" + -0.100*"riff" + -0.080*"thrash" + 0.077*"pop"
+
+-0.185*"disc" + -0.175*"compilation" + 0.172*"rap" + -0.157*"version" + -0.149*"remix" + -0.136*"metal" + -0.133*"original" + -0.131*"label" + 0.126*"rapper" + -0.126*"dance"
+
+0.241*"film" + 0.173*"jazz" + -0.170*"techno" + -0.162*"house" + 0.159*"piece" + -0.152*"dance" + 0.147*"composer" + 0.133*"rap" + 0.129*"score" + 0.128*"soundtrack"
+
+0.272*"film" + 0.196*"techno" + 0.167*"house" + 0.158*"soundtrack" + -0.154*"rap" + -0.134*"group" + 0.128*"score" + 0.127*"dance" + 0.123*"metal" + -0.110*"guitar"
+
+-0.165*"metal" + 0.158*"noise" + 0.129*"punk" + 0.116*"drone" + -0.115*"country" + -0.115*"house" + -0.109*"singer" + 0.106*"guy" + -0.105*"folk" + -0.104*"producer"
+
+0.475*"film" + 0.298*"soundtrack" + 0.241*"score" + -0.166*"jazz" + 0.153*"movie" + 0.137*"metal" + -0.129*"punk" + 0.114*"pop" + 0.111*"indie" + -0.101*"techno"
+
+0.361*"jazz" + 0.216*"film" + 0.204*"punk" + -0.165*"remix" + 0.150*"funk" + -0.144*"version" + -0.131*"disc" + 0.125*"soundtrack" + 0.122*"rock" + 0.119*"score"
+
+-0.303*"punk" + 0.276*"jazz" + 0.192*"metal" + 0.165*"hip-hop" + -0.124*"hardcore" + -0.117*"film" + 0.109*"horn" + -0.106*"group" + -0.106*"post-punk" + 0.105*"soul"
+
+-0.200*"film" + 0.149*"jazz" + 0.145*"electronic" + -0.137*"rap" + -0.136*"punk" + -0.129*"guitar" + 0.123*"pop" + -0.122*"soundtrack" + 0.119*"indie" + 0.111*"composer"
+
+0.220*"compilation" + -0.220*"jazz" + 0.209*"folk" + 0.195*"label" + -0.182*"remix" + 0.147*"country" + -0.147*"live" + 0.146*"hip-hop" + 0.145*"&" + 0.144*"punk"
+
+-0.350*"hip-hop" + -0.273*"remix" + 0.261*"techno" + -0.215*"punk" + -0.183*"original" + -0.179*"remixes" + -0.164*"sample" + 0.134*"house" + 0.130*"label" + -0.124*"hardcore"
+
+-0.263*"j" + -0.259*"tiny_mce" + -0.259*"langs" + -0.258*"js]" + -0.258*"http" + -0.256*"backend" + -0.251*"pitchfork" + -0.247*"com" + -0.236*"en" + -0.226*"script"
+
+-0.272*"hip-hop" + 0.268*"punk" + 0.217*"remix" + 0.192*"disco" + 0.169*"composer" + -0.164*"techno" + 0.160*"rap" + 0.147*"pop" + 0.136*"dance" + 0.136*"remixes"
+
+0.384*"techno" + -0.195*"&" + 0.175*"punk" + -0.165*"soul" + 0.161*"folk" + 0.160*"hardcore" + -0.160*"disco" + -0.145*"funk" + -0.138*"pop" + -0.129*"duo"
+
+0.200*"remix" + -0.196*"punk" + 0.194*"duo" + 0.185*"folk" + 0.141*"noise" + -0.138*"dubstep" + 0.132*"rock" + -0.124*"hardcore" + 0.122*"group" + 0.110*"remixes"
+
+0.212*"live" + -0.210*"remix" + 0.197*"duo" + 0.149*"electronic" + -0.143*"compilation" + -0.130*"disc" + -0.127*"label" + 0.123*"performance" + -0.122*"mix" + 0.121*"group"
+
+0.401*"jazz" + 0.279*"&" + -0.199*"disco" + 0.191*"techno" + -0.146*"house" + 0.142*"duo" + -0.137*"dance" + -0.128*"composer" + -0.121*"string" + -0.104*"piece"
+
+0.364*"dubstep" + -0.304*"techno" + -0.177*"disc" + 0.162*"&" + 0.138*"reggae" + 0.122*"folk" + -0.118*"hip-hop" + -0.108*"rap" + -0.106*"jazz" + -0.103*"black"
+
+0.499*"&" + -0.181*"indie" + -0.175*"rock" + -0.140*"jazz" + 0.123*"hardcore" + 0.119*"duo" + -0.116*"tape" + 0.110*"composer" + 0.109*"disc" + -0.106*"lo-fi"
+
+0.242*"dub" + -0.239*"house" + -0.237*"hardcore" + -0.234*"hip-hop" + 0.233*"reggae" + 0.191*"dubstep" + -0.160*"punk" + 0.143*"rap" + 0.128*"post-punk" + -0.126*"solo"
+
+-0.381*"dubstep" + 0.206*"disco" + -0.199*"indie" + 0.183*"funk" + -0.150*"grime" + -0.143*"hip-hop" + -0.119*"label" + -0.115*"piano" + 0.111*"soul" + 0.103*"groove"
+
+-0.454*"&" + -0.201*"hip-hop" + -0.161*"techno" + 0.153*"electronic" + -0.148*"indie" + 0.129*"disc" + -0.128*"live" + -0.123*"rock" + 0.101*"compilation" + -0.098*"mix"
+
+-0.257*"disc" + 0.203*"techno" + -0.182*"jazz" + 0.180*"dub" + -0.178*"duo" + 0.171*"composer" + -0.161*"dance" + 0.152*"reggae" + -0.126*"live" + -0.120*"footwork"
+
+-0.264*"country" + 0.256*"dub" + 0.175*"reggae" + 0.167*"house" + -0.166*"cover" + -0.161*"electronic" + 0.144*"group" + -0.132*"duo" + 0.125*"member" + 0.119*"indie"
+
+0.228*"group" + 0.185*"reggae" + 0.181*"hip-hop" + 0.176*"dub" + 0.173*"rap" + 0.165*"hardcore" + -0.163*"mixtape" + -0.147*"label" + -0.146*"footwork" + 0.144*"folk"
+
+0.255*"dub" + -0.239*"techno" + 0.228*"house" + -0.180*"group" + 0.168*"reggae" + -0.136*"noise" + 0.136*"jazz" + 0.118*"&" + 0.118*"ambient" + -0.114*"label"
+
+-0.218*"electronic" + 0.174*"dubstep" + -0.162*"country" + 0.153*"pop" + -0.129*"live" + -0.121*"footwork" + -0.120*"label" + -0.116*"compilation" + 0.115*"noise" + -0.110*"post-rock"
+
+-0.163*"duo" + -0.151*"noise" + 0.145*"&" + 0.142*"funk" + -0.138*"hip-hop" + 0.135*"hardcore" + 0.129*"group" + -0.123*"label" + 0.122*"dubstep" + -0.120*"drone"
+
+0.277*"disco" + 0.211*"indie" + -0.198*"disc" + 0.182*"compilation" + -0.143*"group" + 0.120*"label" + -0.115*"house" + -0.114*"country" + 0.111*"rap" + 0.100*"electronic"
+
+0.287*"duo" + -0.196*"cover" + -0.174*"group" + 0.160*"hardcore" + -0.146*"black" + 0.141*"reggae" + -0.130*"disco" + -0.130*"house" + 0.128*"pop" + -0.127*"member"
+
+-0.208*"hardcore" + -0.197*"soul" + 0.196*"duo" + 0.191*"disc" + -0.187*"folk" + -0.183*"mixtape" + 0.151*"rap" + 0.130*"solo" + -0.128*"group" + -0.118*"label"
+
+0.372*"duo" + 0.215*"dubstep" + -0.193*"indie" + -0.190*"disc" + -0.170*"noise" + 0.161*"label" + -0.134*"&" + -0.127*"pop" + 0.110*"disco" + -0.107*"guest"
+
+36
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.350*"rapper" + -0.179*"hip-hop" + 0.160*"metal" + -0.152*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.086*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+0.227*"techno" + 0.206*"rap" + -0.180*"metal" + 0.165*"house" + 0.155*"electronic" + 0.144*"producer" + 0.138*"beat" + 0.136*"dance" + 0.135*"rapper" + 0.133*"sample"
+
+0.724*"metal" + 0.263*"black" + 0.201*"rap" + 0.130*"rapper" + 0.125*"doom" + 0.108*"death" + 0.107*"hardcore" + 0.100*"riff" + 0.081*"thrash" + -0.076*"pop"
+
+0.184*"disc" + 0.176*"compilation" + -0.172*"rap" + 0.158*"version" + 0.149*"remix" + 0.137*"metal" + 0.132*"original" + 0.131*"label" + -0.127*"rapper" + 0.125*"dance"
+
+0.244*"film" + 0.175*"jazz" + -0.170*"techno" + 0.160*"piece" + -0.159*"house" + -0.153*"dance" + 0.146*"composer" + 0.133*"rap" + 0.128*"score" + 0.127*"soundtrack"
+
+-0.277*"film" + -0.194*"techno" + -0.165*"house" + -0.154*"soundtrack" + 0.153*"rap" + 0.139*"group" + -0.132*"score" + -0.131*"dance" + -0.120*"metal" + 0.111*"guitar"
+
+0.167*"metal" + -0.159*"noise" + -0.132*"punk" + 0.117*"house" + 0.115*"country" + -0.114*"drone" + 0.105*"folk" + -0.104*"guy" + -0.103*"piece" + 0.103*"singer"
+
+0.473*"film" + 0.296*"soundtrack" + 0.242*"score" + -0.177*"jazz" + 0.152*"movie" + 0.139*"metal" + -0.134*"punk" + 0.115*"indie" + 0.113*"pop" + -0.101*"techno"
+
+0.359*"jazz" + 0.227*"film" + 0.206*"punk" + -0.153*"remix" + -0.153*"version" + 0.137*"funk" + -0.130*"disc" + 0.129*"soundtrack" + 0.126*"rock" + 0.121*"score"
+
+0.303*"punk" + -0.275*"jazz" + -0.195*"metal" + -0.167*"hip-hop" + 0.129*"hardcore" + -0.113*"soul" + 0.109*"film" + -0.109*"funk" + -0.108*"horn" + -0.104*"remix"
+
+0.197*"film" + -0.149*"pop" + -0.135*"electronic" + -0.134*"jazz" + 0.129*"rap" + 0.126*"soundtrack" + -0.126*"indie" + 0.122*"guitar" + 0.117*"punk" + -0.114*"hip-hop"
+
+0.244*"remix" + -0.229*"compilation" + -0.223*"label" + -0.211*"folk" + 0.199*"jazz" + -0.177*"&" + 0.168*"remixes" + -0.151*"country" + 0.149*"original" + -0.144*"indie"
+
+-0.358*"hip-hop" + 0.265*"techno" + -0.234*"remix" + -0.232*"punk" + 0.170*"house" + -0.166*"original" + -0.164*"remixes" + -0.161*"sample" + -0.145*"hardcore" + 0.115*"jazz"
+
+-0.270*"j" + -0.263*"tiny_mce" + -0.263*"langs" + -0.263*"js]" + -0.262*"http" + -0.260*"backend" + -0.257*"pitchfork" + -0.251*"com" + -0.240*"en" + -0.230*"["
+
+0.275*"hip-hop" + -0.256*"punk" + -0.225*"remix" + -0.183*"composer" + -0.182*"disco" + -0.173*"rap" + -0.140*"dance" + -0.137*"pop" + -0.133*"remixes" + 0.132*"techno"
+
+0.417*"techno" + 0.189*"folk" + -0.180*"&" + -0.176*"disco" + -0.164*"funk" + -0.157*"soul" + 0.154*"punk" + 0.142*"hardcore" + -0.131*"pop" + -0.114*"duo"
+
+0.264*"remix" + 0.186*"&" + 0.165*"folk" + 0.155*"duo" + -0.147*"punk" + -0.139*"hardcore" + 0.135*"remixes" + 0.129*"rock" + -0.127*"producer" + 0.125*"drone"
+
+-0.220*"duo" + -0.198*"live" + 0.179*"dubstep" + 0.167*"remix" + -0.139*"electronic" + -0.127*"techno" + 0.122*"mix" + 0.120*"label" + -0.115*"performance" + 0.109*"compilation"
+
+-0.212*"dubstep" + 0.189*"disc" + -0.148*"project" + -0.134*"dub" + -0.128*"reggae" + 0.125*"string" + 0.123*"piano" + -0.121*"remix" + -0.118*"jazz" + 0.112*"hip-hop"
+
+-0.420*"jazz" + -0.282*"techno" + 0.186*"dubstep" + 0.160*"dance" + -0.160*"indie" + -0.159*"disc" + 0.136*"house" + 0.130*"piece" + -0.126*"remix" + 0.122*"disco"
+
+0.571*"&" + -0.224*"indie" + -0.193*"rock" + 0.148*"duo" + -0.128*"hip-hop" + 0.122*"punk" + -0.114*"folk" + 0.113*"hardcore" + 0.110*"techno" + -0.105*"house"
+
+-0.233*"dub" + 0.230*"hip-hop" + -0.206*"reggae" + 0.183*"house" + -0.170*"funk" + -0.153*"rap" + 0.152*"hardcore" + -0.143*"country" + -0.140*"techno" + 0.123*"label"
+
+-0.335*"dubstep" + 0.259*"disco" + 0.208*"house" + -0.178*"&" + 0.168*"hardcore" + -0.156*"indie" + -0.134*"rock" + -0.121*"grime" + 0.117*"funk" + -0.103*"dub"
+
+-0.433*"&" + -0.226*"hip-hop" + 0.213*"group" + 0.213*"dubstep" + 0.179*"disc" + 0.122*"dub" + 0.115*"label" + 0.114*"compilation" + 0.114*"reggae" + -0.107*"sample"
+
+-0.231*"techno" + 0.202*"jazz" + 0.202*"dubstep" + 0.194*"&" + -0.173*"composer" + 0.158*"dance" + 0.150*"live" + 0.143*"disc" + -0.138*"punk" + -0.135*"soul"
+
+0.257*"group" + 0.245*"dub" + 0.214*"reggae" + 0.168*"hip-hop" + -0.159*"noise" + -0.144*"electronic" + -0.121*"label" + -0.115*"cover" + -0.113*"compilation" + 0.113*"rap"
+
+0.203*"label" + 0.190*"techno" + -0.189*"jazz" + -0.169*"disco" + -0.154*"dub" + 0.147*"group" + 0.143*"remix" + -0.141*"disc" + -0.139*"ambient" + -0.122*"punk"
+
+0.222*"country" + 0.200*"disc" + -0.195*"dub" + -0.181*"mixtape" + 0.179*"duo" + -0.172*"house" + 0.168*"rap" + -0.157*"tape" + -0.152*"reggae" + 0.151*"folk"
+
+0.231*"country" + 0.207*"electronic" + -0.182*"dubstep" + -0.156*"folk" + 0.154*"ambient" + -0.118*"duo" + -0.118*"noise" + -0.115*"techno" + -0.113*"pop" + 0.113*"rapper"
+
+-0.351*"duo" + 0.217*"group" + 0.197*"dubstep" + -0.183*"reggae" + -0.179*"dub" + -0.159*"label" + -0.139*"noise" + 0.127*"&" + 0.103*"member" + -0.095*"live"
+
+0.233*"duo" + -0.206*"hardcore" + -0.179*"pop" + -0.172*"mix" + 0.153*"rap" + -0.138*"rapper" + -0.129*"mixtape" + 0.122*"label" + -0.120*"soul" + 0.117*"post-punk"
+
+-0.260*"disco" + -0.255*"indie" + 0.195*"duo" + -0.131*"rap" + 0.119*"mixtape" + -0.119*"solo" + 0.109*"group" + 0.108*"harmony" + -0.105*"noise" + -0.101*"project"
+
+0.269*"hardcore" + 0.229*"duo" + -0.219*"house" + 0.163*"funk" + -0.155*"noise" + -0.153*"black" + -0.138*"group" + 0.118*"death" + -0.105*"drone" + -0.100*"punk"
+
+0.245*"duo" + 0.144*"cover" + 0.136*"composer" + -0.135*"&" + 0.125*"compilation" + -0.125*"pop" + 0.122*"blue" + 0.120*"soul" + 0.112*"post-punk" + 0.107*"funk"
+
+0.218*"soul" + -0.204*"disc" + 0.159*"black" + 0.126*"punk" + 0.124*"rap" + -0.121*"mixtape" + 0.114*"label" + -0.101*"dancehall" + 0.101*"dubstep" + -0.100*"reggae"
+
+37
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.349*"rapper" + -0.180*"hip-hop" + 0.159*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.088*"piece" + -0.086*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+0.227*"techno" + 0.206*"rap" + -0.179*"metal" + 0.166*"house" + 0.157*"electronic" + 0.145*"producer" + 0.138*"beat" + 0.137*"dance" + 0.135*"rapper" + 0.133*"hip-hop"
+
+-0.724*"metal" + -0.263*"black" + -0.202*"rap" + -0.130*"rapper" + -0.125*"doom" + -0.107*"death" + -0.106*"hardcore" + -0.100*"riff" + -0.081*"thrash" + -0.076*"heavy"
+
+0.184*"disc" + 0.177*"compilation" + -0.171*"rap" + 0.159*"version" + 0.149*"remix" + 0.137*"metal" + 0.131*"label" + 0.131*"original" + -0.127*"rapper" + 0.125*"dance"
+
+-0.241*"film" + -0.175*"jazz" + 0.174*"techno" + 0.162*"house" + -0.161*"piece" + 0.148*"dance" + -0.145*"composer" + -0.133*"rap" + -0.128*"soundtrack" + -0.127*"score"
+
+-0.273*"film" + -0.196*"techno" + -0.163*"house" + -0.155*"soundtrack" + 0.153*"rap" + 0.140*"group" + -0.135*"dance" + -0.128*"score" + -0.119*"metal" + 0.111*"guitar"
+
+0.167*"metal" + -0.159*"noise" + -0.137*"punk" + 0.117*"house" + 0.114*"country" + -0.113*"drone" + 0.110*"singer" + -0.108*"guy" + 0.103*"folk" + 0.101*"producer"
+
+-0.473*"film" + -0.294*"soundtrack" + -0.242*"score" + 0.171*"jazz" + -0.156*"movie" + -0.138*"metal" + 0.131*"punk" + -0.115*"indie" + -0.111*"pop" + -0.106*"remix"
+
+-0.375*"jazz" + -0.220*"film" + -0.188*"punk" + 0.151*"remix" + -0.150*"funk" + 0.147*"version" + -0.132*"soundtrack" + -0.128*"hip-hop" + 0.126*"disc" + -0.118*"score"
+
+-0.309*"punk" + 0.259*"jazz" + 0.201*"metal" + 0.165*"hip-hop" + -0.131*"hardcore" + -0.127*"film" + -0.113*"post-punk" + 0.111*"remix" + -0.108*"group" + 0.108*"folk"
+
+0.195*"film" + -0.150*"pop" + -0.141*"electronic" + -0.139*"jazz" + 0.133*"soundtrack" + -0.133*"indie" + 0.129*"punk" + 0.124*"rap" + 0.120*"guitar" + -0.097*"hip-hop"
+
+0.224*"folk" + -0.220*"remix" + 0.217*"compilation" + 0.207*"label" + -0.205*"jazz" + 0.163*"country" + 0.160*"&" + -0.157*"original" + -0.154*"remixes" + 0.141*"indie"
+
+0.374*"hip-hop" + -0.260*"techno" + 0.237*"remix" + 0.232*"punk" + 0.172*"original" + 0.168*"hardcore" + -0.165*"house" + 0.154*"sample" + 0.153*"remixes" + 0.105*"dub"
+
+-0.263*"j" + -0.261*"tiny_mce" + -0.261*"langs" + -0.261*"js]" + -0.260*"http" + -0.258*"backend" + -0.253*"pitchfork" + -0.249*"com" + -0.238*"en" + -0.229*"["
+
+0.270*"hip-hop" + -0.256*"punk" + -0.244*"remix" + -0.181*"rap" + -0.175*"composer" + -0.166*"disco" + -0.164*"pop" + 0.159*"techno" + -0.150*"remixes" + -0.126*"dance"
+
+0.394*"techno" + 0.177*"punk" + -0.171*"disco" + -0.171*"funk" + 0.166*"folk" + -0.159*"soul" + 0.156*"hardcore" + -0.152*"&" + -0.141*"pop" + 0.134*"dubstep"
+
+0.257*"remix" + 0.191*"folk" + -0.176*"punk" + 0.166*"duo" + -0.150*"dubstep" + 0.131*"&" + 0.128*"remixes" + 0.126*"group" + -0.125*"hardcore" + -0.124*"soul"
+
+0.186*"live" + -0.178*"jazz" + -0.174*"remix" + 0.169*"duo" + -0.162*"label" + -0.153*"disc" + -0.153*"compilation" + 0.152*"folk" + -0.147*"indie" + 0.133*"performance"
+
+-0.357*"jazz" + -0.264*"&" + -0.194*"duo" + 0.171*"disco" + -0.167*"techno" + 0.155*"house" + 0.140*"composer" + -0.132*"project" + 0.127*"piece" + 0.123*"dance"
+
+0.364*"&" + 0.347*"dubstep" + -0.202*"techno" + -0.189*"jazz" + -0.158*"indie" + 0.139*"reggae" + -0.139*"hip-hop" + -0.129*"disc" + 0.122*"grime" + -0.117*"rap"
+
+0.355*"&" + 0.179*"duo" + -0.171*"remix" + -0.167*"indie" + -0.166*"rock" + 0.161*"disc" + -0.135*"dubstep" + -0.128*"country" + 0.118*"hardcore" + 0.114*"piano"
+
+-0.224*"hip-hop" + -0.195*"dubstep" + 0.190*"reggae" + 0.189*"dub" + 0.157*"rap" + 0.146*"techno" + 0.145*"funk" + -0.137*"label" + -0.132*"indie" + -0.130*"house"
+
+0.294*"house" + -0.283*"dubstep" + -0.192*"dub" + 0.192*"disco" + -0.192*"reggae" + 0.177*"punk" + 0.137*"hardcore" + 0.133*"hip-hop" + 0.125*"sample" + -0.123*"bass"
+
+-0.448*"&" + -0.235*"indie" + -0.186*"live" + -0.161*"hip-hop" + -0.121*"rock" + -0.115*"techno" + -0.113*"rap" + 0.111*"punk" + 0.105*"compilation" + -0.105*"version"
+
+-0.232*"techno" + 0.226*"disc" + 0.208*"dubstep" + -0.189*"composer" + 0.161*"group" + 0.153*"dance" + 0.141*"house" + 0.137*"duo" + -0.124*"dub" + -0.121*"original"
+
+-0.280*"dub" + -0.236*"reggae" + -0.203*"group" + 0.185*"jazz" + 0.178*"country" + 0.159*"electronic" + -0.147*"indie" + -0.138*"member" + 0.132*"dubstep" + 0.132*"disc"
+
+-0.233*"label" + 0.195*"rap" + 0.176*"hip-hop" + 0.159*"dub" + -0.149*"remix" + 0.141*"group" + -0.131*"mixtape" + 0.131*"reggae" + 0.130*"disc" + -0.125*"noise"
+
+-0.263*"house" + 0.252*"techno" + -0.195*"dub" + 0.184*"group" + -0.178*"jazz" + -0.174*"&" + 0.169*"hip-hop" + 0.142*"mix" + 0.133*"duo" + -0.126*"rapper"
+
+0.229*"electronic" + 0.204*"country" + 0.149*"remix" + -0.135*"dubstep" + -0.127*"love" + 0.124*"ambient" + 0.121*"hardcore" + -0.115*"disco" + 0.109*"house" + 0.107*"indie"
+
+0.158*"black" + -0.153*"death" + 0.150*"cover" + 0.143*"house" + 0.136*"soul" + 0.135*"label" + -0.128*"hardcore" + -0.123*"&" + 0.111*"duo" + 0.109*"singer"
+
+0.306*"duo" + 0.189*"compilation" + 0.164*"label" + -0.159*"disc" + -0.157*"pop" + -0.156*"mix" + 0.154*"disco" + -0.150*"noise" + -0.138*"house" + -0.138*"&"
+
+-0.423*"duo" + -0.235*"country" + 0.235*"disco" + 0.144*"folk" + 0.130*"indie" + 0.125*"noise" + 0.109*"&" + 0.105*"dance" + 0.102*"cover" + -0.101*"footwork"
+
+0.200*"noise" + -0.193*"cover" + 0.173*"reggae" + -0.168*"dubstep" + 0.160*"dub" + 0.155*"pop" + 0.137*"hardcore" + 0.134*"folk" + -0.109*"group" + 0.101*"jazz"
+
+0.209*"group" + 0.184*"rap" + 0.177*"electronic" + -0.156*"mixtape" + -0.152*"indie" + -0.135*"country" + 0.123*"acoustic" + 0.119*"label" + -0.119*"disco" + 0.118*"house"
+
+-0.289*"hardcore" + -0.240*"soul" + 0.179*"disc" + 0.160*"disco" + -0.150*"duo" + 0.118*"mix" + 0.110*"hip-hop" + 0.106*"punk" + 0.106*"trio" + -0.098*"group"
+
+-0.204*"house" + 0.181*"disco" + 0.167*"dubstep" + -0.165*"sample" + 0.149*"punk" + -0.147*"cover" + -0.133*"reggae" + -0.121*"footwork" + 0.119*"garage" + -0.119*"trio"
+
+38
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.518*"rap" + -0.350*"rapper" + -0.179*"hip-hop" + 0.160*"metal" + -0.153*"mixtape" + 0.097*"drone" + 0.088*"piece" + -0.086*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+0.227*"techno" + 0.207*"rap" + -0.179*"metal" + 0.165*"house" + 0.156*"electronic" + 0.145*"producer" + 0.138*"beat" + 0.136*"dance" + 0.135*"rapper" + 0.133*"sample"
+
+-0.724*"metal" + -0.263*"black" + -0.201*"rap" + -0.130*"rapper" + -0.125*"doom" + -0.108*"death" + -0.105*"hardcore" + -0.099*"riff" + -0.080*"thrash" + -0.076*"heavy"
+
+-0.184*"disc" + -0.178*"compilation" + 0.171*"rap" + -0.157*"version" + -0.149*"remix" + -0.137*"metal" + -0.131*"original" + -0.131*"label" + 0.126*"rapper" + -0.124*"dance"
+
+-0.241*"film" + -0.175*"jazz" + 0.171*"techno" + 0.164*"house" + -0.161*"piece" + 0.148*"dance" + -0.145*"composer" + -0.131*"rap" + -0.127*"soundtrack" + -0.127*"disc"
+
+-0.276*"film" + -0.195*"techno" + -0.167*"house" + -0.157*"soundtrack" + 0.152*"rap" + 0.136*"group" + -0.131*"dance" + -0.126*"score" + -0.121*"metal" + 0.111*"guitar"
+
+-0.165*"metal" + 0.158*"noise" + -0.129*"house" + 0.128*"punk" + -0.115*"country" + 0.107*"drone" + -0.107*"singer" + 0.105*"guy" + -0.104*"producer" + -0.102*"folk"
+
+0.472*"film" + 0.294*"soundtrack" + 0.239*"score" + -0.171*"jazz" + 0.154*"movie" + 0.141*"metal" + -0.141*"punk" + 0.119*"indie" + 0.113*"pop" + 0.105*"remix"
+
+-0.364*"jazz" + -0.229*"film" + -0.198*"punk" + 0.148*"remix" + 0.148*"version" + -0.145*"funk" + -0.135*"soundtrack" + 0.131*"disc" + -0.128*"hip-hop" + -0.121*"score"
+
+-0.292*"punk" + 0.269*"jazz" + 0.202*"metal" + 0.162*"hip-hop" + -0.131*"hardcore" + -0.123*"film" + -0.114*"post-punk" + 0.106*"funk" + 0.105*"remix" + 0.102*"soul"
+
+-0.198*"film" + 0.150*"electronic" + 0.148*"pop" + 0.138*"jazz" + 0.127*"indie" + -0.124*"punk" + -0.122*"rap" + -0.122*"soundtrack" + -0.119*"guitar" + 0.109*"hip-hop"
+
+0.306*"remix" + -0.231*"label" + -0.210*"compilation" + 0.197*"remixes" + 0.193*"original" + 0.192*"jazz" + -0.188*"folk" + -0.157*"country" + -0.150*"&" + 0.140*"version"
+
+-0.384*"hip-hop" + -0.249*"punk" + 0.235*"techno" + -0.170*"remix" + 0.169*"house" + -0.152*"hardcore" + 0.144*"jazz" + -0.143*"sample" + -0.137*"original" + -0.124*"remixes"
+
+-0.266*"j" + -0.261*"tiny_mce" + -0.261*"langs" + -0.261*"js]" + -0.260*"http" + -0.258*"backend" + -0.254*"pitchfork" + -0.250*"com" + -0.239*"en" + -0.230*"script"
+
+-0.286*"punk" + 0.254*"hip-hop" + -0.224*"remix" + -0.176*"rap" + -0.168*"composer" + -0.157*"pop" + -0.151*"disco" + -0.150*"remixes" + -0.135*"hardcore" + 0.134*"techno"
+
+0.406*"techno" + 0.177*"folk" + -0.168*"disco" + -0.164*"&" + 0.164*"hardcore" + -0.153*"funk" + 0.149*"punk" + -0.146*"pop" + -0.143*"soul" + 0.121*"dubstep"
+
+-0.208*"duo" + -0.196*"folk" + 0.193*"dubstep" + -0.166*"remix" + 0.162*"hardcore" + 0.158*"punk" + -0.158*"group" + -0.132*"&" + -0.120*"noise" + -0.114*"rock"
+
+0.269*"remix" + -0.246*"live" + 0.163*"&" + -0.153*"electronic" + -0.153*"performance" + 0.149*"remixes" + 0.133*"label" + -0.126*"studio" + -0.125*"sample" + 0.122*"jazz"
+
+0.408*"jazz" + 0.320*"techno" + -0.186*"disco" + -0.167*"dubstep" + -0.166*"piece" + -0.148*"composer" + -0.133*"dance" + -0.124*"house" + 0.120*"indie" + -0.109*"classical"
+
+-0.269*"dubstep" + 0.206*"disc" + -0.199*"reggae" + 0.166*"hip-hop" + 0.147*"techno" + -0.144*"dub" + 0.131*"piano" + -0.112*"folk" + 0.105*"string" + 0.096*"disco"
+
+0.468*"&" + -0.274*"indie" + -0.239*"rock" + 0.186*"duo" + 0.157*"hardcore" + -0.150*"hip-hop" + 0.139*"punk" + -0.127*"remix" + -0.104*"tape" + -0.097*"lo-fi"
+
+0.309*"dubstep" + -0.185*"disco" + 0.173*"hip-hop" + 0.172*"&" + -0.170*"funk" + 0.155*"label" + -0.142*"dub" + -0.141*"rap" + -0.139*"reggae" + -0.116*"country"
+
+-0.331*"dubstep" + 0.232*"disco" + 0.231*"house" + 0.202*"punk" + 0.200*"hardcore" + -0.172*"dub" + -0.162*"reggae" + -0.141*"disc" + 0.139*"hip-hop" + -0.121*"dancehall"
+
+0.540*"&" + -0.169*"group" + 0.165*"hip-hop" + 0.155*"live" + 0.152*"indie" + 0.128*"rock" + -0.113*"compilation" + 0.111*"techno" + 0.095*"version" + -0.094*"disc"
+
+-0.260*"techno" + -0.211*"dub" + 0.205*"jazz" + -0.191*"composer" + -0.186*"reggae" + 0.175*"dance" + 0.167*"disc" + 0.157*"house" + 0.143*"dubstep" + 0.119*"live"
+
+0.352*"group" + -0.237*"jazz" + 0.160*"member" + -0.158*"electronic" + 0.148*"hip-hop" + -0.140*"cover" + -0.130*"country" + 0.117*"dub" + -0.115*"blue" + 0.110*"techno"
+
+-0.332*"dub" + -0.251*"reggae" + -0.210*"house" + 0.182*"label" + 0.166*"country" + 0.147*"remix" + -0.146*"disco" + 0.130*"techno" + 0.123*"noise" + -0.120*"ambient"
+
+0.219*"country" + -0.189*"tape" + 0.175*"electronic" + 0.173*"disc" + 0.162*"hardcore" + -0.149*"mixtape" + -0.141*"house" + 0.139*"rap" + 0.136*"duo" + -0.136*"label"
+
+0.208*"dubstep" + 0.191*"folk" + 0.184*"rap" + -0.159*"country" + -0.148*"house" + 0.128*"group" + 0.122*"techno" + -0.112*"electronic" + -0.110*"ambient" + -0.109*"mixtape"
+
+0.226*"hardcore" + -0.217*"cover" + 0.193*"duo" + -0.139*"disc" + 0.137*"folk" + 0.135*"dub" + -0.133*"house" + -0.122*"group" + 0.117*"reggae" + 0.114*"indie"
+
+-0.397*"duo" + 0.221*"&" + 0.221*"group" + -0.177*"hip-hop" + -0.134*"compilation" + 0.133*"hardcore" + -0.105*"blue" + -0.093*"disco" + -0.090*"label" + -0.089*"dub"
+
+-0.209*"mix" + -0.147*"pop" + 0.145*"compilation" + -0.139*"noise" + 0.133*"footwork" + 0.131*"electronic" + -0.130*"drone" + -0.127*"hardcore" + 0.125*"duo" + -0.125*"singer"
+
+-0.225*"house" + 0.211*"disco" + -0.190*"sample" + -0.144*"rap" + 0.134*"rapper" + -0.133*"duo" + -0.118*"footwork" + 0.115*"funk" + -0.114*"pop" + -0.108*"group"
+
+0.239*"disc" + -0.221*"label" + -0.167*"disco" + 0.160*"duo" + -0.142*"hardcore" + -0.135*"rap" + 0.132*"series" + 0.130*"mixtape" + -0.129*"noise" + -0.122*"cover"
+
+-0.260*"duo" + 0.230*"black" + -0.211*"soul" + 0.182*"disco" + 0.159*"solo" + 0.143*"punk" + 0.118*"mix" + -0.116*"house" + -0.108*"funk" + -0.107*"hardcore"
+
+-0.256*"black" + 0.226*"indie" + 0.211*"noise" + 0.155*"disc" + 0.150*"death" + -0.150*"punk" + -0.117*"label" + 0.117*"hardcore" + -0.107*"duo" + -0.100*"funk"
+
+-0.239*"folk" + 0.166*"duo" + 0.161*"black" + 0.149*"sample" + 0.145*"project" + 0.142*"piano" + -0.128*"death" + 0.124*"string" + -0.119*"electronic" + 0.117*"collaboration"
+
+39
+0.071*"rock" + 0.070*"pop" + 0.068*"guitar" + 0.063*"rap" + 0.059*"group" + 0.059*"vocal" + 0.058*"voice" + 0.057*"beat" + 0.056*"play" + 0.056*"release"
+
+-0.519*"rap" + -0.349*"rapper" + -0.180*"hip-hop" + 0.159*"metal" + -0.153*"mixtape" + 0.098*"drone" + 0.087*"piece" + -0.085*"verse" + 0.083*"guitar" + -0.080*"rhyme"
+
+0.227*"techno" + 0.206*"rap" + -0.179*"metal" + 0.167*"house" + 0.157*"electronic" + 0.145*"producer" + 0.138*"beat" + 0.136*"dance" + 0.135*"rapper" + 0.133*"hip-hop"
+
+-0.724*"metal" + -0.263*"black" + -0.201*"rap" + -0.132*"rapper" + -0.126*"doom" + -0.108*"death" + -0.105*"hardcore" + -0.101*"riff" + -0.080*"thrash" + -0.076*"heavy"
+
+-0.183*"disc" + -0.176*"compilation" + 0.169*"rap" + -0.158*"version" + -0.150*"remix" + -0.137*"metal" + -0.132*"original" + -0.132*"label" + 0.128*"rapper" + -0.125*"dance"
+
+0.242*"film" + 0.175*"jazz" + -0.173*"techno" + -0.163*"house" + 0.160*"piece" + -0.147*"dance" + 0.145*"composer" + 0.134*"rap" + 0.128*"disc" + 0.128*"soundtrack"
+
+-0.272*"film" + -0.195*"techno" + -0.165*"house" + -0.159*"soundtrack" + 0.150*"rap" + 0.136*"group" + -0.132*"dance" + -0.128*"score" + -0.119*"metal" + 0.110*"guitar"
+
+-0.167*"metal" + 0.160*"noise" + 0.133*"punk" + -0.120*"country" + -0.117*"house" + 0.115*"drone" + -0.107*"singer" + 0.107*"guy" + -0.107*"folk" + 0.101*"piece"
+
+-0.474*"film" + -0.301*"soundtrack" + -0.241*"score" + 0.177*"jazz" + -0.155*"movie" + -0.137*"metal" + 0.128*"punk" + -0.116*"indie" + -0.114*"pop" + -0.098*"remix"
+
+0.365*"jazz" + 0.219*"film" + 0.205*"punk" + -0.162*"remix" + 0.147*"funk" + -0.145*"version" + 0.136*"soundtrack" + -0.130*"disc" + 0.121*"hip-hop" + -0.117*"remixes"
+
+-0.310*"punk" + 0.266*"jazz" + 0.198*"metal" + 0.157*"hip-hop" + -0.130*"hardcore" + 0.118*"remix" + 0.112*"folk" + -0.110*"film" + 0.108*"horn" + -0.106*"group"
+
+0.197*"film" + -0.146*"jazz" + -0.145*"pop" + 0.140*"punk" + -0.138*"electronic" + -0.134*"indie" + 0.126*"soundtrack" + 0.124*"rap" + 0.122*"guitar" + -0.114*"composer"
+
+-0.226*"remix" + 0.224*"compilation" + 0.218*"label" + -0.218*"jazz" + 0.204*"folk" + 0.172*"&" + 0.167*"country" + -0.162*"remixes" + -0.142*"live" + -0.141*"original"
+
+-0.353*"hip-hop" + -0.271*"remix" + 0.254*"techno" + -0.231*"punk" + -0.183*"original" + -0.164*"remixes" + 0.153*"house" + -0.148*"hardcore" + -0.143*"sample" + 0.108*"label"
+
+0.266*"j" + 0.260*"tiny_mce" + 0.260*"langs" + 0.260*"js]" + 0.259*"http" + 0.257*"backend" + 0.253*"pitchfork" + 0.248*"com" + 0.237*"en" + 0.229*"script"
+
+0.259*"hip-hop" + -0.227*"punk" + -0.208*"disco" + 0.207*"techno" + -0.201*"remix" + -0.188*"pop" + -0.173*"composer" + -0.157*"rap" + -0.136*"remixes" + -0.125*"dance"
+
+-0.366*"techno" + -0.234*"punk" + -0.193*"hardcore" + 0.176*"funk" + -0.169*"folk" + 0.151*"soul" + 0.143*"disco" + 0.138*"&" + -0.113*"dubstep" + 0.109*"pop"
+
+0.268*"remix" + 0.169*"folk" + 0.147*"duo" + -0.145*"dubstep" + 0.140*"remixes" + 0.138*"&" + 0.124*"rock" + -0.118*"hardcore" + -0.113*"punk" + 0.109*"group"
+
+0.203*"duo" + 0.172*"live" + 0.145*"techno" + -0.142*"compilation" + -0.140*"remix" + 0.135*"electronic" + -0.127*"dubstep" + 0.126*"group" + -0.124*"label" + -0.116*"piece"
+
+-0.340*"&" + -0.307*"jazz" + 0.171*"house" + 0.157*"disco" + -0.147*"duo" + -0.134*"dubstep" + -0.130*"hardcore" + 0.125*"dance" + 0.118*"composer" + 0.112*"string"
+
+-0.325*"techno" + 0.291*"dubstep" + -0.238*"jazz" + -0.193*"disc" + 0.147*"folk" + 0.130*"reggae" + 0.120*"country" + -0.118*"label" + -0.099*"hip-hop" + 0.097*"dance"
+
+-0.483*"&" + 0.235*"indie" + 0.167*"jazz" + 0.148*"rock" + -0.138*"duo" + 0.130*"remix" + 0.130*"hip-hop" + -0.091*"composer" + 0.087*"remixes" + 0.085*"folk"
+
+-0.211*"hip-hop" + 0.206*"dub" + 0.200*"reggae" + -0.194*"punk" + -0.187*"house" + -0.184*"hardcore" + 0.157*"rap" + -0.142*"sample" + 0.129*"rock" + -0.128*"solo"
+
+-0.428*"dubstep" + 0.238*"disco" + -0.222*"indie" + 0.162*"funk" + 0.158*"punk" + -0.154*"grime" + -0.123*"&" + 0.117*"soul" + 0.094*"hardcore" + 0.089*"country"
+
+0.491*"&" + 0.193*"hip-hop" + -0.187*"group" + 0.155*"rock" + 0.147*"live" + 0.146*"indie" + 0.142*"house" + -0.122*"label" + -0.118*"dubstep" + -0.110*"disc"
+
+0.254*"techno" + 0.238*"dub" + -0.236*"jazz" + -0.198*"disc" + 0.182*"reggae" + 0.180*"hip-hop" + -0.170*"house" + 0.148*"composer" + -0.125*"noise" + 0.100*"ambient"
+
+-0.227*"electronic" + 0.196*"group" + -0.173*"cover" + 0.168*"dub" + 0.150*"mix" + -0.149*"country" + 0.144*"reggae" + 0.142*"member" + -0.127*"blue" + 0.122*"house"
+
+0.214*"remix" + -0.204*"dub" + -0.196*"disc" + 0.191*"label" + -0.184*"reggae" + -0.174*"disco" + -0.165*"rap" + -0.165*"house" + -0.157*"jazz" + 0.140*"techno"
+
+0.233*"dub" + -0.201*"folk" + -0.200*"duo" + -0.199*"group" + 0.176*"reggae" + 0.172*"house" + -0.169*"rap" + -0.167*"hip-hop" + -0.159*"disc" + 0.158*"tape"
+
+0.194*"hardcore" + 0.189*"electronic" + -0.171*"duo" + 0.133*"live" + 0.128*"&" + -0.120*"cover" + -0.118*"compilation" + 0.111*"country" + -0.110*"piece" + 0.103*"group"
+
+0.196*"duo" + -0.151*"&" + -0.136*"disc" + -0.134*"rap" + 0.134*"soul" + 0.131*"label" + -0.129*"death" + -0.129*"dubstep" + -0.128*"solo" + 0.125*"performance"
+
+-0.235*"house" + 0.174*"hardcore" + -0.160*"group" + 0.158*"folk" + -0.153*"disc" + 0.152*"techno" + 0.142*"mixtape" + -0.139*"cover" + -0.138*"electronic" + 0.132*"tape"
+
+-0.261*"duo" + 0.157*"drone" + -0.155*"indie" + 0.150*"group" + -0.139*"hardcore" + -0.139*"compilation" + 0.137*"disc" + 0.134*"mix" + 0.134*"noise" + 0.130*"ambient"
+
+-0.206*"soul" + 0.196*"noise" + -0.164*"group" + -0.156*"cover" + -0.155*"funk" + -0.141*"dubstep" + 0.139*"pop" + 0.132*"disc" + -0.129*"footwork" + 0.129*"rock"
+
+-0.489*"duo" + 0.167*"rap" + 0.151*"noise" + -0.151*"disc" + -0.143*"country" + 0.143*"disco" + 0.142*"folk" + -0.124*"tape" + 0.122*"group" + 0.121*"label"
+
+0.340*"disco" + -0.255*"house" + -0.221*"soul" + -0.147*"noise" + -0.136*"sample" + -0.130*"duo" + 0.128*"black" + -0.125*"rap" + -0.124*"hardcore" + 0.120*"post-punk"
+
+0.242*"punk" + 0.226*"black" + -0.213*"hardcore" + -0.150*"compilation" + -0.139*"cover" + 0.133*"remix" + 0.121*"garage" + -0.115*"mixtape" + 0.111*"rap" + -0.108*"country"
+
+-0.337*"disc" + 0.195*"mix" + 0.136*"cover" + -0.132*"ambient" + -0.119*"rock" + 0.116*"tune" + 0.114*"original" + -0.111*"soul" + -0.107*"love" + -0.106*"rapper"
+
+-0.221*"disco" + -0.182*"dubstep" + 0.148*"house" + 0.132*"cover" + -0.123*"blue" + 0.119*"country" + -0.103*"electronic" + 0.094*"indie" + -0.093*"guitarist" + -0.091*"rock"
+
