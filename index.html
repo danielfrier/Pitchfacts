@@ -1,0 +1,101 @@
+<!doctype HTML>
+<html>
+	<head>
+			<!--D3-->
+			<script src="https://d3js.org/d3.v4.min.js"></script>
+			<!--CSS file-->
+			<link rel="stylesheet" type="text/css" href="styles.css">
+			<!-- Font -->
+			<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+	</head>
+	<body>
+		<div class="main-header">
+			<img src="images/pitchfork.png" />
+			<h1>Pitchfacts</h1>
+			<h3>By Albert Caldarelli, Daniel Frier, Eliot Huang, Eric Porter</h3>
+		</div>
+		<div class="body">
+			<div class="point">
+				<h3>Point 1</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<h4>Visualization</h4>
+				<div id="viz1">
+
+				</div>
+			</div>
+
+		</div>
+
+
+		<script>
+		//LINE GRAPH DATA
+			var setOfGenres = []; //set of genres
+			var setOfYears= []; //set of years
+
+			var reviewsOverYears = {}; //dictionary of year -> total reviews that year
+			var genresOverYears = {}; //dictionary of genre -> total genre reviews over years
+			var genresPercentagesOverYears = {} //dictionary of genre -> total percentage out of all reviews that year over time
+
+			d3.csv("data/p4kreviews.csv", function(d){
+				var data = d;
+
+				//make setOfGenres and setOfYears
+				for (var i=0;i<data.length;i++) {
+					var genre = data[i]["genre"];
+					var year = data[i]["date"].split(" ")[2];
+					if (!(setOfGenres.includes(genre))) { setOfGenres.push(genre); }
+					if (!(setOfYears.includes(year))) { setOfYears.push(year); }
+				}
+				console.log(setOfGenres);
+				console.log(setOfYears);
+
+				//make genresOverYears
+				for (var i=0; i<setOfGenres.length; i++) {
+					var genre = setOfGenres[i]
+					var genre_dict = {} //year -> number of reviews
+					for (var j=0;j<data.length;j++) {
+						if (genre == data[j]["genre"]) {
+							var year = data[j]["date"].split(" ")[2];
+							if (!(year in genre_dict)) { genre_dict[year] = 1 }
+							else { genre_dict[year] = genre_dict[year] + 1 }
+						}
+					}
+					genresOverYears[genre] = genre_dict;
+				}
+				console.log(genresOverYears);
+
+				//make reviewsOverYears
+				for (var i=0; i<setOfYears.length; i++) {
+					var year = setOfYears[i];
+					var yearly_total = 0;
+					for (var j=0;j<setOfGenres.length;j++) {
+						var genre = setOfGenres[j];
+						yearly_total = yearly_total + genresOverYears[genre][year];
+					}
+					reviewsOverYears[year] = yearly_total
+				}
+				console.log(reviewsOverYears);
+
+				//make genresPercentagesOverYears
+				for (var i=0; i<setOfGenres.length; i++) {
+					var genre = setOfGenres[i];
+					var genre_percentages = {};
+					for (var j=0;j<setOfYears.length;j++) {
+						var year = setOfYears[j];
+						var total_reviews = reviewsOverYears[year];
+						var genre_reviews = genresOverYears[genre][year];
+						var genre_percent = genre_reviews / total_reviews;
+						genre_percentages[year] = genre_percent
+					}
+					genresPercentagesOverYears[genre] = genre_percentages;
+				}
+				console.log(genresPercentagesOverYears);
+			});
+		</script>
+	</body>
+</html>
