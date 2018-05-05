@@ -21,6 +21,32 @@ html, body {
   display:none;
 }
 
+.review_submit{
+  display: block;
+  width: 75%;
+  background: #1c8bec;
+  color: white;
+  padding: 8px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.42) 0px 1px 2px;
+}
+.review_submit:active{
+  background-color:#177ad0;
+}
+.review_submit:focus{
+  outline:none;
+}
+
+.review_textarea{
+  border-radius: 4px;
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: rgba(0, 0, 0, 0.42) 0px 1px 2px;
+  width: 75%;
+  height: 600px;
+}
+
 .grade_container{
   border-radius:8px;
   min-height:64px;
