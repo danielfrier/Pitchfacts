@@ -16,3 +16,33 @@ html, body {
 .main-header img {
   width: 30%;
 }
+
+.hidden{
+  display:none;
+}
+
+.grade_container{
+  border-radius:8px;
+  min-height:64px;
+  width:200px;
+}
+
+.grade_a{
+  background-color:#2bce12;
+}
+
+.grade_b{
+  background-color:#11ce98;
+}
+
+.grade_c{
+  background-color:#c4db13;
+}
+
+.grade_d{
+  background-color:#db9f13;
+}
+
+.grade_f{
+  background-color:#db1613;
+}
