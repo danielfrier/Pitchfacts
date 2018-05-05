@@ -102,6 +102,7 @@
 			});
 			
 			function checkReview(){
+				//Running on my web server so it stays up forever
 				$.get("http://churchdeposit.com:5000/userreview",{},function(data){
 					console.log(data);
 				});
