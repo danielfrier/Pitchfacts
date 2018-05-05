@@ -1,0 +1,8 @@
+ignore this, just note taking for web server stuff
+
+cd PythonTest
+source PythonTest/bin/activate >>Run before starting program, 							sets environment
+
+nohup python serve.py & >> runs forever
+
+ps -ef | grep "python" >>gets running python processes to kill

@@ -30,8 +30,12 @@
 			</div>
 
 		</div>
-
-
+		
+		<!-- Jquery needed for AJAX -->
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
 		<script>
 		//LINE GRAPH DATA
 			var setOfGenres = []; //set of genres
@@ -96,6 +100,13 @@
 				}
 				console.log(genresPercentagesOverYears);
 			});
+			
+			function checkReview(){
+				$.get("http://churchdeposit.com:5000/userreview",{},function(data){
+					console.log(data);
+				});
+			}
+			checkReview();
 		</script>
 	</body>
 </html>
