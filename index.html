@@ -70,6 +70,10 @@
 			<div class="viz" id="viz2">
 				<h3>LSA Scatterplot</h3>
 			</div>
+			<div class="viz" id="viz3">
+				<h3>Force Graph of Genre</h3>
+			</div>
+
 		</div>
 
 		<!-- Jquery needed for AJAX -->
@@ -260,7 +264,8 @@
 			svg.selectAll(".dot")
 					.data(data)
 				.enter().append("circle")
-					.attr("class", "dot")
+					.attr('class',function(d){return 'dot '+ d.genre})
+					.attr('id',function(d){return d.doc_id})
 					.attr("r", 3.5)
 					.attr("cx", function(d) { return xScale(d.x); })
 					.attr("cy", function(d) { return yScale(d.y); })
@@ -286,5 +291,22 @@
 					.text(function(d) { return d; });
 			});
 		</script>
+
+
+
+
+
+
+
+
+
+
+		<script>
+			var svg = d3.select('#viz3').append('svg');
+			
+
+		</script>
+
+
 	</body>
 </html>
