@@ -119,6 +119,7 @@ html, body {
   height: 400px;
   display:block;
   margin:0 auto 8px auto;
+  resize:none;
 }
 
 .grade_container{
