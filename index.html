@@ -7,6 +7,8 @@
 			<link rel="stylesheet" type="text/css" href="styles.css">
 			<!-- Font -->
 			<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+			<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="main-header">
@@ -49,12 +51,19 @@
 			</div>
 
 			<div class="viz" id="viz1">
-				<h3>Could you write for Pitchfork?</h3>
-				<textarea id="userreviewCheck" class="review_textarea"></textarea>
-				<button onclick="checkReview();" class="review_submit">Check!</button>
-				<div class="grade_container hidden" id="grade_container">
-					<p id="grade_letter"></p>
-					<p id="grade_percent"></p>
+				<h4>Could you write for Pitchfork?</h4>
+				<div class="could-write-container">
+					<div class="could-write-textarea">
+						<textarea id="userreviewCheck" class="review_textarea"></textarea>
+					</div>
+					<div class="could-write-resultcontainer">
+						<button onclick="checkReview();" class="review_submit">Check!</button>
+						<center class="hidden" id="reviewLoading"><i class="fa fa-spinner fa-spin fa-fw fa-2x"></i></center>
+						<div class="grade_container hidden" id="grade_container">
+							<p id="grade_letter"></p>
+							<p id="grade_percent"></p>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -137,8 +146,10 @@
 				var input = $("#userreviewCheck").val();
 
 				//Running on my web server so it stays up forever
+				$("#reviewLoading").removeClass("hidden");
 				$.get("http://churchdeposit.com:5000/userreview",{input:input},function(data){
 					console.log(data);
+					$("#reviewLoading").addClass("hidden");
 					if (data.success){
 						var grade = data.success;
 						$("#grade_container").removeClass("hidden");
@@ -153,115 +164,126 @@
 					}
 				},"json");
 			}
+			function truncateString(str,limit){
+				limit = limit||0;
+				if (limit>0){max = limit;}
+				if (str === null || typeof str === "undefined"){
+					str = "";
+				}
+				var truncate = (str.length > max);
+
+				return truncate ? str.substr(0, max-1) + '...' : str;
+			}
 		</script>
 
-		<!-- LSA SCATTER PLOT  -->
+	</script>
 
-		<script src="http://d3js.org/d3.v3.min.js"></script>
-		<style>
-			.axis path,
-			.axis line {
-			  fill: none;
-			  stroke: #000;
-			  shape-rendering: crispEdges;
-			}
-			.dot {
-			  stroke: #000;
-			}
-		</style>
-		<script>
-			var margin = {top: 20, right: 20, bottom: 30, left: 40},
-					width = 960 - margin.left - margin.right,
-					height = 500 - margin.top - margin.bottom;
+	<!-- LSA SCATTER PLOT  -->
 
-			var svg = d3.select("#viz2").append("svg")
-					.attr("width", width + margin.left + margin.right)
-					.attr("height", height + margin.top + margin.bottom)
-				.append("g")
-					.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<style>
+		.axis path,
+		.axis line {
+			fill: none;
+			stroke: #000;
+			shape-rendering: crispEdges;
+		}
+		.dot {
+			stroke: #000;
+		}
+	</style>
+	<script>
+		var margin = {top: 20, right: 20, bottom: 30, left: 40},
+				width = 960 - margin.left - margin.right,
+				height = 500 - margin.top - margin.bottom;
 
-			d3.csv("models/lsa_coords.csv", function(d){
-				var data = d;
+		var svg = d3.select("#viz2").append("svg")
+				.attr("width", width + margin.left + margin.right)
+				.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+				.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-				var xData = [];
-				var yData = [];
-				var genreData = [];
-				for (var i = 0; i < data.length; i++) {
-					xData.push(parseFloat(data[i]["x"]));
-					yData.push(parseFloat(data[i]["y"]));
-					genreData.push(data[i]["genre"]);
-				};
+		d3.csv("models/lsa_coords.csv", function(d){
+			var data = d;
 
-				var xMin = d3.extent(xData)[0];
-				var xMax = d3.extent(xData)[1];
-				var yMin = d3.extent(yData)[0];
-				var yMax = d3.extent(yData)[1];
+			var xData = [];
+			var yData = [];
+			var genreData = [];
+			for (var i = 0; i < data.length; i++) {
+				xData.push(parseFloat(data[i]["x"]));
+				yData.push(parseFloat(data[i]["y"]));
+				genreData.push(data[i]["genre"]);
+			};
 
-				var xScale = d3.scale.linear()
-						.domain([xMin-0.5, xMax+2])
-						.range([0, width]);
-				var yScale = d3.scale.linear()
-						.domain([yMin-0.5, yMax+0.5])
-						.range([height, 0]);
-				var colorScale = d3.scale.category10();
+			var xMin = d3.extent(xData)[0];
+			var xMax = d3.extent(xData)[1];
+			var yMin = d3.extent(yData)[0];
+			var yMax = d3.extent(yData)[1];
 
-				var xAxis = d3.svg.axis()
-						.scale(xScale)
-						.orient("bottom");
-				var yAxis = d3.svg.axis()
-						.scale(yScale)
-						.orient("left");
+			var xScale = d3.scale.linear()
+					.domain([xMin-0.5, xMax+2])
+					.range([0, width]);
+			var yScale = d3.scale.linear()
+					.domain([yMin-0.5, yMax+0.5])
+					.range([height, 0]);
+			var colorScale = d3.scale.category10();
 
-				svg.append("g")
-						.attr("class", "x axis")
-						.attr("transform", "translate(0," + height + ")")
-						.call(xAxis)
-					.append("text")
-						.attr("class", "label")
-						.attr("x", width)
-						.attr("y", -6)
-						.style("text-anchor", "end")
-						.text("LSA Dimension 1");
+			var xAxis = d3.svg.axis()
+					.scale(xScale)
+					.orient("bottom");
+			var yAxis = d3.svg.axis()
+					.scale(yScale)
+					.orient("left");
 
-				svg.append("g")
-						.attr("class", "y axis")
-						.call(yAxis)
-					.append("text")
-						.attr("class", "label")
-						.attr("transform", "rotate(-90)")
-						.attr("y", 6)
-						.attr("dy", ".71em")
-						.style("text-anchor", "end")
-						.text("LSA Dimension 2")
+			svg.append("g")
+					.attr("class", "x axis")
+					.attr("transform", "translate(0," + height + ")")
+					.call(xAxis)
+				.append("text")
+					.attr("class", "label")
+					.attr("x", width)
+					.attr("y", -6)
+					.style("text-anchor", "end")
+					.text("LSA Dimension 1");
 
-				svg.selectAll(".dot")
-						.data(data)
-					.enter().append("circle")
-						.attr("class", "dot")
-						.attr("r", 3.5)
-						.attr("cx", function(d) { return xScale(d.x); })
-						.attr("cy", function(d) { return yScale(d.y); })
-						.style("fill", function(d) { return colorScale(d.genre); });
+			svg.append("g")
+					.attr("class", "y axis")
+					.call(yAxis)
+				.append("text")
+					.attr("class", "label")
+					.attr("transform", "rotate(-90)")
+					.attr("y", 6)
+					.attr("dy", ".71em")
+					.style("text-anchor", "end")
+					.text("LSA Dimension 2")
 
-				var legend = svg.selectAll(".legend")
-						.data(colorScale.domain())
-					.enter().append("g")
-						.attr("class", "legend")
-						.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+			svg.selectAll(".dot")
+					.data(data)
+				.enter().append("circle")
+					.attr("class", "dot")
+					.attr("r", 3.5)
+					.attr("cx", function(d) { return xScale(d.x); })
+					.attr("cy", function(d) { return yScale(d.y); })
+					.style("fill", function(d) { return colorScale(d.genre); });
 
-				legend.append("rect")
-						.attr("x", width - 18)
-						.attr("width", 18)
-						.attr("height", 18)
-						.style("fill", colorScale);
+			var legend = svg.selectAll(".legend")
+					.data(colorScale.domain())
+				.enter().append("g")
+					.attr("class", "legend")
+					.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
-				legend.append("text")
-						.attr("x", width - 24)
-						.attr("y", 9)
-						.attr("dy", ".35em")
-						.style("text-anchor", "end")
-						.text(function(d) { return d; });
+			legend.append("rect")
+					.attr("x", width - 18)
+					.attr("width", 18)
+					.attr("height", 18)
+					.style("fill", colorScale);
 
+			legend.append("text")
+					.attr("x", width - 24)
+					.attr("y", 9)
+					.attr("dy", ".35em")
+					.style("text-anchor", "end")
+					.text(function(d) { return d; });
 			});
 		</script>
 	</body>
