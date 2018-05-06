@@ -213,7 +213,7 @@
 						'Experimental':'#9467bd','experimental':'#9467bd',
 						'jazz':'#8c564b','Jazz':'#8c564b',
 						'folk':'#e377c2','Folk':'#e377c2',
-						'r&b':'#bcbd22','R&B':'#bcbd22'}
+						'r&b':'#bcbd22','R&B':'#bcbd22', 'randb':'#bcbd22'}
 
 		var margin = {top: 20, right: 20, bottom: 30, left: 40},
 				width = 960 - margin.left - margin.right,
@@ -437,15 +437,41 @@
 		<script>
 			var vis3svg = d3.select("#viz3").append("svg")
 				.attr("width", width + margin.left + margin.right)
-				.attr("height", height + margin.top + margin.bottom)
+				.attr("height", height + margin.top + margin.bottom);
+			var borderPath = vis3svg.append("rect")
+			  .attr("x", 1)
+			  .attr("y", 1)
+			  .attr("height", height + margin.top + margin.bottom-10)
+			  .attr("width", 560+399)
+			  .style("stroke", 'black')
+			  .style("fill", "none")
+			  .style("stroke-width", 1);
+			 var borderPath = vis3svg.append("rect")
+			  .attr("x", 560)
+			  .attr("y", 1)
+			  .attr("height", 200)
+			  .attr("width", 399)
+			  .style("stroke", 'black')
+			  .style("fill", "none")
+			  .style("stroke-width", 1);
+
+			var resetG = vis3svg.append('g')
+			var resetRect = resetG.append('rect').attr('x',width/2).attr('y',20).attr('rx',5).attr('ry',5).style('stroke','black').style('stroke-width',2).style('fill','#EEE').attr('width',60).attr('height',20)
+			var resetText = resetG.append('text').attr('x',width/2+10).attr('y',35).text('Reset')
+			resetG.selectAll('*').attr('onclick','resetDiagram()').attr('opacity',0)
+
 			var subg = vis3svg.append('g');
 			subg.append('text').attr('x',width-195).attr('y',20).text('Subgenres').attr('font-size',20).attr('font-weight','bold')
-			subg.append('text').attr('x',width-35).attr('y',20).text('Genres').attr('font-size',20).attr('font-weight','bold')
+			subg.append('text').attr('x',width-45).attr('y',20).text('Genres').attr('font-size',20).attr('font-weight','bold')
 			subgenres_list = []
 			subg_holder = {};
+			sub_circle_holder = {}
+			sub_holder_stable = {}
+			subcircle_allholder =[]
 			d3.csv("models/subgenres.csv", function(genres){
 					for (var i = 0; i < genres.length; i++) {
 						subg_holder[genres[i].genre] =  subg_holder[genres[i].genre]? subg_holder[genres[i].genre]+1:1;
+						sub_circle_holder[genres[i].genre] =  [];
 						d3.csv("models/subgenre_distances/"+genres[i].genre+'.csv', function(subgenres){
 							for (var i = 0; i < subgenres.length; i++) {
 								subgenres_list.push(subgenres[i])
@@ -455,13 +481,43 @@
 					}
 					for(var genre in subg_holder){
 						if (subg_holder.hasOwnProperty(genre)) {
-						subg.append('text').attr('x',width-35).attr('y',10+Object.keys(subg_holder).indexOf(genre)*15+30).text(genre.charAt(0).toUpperCase() + genre.substr(1));
-							for(var o = 0;o<subg_holder[genre];o++)
-								subg.append('circle').attr('cx',(width-12*subg_holder[genre])+o*12-80).attr('cy',10+Object.keys(subg_holder).indexOf(genre)*15+30).attr('r',5).attr('fill',genreColorMapping[genre])
+							genre=='r&b'?'randb':genre
+						subg.append('text').attr('x',width-45).attr('y',10+Object.keys(subg_holder).indexOf(genre)*15+30).text(genre.charAt(0).toUpperCase() + genre.substr(1));
+							for(var o = 0;o<subg_holder[genre];o++){
+								tempcirc = (subg.append('circle').attr('class',genre=='r&b'?'randb':genre).
+									attr('cx',(width-12*subg_holder[genre])+o*12-80).attr('cy',10+Object.keys(subg_holder).indexOf(genre)*15+30).
+									attr('origx',(width-12*subg_holder[genre])+o*12-80).attr('origy',10+Object.keys(subg_holder).indexOf(genre)*15+30).
+									attr('r',5).attr('fill',genreColorMapping[genre]));
+								sub_circle_holder[genre].push(tempcirc);
+								subcircle_allholder.push(tempcirc)
+							}
 						}
 					}
+					sub_holder_stable = sub_circle_holder;
 					});
-
+			function buildGenreDiagram(genre){
+				genre= genre=='randb'?'r&b':genre
+				d3.csv("models/subgenre_distances/"+genre+".csv", function(d){
+				links = [];
+				nodes = [];
+				for(sub of d){
+					for(comp in sub){
+						try{
+							if(parseFloat(sub[comp])>=0.625){
+								links.push({"source": sub[''], "target": comp, 'value':parseFloat(sub[comp]) });
+							}
+						}
+						catch(error){}
+					}
+				
+					nodes.push({"id":sub['']})
+				}
+				resetG.selectAll('*').attr('opacity',1)
+				global_genre=genre=='r&b'?'randb':genre;
+				drawGenreDiagram(links,nodes,genre)
+					});
+			}
+			true_links= [];true_nodes = [];
 			d3.csv("models/genre_distances.csv", function(d){
 			links = [];
 			nodes = [];
@@ -470,22 +526,33 @@
 				for (var key in d[i]) {
 					if(key!='index' && key!=d[i].index){
 						if(parseFloat(d[i][key])>=0.27043882555)
-				    	links.push({"source": d[i].index, "target": key, 'value':parseFloat(d[i][key]) });
+				    	links.push({"source": d[i].index=='r&b'?'randb':d[i].index, "target": key=='r&b'?'randb':key, 'value':parseFloat(d[i][key]) });
 				    }
 				}
-				nodes.push({"id":d[i].index})
+				nodes.push({"id":d[i].index=='r&b'?'randb':d[i].index})
 			// }
 			}
+
+				true_links= links;true_nodes = nodes;
 				drawGenreDiagram(links,nodes)
 				});
 
-
-		function drawGenreDiagram(links,nodes)	 { 
+		function resetDiagram(){
+			d3.selectAll('.'+global_genre).each(function(d){
+			d3.select(this).transition().duration(200)
+				        .attr("cx",d3.select(this).attr('origx')).attr("cy",d3.select(this).attr('origy')).style('opacity',1);
+		})
+			drawGenreDiagram(true_links,true_nodes)
+		}
+		function drawGenreDiagram(links,nodes,genre)	 { 
+			genre = genre || 0;
+			if(genre==0){global_genre = false;}
 			vis3svg.selectAll('.links').remove();
 			vis3svg.selectAll('.nodes').remove();
+			vis3svg.selectAll('.labels').remove();
 			var simulation = d3.forceSimulation()
 			    .force("link", d3.forceLink().id(function(d) { return d.id; }))
-			    .force("charge", d3.forceManyBody().strength(-1000))
+			    .force("charge", d3.forceManyBody().strength(-1500+(65*nodes.length)))
 				.force("center", d3.forceCenter(width /4, height / 2));
 			var link = vis3svg.append("g")
 				.attr("class", "links")
@@ -500,13 +567,44 @@
 				.enter().append("circle")
 				  .attr("r", 15)
 				  .attr('id',function(d){return d.index})
-				  .attr("fill", function(d) { return genreColorMapping[d.id]; })
+				  .attr("fill", function(d) { return genre==0?genreColorMapping[d.id]:genreColorMapping[genre]; })
+				  .attr('onclick',function(d){return genre==0?"buildGenreDiagram('"+d.id+"')":''})
 				  .attr('stroke','#000');
-			simulation
+			var label = vis3svg.selectAll('.labels')
+			    .data(nodes)
+			    .enter()
+			    .append("text")
+			    .attr('class','labels')
+			    .text(function (d) { return d.id=='randb'?'r&b':d.id; })
+			    .style("text-anchor", "middle")
+			    .style("fill", "#555")
+			    .style("font-family", "Arial")
+			    .style("font-size", 12);
+
+			if(global_genre){
+				d3.selectAll('.'+(genre=='r&b'?'randb':genre))
+     			.transition().duration(300)
+				        .attr("cx",width/4).attr('cy',height/2).style('opacity',0);
+			setTimeout(function(){
+				   simulation
+				  .nodes(nodes)
+				  .on("tick", ticked);
+				simulation.force("link")
+	     		.links(links);
+			}, 200);
+			}    
+
+     		if(!global_genre){
+     			
+				simulation
 			  .nodes(nodes)
 			  .on("tick", ticked);
 			simulation.force("link")
      		.links(links);
+     		}
+     		
+     		
+			if(genre==0){resetG.selectAll('*').attr('opacity',0)}
 		
 
 			function ticked() {
@@ -521,6 +619,8 @@
 			        .attr("cx", function(d) { return d.x; })
 			        .attr("cy", function(d) { return d.y; })
 			        .attr('stroke','#000');
+			    label.attr("x", function(d){ return d.x; })
+    			 .attr("y", function (d) {return d.y - 20; });
 			  }
 			}
 		</script>

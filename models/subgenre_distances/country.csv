@@ -1,4 +1,4 @@
-,bluegrass,outlaw,gospel,blues,american,western,tradition,old-time,appalachian,southern,traditions,northern,alt-country,rootsy,country-rock,rockabilly,pacific
+index,bluegrass,outlaw,gospel,blues,american,western,tradition,old-time,appalachian,southern,traditions,northern,alt-country,rootsy,country-rock,rockabilly,pacific
 bluegrass,1.0,0.6365,0.68253,0.64751,0.59356,0.68693,0.71663,0.85794,0.86011,0.56657,0.76692,0.53636,0.70786,0.74064,0.7536,0.71701,0.57548
 outlaw,0.6365,1.0,0.61492,0.5322,0.62428,0.55355,0.62108,0.67046,0.58957,0.67821,0.5061,0.66763,0.60307,0.57814,0.56772,0.58736,0.61458
 gospel,0.68253,0.61492,1.0,0.6322,0.48045,0.57383,0.43994,0.64993,0.70425,0.5456,0.41725,0.56282,0.3661,0.54025,0.64825,0.6856,0.35441
