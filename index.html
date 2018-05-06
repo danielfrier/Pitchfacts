@@ -94,10 +94,20 @@
 			var reviewsOverYears = {}; //dictionary of year -> total reviews that year
 			var genresOverYears = {}; //dictionary of genre -> total genre reviews over years
 			var genresPercentagesOverYears = {} //dictionary of genre -> total percentage out of all reviews that year over time
+			
+			//Save raw review data
+			var pitchforkReviews;
+			
+			function getReviewFromId(id){
+				return pitchforkReviews[parseInt(id)];
+			}
 
 			d3.csv("data/p4kreviews.csv", function(d){
 				var data = d;
-
+				
+				pitchforkReviews = d;
+				console.log(d);
+				
 				//make setOfGenres and setOfYears
 				for (var i=0;i<data.length;i++) {
 					var genre = data[i]["genre"];
@@ -214,7 +224,57 @@
 				.attr("height", height + margin.top + margin.bottom)
 			.append("g")
 				.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
+				
+		var svg2Overlays;
+		var curHoveredReview = false;
+		
+		function getStarString(score){
+			score = parseFloat(score);
+			
+			scoreInteger = Math.floor(score);
+			scoreUseHalf = ((score-scoreInteger) > .5);
+			console.log(score,scoreInteger,scoreUseHalf);
+			var retstr = "<p class='inline'>";
+			for (var i=0; i<scoreInteger; i++){
+				retstr = retstr + "<i class='fa fa-star inline'></i>";
+			}
+			if (scoreUseHalf){
+				retstr = retstr + "<i class='fa fa-star-half inline'></i>";
+			}
+			retstr = retstr+"</p>";
+			
+			return retstr;
+		}
+		
+		function hoveredReview(review,xScale,yScale){
+			if (curHoveredReview){
+				curHoveredReview.remove();
+				curHoveredReview = false;
+			}
+			var review_raw = getReviewFromId(review.doc_id);
+			
+			curHoveredReview = svg2Overlays.append("g").attr("transform","translate("+xScale(review.x)+","+yScale(review.y)+")");
+			curHoveredReview.append("rect")
+				.attr("class","overlay-container")
+				.attr("width",230)
+				.attr("height",200);
+			curHoveredReview.append("text")
+				.attr("class","overlay-artist")
+				.attr("x",115)
+				.attr("y",12)
+				.text(review_raw.artist);
+			curHoveredReview.append("text")
+				.attr("class","overlay-album")
+				.attr("x",115)
+				.attr("y",28)
+				.text(review_raw.album);
+			curHoveredReview.append("svg:foreignObject")
+				.attr("class","inline")
+				.attr("x",115)
+				.attr("y",52)
+				.html(getStarString(review_raw.score));
+		}
+		
 		d3.csv("models/lsa_coords.csv", function(d){
 			var data = d;
 
@@ -276,7 +336,11 @@
 					.attr("r", 3.5)
 					.attr("cx", function(d) { return xScale(d.x); })
 					.attr("cy", function(d) { return yScale(d.y); })
-					.style("fill", function(d) { return genreColorMapping[d.genre]; });
+					.style("fill", function(d) { return genreColorMapping[d.genre]; })
+					.on("mouseover",function(d){
+						hoveredReview(d,xScale,yScale);
+						console.log(d);
+					});
 
 
 					var legend = svg2.selectAll(".legend")
@@ -299,7 +363,9 @@
 						.attr("onclick", function(d){return "filterScatter('"+d+"')"})
 						.style("text-anchor", "end")
 						.text(function(d) { return d; });
-			
+				
+				//must be drawn last
+				svg2Overlays = svg2.append("g").attr("class","overlay");
 			});
 
 

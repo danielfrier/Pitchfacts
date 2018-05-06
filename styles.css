@@ -220,3 +220,22 @@ html, body {
 .grade_f{
   background-color:#db1613;
 }
+
+.overlay-container{
+  fill: #e2e2e2;
+	stroke: #b2b2b2;
+	stroke-width: 0.5px;
+}
+
+.overlay-artist{
+  text-anchor:middle;
+}
+
+.overlay-album{
+  text-anchor:middle;
+  font-size:18px;
+}
+
+.inline{
+  display:inline;
+}
