@@ -1,20 +1,82 @@
 html, body {
-  font-family: 'PT Serif', serif;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  background-color: #f8f8f8;
 }
 .main-header {
-  width: 80%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #fff;
+  box-shadow: 2px 2px 2px 0 #070727;
+}
+.main-header img {
+  display: inline-block;
+  width: 200px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.main-header p {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.main-header .names {
+  text-align: left;
+  margin-left: 25%;
+  width: 60%;
+  font-family: 'Helvetica Neue';
+}
+
+.record-header {
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  background: #fff;
+  padding: 40px 0 60px;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+.record-header .record-info {
+  width: 60%;
+  display: inline-block;
+  float: left;
+  margin-top: 50px;
+}
+.record-header .record-score {
+  width: 35%;
+  /* float: right; */
+  display: inline-block;
+}
+.record-header .record-score .record {
+  max-width: 200px;
+}
+.record-header .record-score .score {
+  max-width: 120px;
 }
 .body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 40px;
 }
-
-.main-header img {
-  width: 30%;
+.body .point {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.875;
+  margin-left: 110px;
+}
+.body .viz {
+  width: 100%;
+  text-align: center;
 }
 
 .hidden{
@@ -23,6 +85,8 @@ html, body {
 
 .review_submit{
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 75%;
   background: #1c8bec;
   color: white;
@@ -38,13 +102,12 @@ html, body {
 .review_submit:focus{
   outline:none;
 }
-
 .review_textarea{
   border-radius: 4px;
   border: 1px solid rgb(210, 210, 210);
   box-shadow: rgba(0, 0, 0, 0.42) 0px 1px 2px;
   width: 75%;
-  height: 600px;
+  height: 400px;
 }
 
 .grade_container{

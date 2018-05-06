@@ -10,9 +10,28 @@
 	</head>
 	<body>
 		<div class="main-header">
-			<img src="images/pitchfork.png" />
-			<h1>Pitchfacts</h1>
-			<h3>By Albert Caldarelli, Daniel Frier, Eliot Huang, Eric Porter</h3>
+			<!-- <h1>Pitchfacts</h1> -->
+			<img src="images/pitchfork2.jpg" />
+			<div class="names">
+				<p>Albert Caldarelli</p>
+				<p>Daniel Frier</p>
+				<p>Eliot Huang</p>
+				<p>Eric Porter</p>
+			</div>
+		</div>
+		<div class="record-header">
+			<div class="record-info">
+				<h1>
+					INFO 4310
+				</h1>
+				<h1>
+					Pitchfacts
+				</h1>
+			</div>
+			<div class="record-score">
+				<img class="record" src="images/record.jpg" />
+				<img class="score" src="images/score.png" />
+			</div>
 		</div>
 		<div class="body">
 			<div class="point">
@@ -24,10 +43,9 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 				<h4>Visualization</h4>
-				<div id="viz1">
+			</div>
 
-				</div>
-				
+			<div class="viz" id="viz1">
 				<h4>Could you write for Pitchfork?</h4>
 				<textarea id="userreviewCheck" class="review_textarea"></textarea>
 				<button onclick="checkReview();" class="review_submit">Check!</button>
@@ -36,9 +54,8 @@
 					<p id="grade_percent"></p>
 				</div>
 			</div>
-
 		</div>
-		
+
 		<!-- Jquery needed for AJAX -->
 		<script
 		src="https://code.jquery.com/jquery-3.3.1.js"
@@ -108,10 +125,10 @@
 				}
 				console.log(genresPercentagesOverYears);
 			});
-			
+
 			function checkReview(){
 				var input = $("#userreviewCheck").val();
-				
+
 				//Running on my web server so it stays up forever
 				$.get("http://churchdeposit.com:5000/userreview",{input:input},function(data){
 					console.log(data);
@@ -122,7 +139,7 @@
 							(grade>0.8)?"b":
 							(grade>0.7)?"c":
 							(grade>0.6)?"d":"f";
-						
+
 						$("#grade_container").attr("class","grade_container grade_"+letterGrade);
 						$("#grade_letter").html(letterGrade.toUpperCase());
 						$("#grade_percent").html((grade*100)+"% match");
