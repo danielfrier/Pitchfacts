@@ -95,9 +95,8 @@ html, body {
 
 .review_submit{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
+  margin:0 auto 8px auto;
+  width: 100%;
   background: #1c8bec;
   color: white;
   padding: 8px;
@@ -116,14 +115,49 @@ html, body {
   border-radius: 4px;
   border: 1px solid rgb(210, 210, 210);
   box-shadow: rgba(0, 0, 0, 0.42) 0px 1px 2px;
-  width: 75%;
+  width: 100%;
   height: 400px;
+  display:block;
+  margin:0 auto 8px auto;
 }
 
 .grade_container{
   border-radius:8px;
   min-height:64px;
-  width:200px;
+  width:100%;
+  box-shadow: rgba(0, 0, 0, 0.42) 0px 1px 2px;
+  color:white;
+}
+
+#grade_letter{
+  font-size:48px;
+  margin:0;
+}
+#grade_percent{
+  margin-top:0px;
+}
+
+.could-write-container{
+  width:75%;
+  display:inline;
+}
+
+.could-write-textarea{
+  vertical-align: top;
+  width:60%;
+  display:inline-block;
+}
+
+.could-write-resultcontainer{
+  vertical-align: top;
+  width:30%;
+  height:380px;
+  display: inline-block;
+  margin:8px 0 8px 8px;
+  background: #efefef;
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
 }
 
 .grade_a{

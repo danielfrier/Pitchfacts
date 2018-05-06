@@ -7,6 +7,8 @@
 			<link rel="stylesheet" type="text/css" href="styles.css">
 			<!-- Font -->
 			<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+			
+			<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="main-header">
@@ -47,11 +49,18 @@
 
 			<div class="viz" id="viz1">
 				<h4>Could you write for Pitchfork?</h4>
-				<textarea id="userreviewCheck" class="review_textarea"></textarea>
-				<button onclick="checkReview();" class="review_submit">Check!</button>
-				<div class="grade_container hidden" id="grade_container">
-					<p id="grade_letter"></p>
-					<p id="grade_percent"></p>
+				<div class="could-write-container">
+					<div class="could-write-textarea">
+						<textarea id="userreviewCheck" class="review_textarea"></textarea>
+					</div>
+					<div class="could-write-resultcontainer">
+						<button onclick="checkReview();" class="review_submit">Check!</button>
+						<center class="hidden" id="reviewLoading"><i class="fa fa-spinner fa-spin fa-fw fa-2x"></i></center>
+						<div class="grade_container hidden" id="grade_container">
+							<p id="grade_letter"></p>
+							<p id="grade_percent"></p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -130,8 +139,10 @@
 				var input = $("#userreviewCheck").val();
 
 				//Running on my web server so it stays up forever
+				$("#reviewLoading").removeClass("hidden");
 				$.get("http://churchdeposit.com:5000/userreview",{input:input},function(data){
 					console.log(data);
+					$("#reviewLoading").addClass("hidden");
 					if (data.success){
 						var grade = data.success;
 						$("#grade_container").removeClass("hidden");
@@ -146,7 +157,17 @@
 					}
 				},"json");
 			}
-
+			
+			function truncateString(str,limit){
+				limit = limit||0;
+				if (limit>0){max = limit;}
+				if (str === null || typeof str === "undefined"){
+					str = "";	
+				}
+				var truncate = (str.length > max);
+				
+				return truncate ? str.substr(0, max-1) + '...' : str;
+			}
 		</script>
 	</body>
 </html>
