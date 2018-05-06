@@ -7,6 +7,8 @@
 			<link rel="stylesheet" type="text/css" href="styles.css">
 			<!-- Font -->
 			<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+			<!-- JQuery -->
+			<script src='../static/scripts/external/jquery-3.3.1.min.js'></script>
 
 			<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
@@ -15,10 +17,12 @@
 			<!-- <h1>Pitchfacts</h1> -->
 			<img src="images/pitchfork3.png" />
 			<div class="names">
-				<p>Albert Caldarelli</p>
-				<p>Daniel Frier</p>
-				<p>Eliot Huang</p>
-				<p>Eric Porter</p>
+				<a>The Latest</a>
+				<a style="color: white;">Reviews</a>
+				<a>Best New Music</a>
+				<a>Features</a>
+				<a>Artists</a>
+				<a>Video</a>
 			</div>
 		</div>
 		<div class="record-header">
@@ -70,6 +74,7 @@
 			<div class="viz" id="viz2">
 				<h3>LSA Scatterplot</h3>
 			</div>
+
 			<div class="viz" id="viz3">
 				<h3>Force Graph of Genre</h3>
 			</div>
@@ -100,9 +105,6 @@
 					if (!(setOfGenres.includes(genre))) { setOfGenres.push(genre); }
 					if (!(setOfYears.includes(year))) { setOfYears.push(year); }
 				}
-				console.log(setOfGenres);
-				console.log(setOfYears);
-
 				//make genresOverYears
 				for (var i=0; i<setOfGenres.length; i++) {
 					var genre = setOfGenres[i]
@@ -116,8 +118,6 @@
 					}
 					genresOverYears[genre] = genre_dict;
 				}
-				console.log(genresOverYears);
-
 				//make reviewsOverYears
 				for (var i=0; i<setOfYears.length; i++) {
 					var year = setOfYears[i];
@@ -128,8 +128,6 @@
 					}
 					reviewsOverYears[year] = yearly_total
 				}
-				console.log(reviewsOverYears);
-
 				//make genresPercentagesOverYears
 				for (var i=0; i<setOfGenres.length; i++) {
 					var genre = setOfGenres[i];
@@ -143,7 +141,6 @@
 					}
 					genresPercentagesOverYears[genre] = genre_percentages;
 				}
-				console.log(genresPercentagesOverYears);
 			});
 
 			function checkReview(){
@@ -201,7 +198,7 @@
 				width = 960 - margin.left - margin.right,
 				height = 500 - margin.top - margin.bottom;
 
-		var svg = d3.select("#viz2").append("svg")
+		var svg2 = d3.select("#viz2").append("svg")
 				.attr("width", width + margin.left + margin.right)
 				.attr("height", height + margin.top + margin.bottom)
 			.append("g")
@@ -225,7 +222,7 @@
 			var yMax = d3.extent(yData)[1];
 
 			var xScale = d3.scale.linear()
-					.domain([xMin-0.5, xMax+2])
+					.domain([xMin-1, xMax+3])
 					.range([0, width]);
 			var yScale = d3.scale.linear()
 					.domain([yMin-0.5, yMax+0.5])
@@ -239,7 +236,7 @@
 					.scale(yScale)
 					.orient("left");
 
-			svg.append("g")
+			svg2.append("g")
 					.attr("class", "x axis")
 					.attr("transform", "translate(0," + height + ")")
 					.call(xAxis)
@@ -250,7 +247,7 @@
 					.style("text-anchor", "end")
 					.text("LSA Dimension 1");
 
-			svg.append("g")
+			svg2.append("g")
 					.attr("class", "y axis")
 					.call(yAxis)
 				.append("text")
@@ -261,17 +258,17 @@
 					.style("text-anchor", "end")
 					.text("LSA Dimension 2")
 
-			svg.selectAll(".dot")
+			svg2.selectAll(".dot")
 					.data(data)
 				.enter().append("circle")
-					.attr('class',function(d){return 'dot '+ d.genre})
+					.attr('class',function(d){return ('dot '+ d.genre.slice(0, 3))})
 					.attr('id',function(d){return d.doc_id})
 					.attr("r", 3.5)
 					.attr("cx", function(d) { return xScale(d.x); })
 					.attr("cy", function(d) { return yScale(d.y); })
 					.style("fill", function(d) { return colorScale(d.genre); });
 
-			var legend = svg.selectAll(".legend")
+			var legend = svg2.selectAll(".legend")
 					.data(colorScale.domain())
 				.enter().append("g")
 					.attr("class", "legend")
@@ -281,15 +278,40 @@
 					.attr("x", width - 18)
 					.attr("width", 18)
 					.attr("height", 18)
+					.attr("onclick", "filterScatter(this)")
+					.text(function(d) { return d; })
 					.style("fill", colorScale);
 
 			legend.append("text")
 					.attr("x", width - 24)
 					.attr("y", 9)
 					.attr("dy", ".35em")
+					.attr("onclick", "filterScatter(this)")
 					.style("text-anchor", "end")
 					.text(function(d) { return d; });
 			});
+
+			function filterScatter(x) {
+				var selected_genre = x.innerHTML.slice(0, 3);
+					//slice first 3 because has trouble with & and / characters
+
+				//check if already selected
+				var selected_dots = d3.selectAll("." + selected_genre);
+				var dots = d3.selectAll(".dot");
+				var other_dots_index = 0;
+				if (selected_genre == "Roc") {other_dots_index = 1}
+					//very hacky way to undo filtering
+
+				if (selected_dots[0][other_dots_index].style.display == "block" &&
+						dots[0][other_dots_index].style.display=="none") {
+					//if already showing specific, show all the dots
+					dots.style("display", "block");
+				}
+				else {
+					dots.style("display", "none");
+					selected_dots.style("display", "block");
+				}
+			}
 		</script>
 
 
@@ -303,7 +325,7 @@
 
 		<script>
 			var svg = d3.select('#viz3').append('svg');
-			
+
 
 		</script>
 
