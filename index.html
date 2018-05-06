@@ -3,13 +3,12 @@
 	<head>
 			<!--D3-->
 			<script src="https://d3js.org/d3.v4.min.js"></script>
-			<script src="https://d3js.org/d3-force.v1.min.js"></script>
 			<!--CSS file-->
 			<link rel="stylesheet" type="text/css" href="styles.css">
 			<!-- Font -->
 			<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 			<!-- JQuery -->
-			<script src='../static/scripts/external/jquery-3.3.1.min.js'></script>
+			<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
 
 			<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
@@ -182,7 +181,6 @@
 
 	<!-- LSA SCATTER PLOT  -->
 
-	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<style>
 		.axis path,
 		.axis line {
@@ -193,8 +191,20 @@
 		.dot {
 			stroke: #000;
 		}
-	</style>
-	<script>
+	</style> 
+	<script>                                
+		genreColorMapping = {'rock':'#1f77b4','Rock':'#1f77b4',
+						'Folk/Country':'#2ca02c','country':'#2ca02c','Country':'#2ca02c',
+						'electronic':'#ff7f0e','Electronic':'#ff7f0e',
+						'None':'#7f7f7f','Global':'#7f7f7f','global':'#7f7f7f',
+						'Pop/R&B':'#152b4f','pop':'#152b4f','Pop':'#152b4f',
+						'metal':'#17becf','Metal':'#17becf',
+						'rap':'#d62728','Rap':'#d62728',
+						'Experimental':'#9467bd','experimental':'#9467bd',
+						'jazz':'#8c564b','Jazz':'#8c564b',
+						'folk':'#e377c2','Folk':'#e377c2',
+						'r&b':'#bcbd22','R&B':'#bcbd22'}
+
 		var margin = {top: 20, right: 20, bottom: 30, left: 40},
 				width = 960 - margin.left - margin.right,
 				height = 500 - margin.top - margin.bottom;
@@ -222,25 +232,24 @@
 			var yMin = d3.extent(yData)[0];
 			var yMax = d3.extent(yData)[1];
 
-			var xScale = d3.scale.linear()
+			var xScale = d3.scaleLinear()
 					.domain([xMin-1, xMax+3])
 					.range([0, width]);
-			var yScale = d3.scale.linear()
+			var yScale = d3.scaleLinear()
 					.domain([yMin-0.5, yMax+0.5])
 					.range([height, 0]);
-			colorScale = d3.scale.category10();
 
-			var xAxis = d3.svg.axis()
-					.scale(xScale)
-					.orient("bottom");
-			var yAxis = d3.svg.axis()
-					.scale(yScale)
-					.orient("left");
+			// var xAxis = d3.axes()
+			// 		.scale(xScale)
+			// 		.orient("bottom");
+			// var yAxis = d3.axes()
+			// 		.scale(yScale)
+			// 		.orient("left");
 
 			svg2.append("g")
 					.attr("class", "x axis")
 					.attr("transform", "translate(0," + height + ")")
-					.call(xAxis)
+					.call(d3.axisBottom(xScale))
 				.append("text")
 					.attr("class", "label")
 					.attr("x", width)
@@ -250,7 +259,7 @@
 
 			svg2.append("g")
 					.attr("class", "y axis")
-					.call(yAxis)
+					.call(d3.axisLeft(yScale))
 				.append("text")
 					.attr("class", "label")
 					.attr("transform", "rotate(-90)")
@@ -267,51 +276,86 @@
 					.attr("r", 3.5)
 					.attr("cx", function(d) { return xScale(d.x); })
 					.attr("cy", function(d) { return yScale(d.y); })
-					.style("fill", function(d) { return colorScale(d.genre); });
+					.style("fill", function(d) { return genreColorMapping[d.genre]; });
 
-			var legend = svg2.selectAll(".legend")
-					.data(colorScale.domain())
-				.enter().append("g")
-					.attr("class", "legend")
-					.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
-			legend.append("rect")
-					.attr("x", width - 18)
-					.attr("width", 18)
-					.attr("height", 18)
-					.attr("onclick", "filterScatter(this)")
-					.text(function(d) { return d; })
-					.style("fill", colorScale);
+					var legend = svg2.selectAll(".legend")
+					.data(['Rock','Country', 'Folk','Electronic', 'Experimental', 'R&B','None', 'Global', 'Pop', 'Metal' ,'Rap' ,'Jazz' ])
+					.enter().append("g")
+						.attr("class", "legend")
+						.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+				legend.append("rect")
+						.attr("x", width - 18)
+						.attr("width", 18)
+						.attr("height", 18)
+						.attr("onclick", function(d){return "filterScatter('"+d+"')"})
+						.text(function(d) { return d; })
+						.style("fill", function(d){return genreColorMapping[d]});
 
-			legend.append("text")
-					.attr("x", width - 24)
-					.attr("y", 9)
-					.attr("dy", ".35em")
-					.attr("onclick", "filterScatter(this)")
-					.style("text-anchor", "end")
-					.text(function(d) { return d; });
+				legend.append("text")
+						.attr("x", width - 24)
+						.attr("y", 9)
+						.attr("dy", ".35em")
+						.attr("onclick", function(d){return "filterScatter('"+d+"')"})
+						.style("text-anchor", "end")
+						.text(function(d) { return d; });
+			
 			});
 
+
+
+			
+
+			selected_genres = []
 			function filterScatter(x) {
-				var selected_genre = x.innerHTML.slice(0, 3);
+				var selected_genre = x
 					//slice first 3 because has trouble with & and / characters
-
+				if(selected_genre=='Folk'){
+					selected_genre = 'Folk/Country'
+				}
+				if(selected_genre=='Country'){
+					selected_genre = 'Folk/Country'
+				}
+				if(selected_genre=='Pop'){
+					selected_genre = 'Pop/R&B'
+				}
+				if(selected_genre=='R'){
+					selected_genre = 'Pop/R&B'
+				}
+				if(selected_genre=='R&B'){
+					selected_genre = 'Pop/R&B'
+				}
+				selected_genre= selected_genre.slice(0, 3);
+				var index = selected_genres.indexOf(selected_genre);
+				if (index > -1) {
+				  selected_genres.splice(index, 1);
+				}
+				else{
+					selected_genres.push(selected_genre)
+				}
 				//check if already selected
-				var selected_dots = d3.selectAll("." + selected_genre);
-				var dots = d3.selectAll(".dot");
-				var other_dots_index = 0;
-				if (selected_genre == "Roc") {other_dots_index = 1}
-					//very hacky way to undo filtering
+			    d3.selectAll('.dot').attr('opacity',0.03)
+				for (var i = 0; i < selected_genres.length; i++) {
+					d3.selectAll('.'+selected_genres[i]).attr('opacity',1)
+			    	
+				}
+				if(selected_genres.length==0){
+			    d3.selectAll('.dot').attr('opacity',1)
+				}
+				// var dots = d3.selectAll(".dot");
+				// var other_dots_index = 0;
+				// if (selected_genre == "Roc") {other_dots_index = 1}
+				// 	//very hacky way to undo filtering
 
-				if (selected_dots[0][other_dots_index].style.display == "block" &&
-						dots[0][other_dots_index].style.display=="none") {
-					//if already showing specific, show all the dots
-					dots.style("display", "block");
-				}
-				else {
-					dots.style("display", "none");
-					selected_dots.style("display", "block");
-				}
+				// if (selected_dots[0][other_dots_index].style.display == "block" &&
+				// 		dots[0][other_dots_index].style.display=="none") {
+				// 	//if already showing specific, show all the dots
+				// 	dots.style("display", "block");
+				// }
+				// else {
+				// 	dots.style("display", "none");
+				// 	selected_dots.style("display", "block");
+				// }
 			}
 		</script>
 
@@ -328,38 +372,91 @@
 			var vis3svg = d3.select("#viz3").append("svg")
 				.attr("width", width + margin.left + margin.right)
 				.attr("height", height + margin.top + margin.bottom)
-			links = [];
+			var subg = vis3svg.append('g');
+			subg.append('text').attr('x',width-195).attr('y',20).text('Subgenres').attr('font-size',20).attr('font-weight','bold')
+			subg.append('text').attr('x',width-35).attr('y',20).text('Genres').attr('font-size',20).attr('font-weight','bold')
+			subgenres_list = []
+			subg_holder = {};
+			d3.csv("models/subgenres.csv", function(genres){
+					for (var i = 0; i < genres.length; i++) {
+						subg_holder[genres[i].genre] =  subg_holder[genres[i].genre]? subg_holder[genres[i].genre]+1:1;
+						d3.csv("models/subgenre_distances/"+genres[i].genre+'.csv', function(subgenres){
+							for (var i = 0; i < subgenres.length; i++) {
+								subgenres_list.push(subgenres[i])
+
+							}
+						});
+					}
+					for(var genre in subg_holder){
+						if (subg_holder.hasOwnProperty(genre)) {
+						subg.append('text').attr('x',width-35).attr('y',10+Object.keys(subg_holder).indexOf(genre)*15+30).text(genre.charAt(0).toUpperCase() + genre.substr(1));
+							for(var o = 0;o<subg_holder[genre];o++)
+								subg.append('circle').attr('cx',(width-12*subg_holder[genre])+o*12-80).attr('cy',10+Object.keys(subg_holder).indexOf(genre)*15+30).attr('r',5).attr('fill',genreColorMapping[genre])
+						}
+					}
+					});
+
 			d3.csv("models/genre_distances.csv", function(d){
+			links = [];
+			nodes = [];
 				for (var i = 0; i < d.length; i++) {
+					// if(d[i].index!='folk' ){
 				for (var key in d[i]) {
 					if(key!='index' && key!=d[i].index){
-				    	links.push({"source": d[i].index, "target": key, 'value':parseFloat(d[i][key]) })
+						if(parseFloat(d[i][key])>=0.27043882555)
+				    	links.push({"source": d[i].index, "target": key, 'value':parseFloat(d[i][key]) });
 				    }
 				}
+				nodes.push({"id":d[i].index})
+			// }
 			}
+				drawGenreDiagram(links,nodes)
 				});
 
-		var simulation = d3.forceSimulation()
-		    .force("link", d3.forceLink().id(function(d) { return d.id; }))
-		    .force("charge", d3.forceManyBody())
-			.force("center", d3.forceCenter(width + margin.left + margin.right / 2, height + margin.top + margin.bottom / 2));
-		var link = vis3svg.append("g")
-			.attr("class", "links")
-			.selectAll("line")
-			.data(links)
-			.enter().append("line")
-			  .attr("stroke-width", function(d) { return 1; });
-		var node = vis3svg.append("g")
-			 .attr("class", "nodes")
-			.selectAll("circle")
-			.data(vis3data)
-			.enter().append("circle")
-			  .attr("r", 5)
-			  .attr("fill", function(d) { return colorScale(d.index); });
-		simulation
-		  .nodes(vis3data.nodes)
-		  .on("tick", ticked);
 
+		function drawGenreDiagram(links,nodes)	 { 
+			vis3svg.selectAll('.links').remove();
+			vis3svg.selectAll('.nodes').remove();
+			var simulation = d3.forceSimulation()
+			    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+			    .force("charge", d3.forceManyBody().strength(-1000))
+				.force("center", d3.forceCenter(width /4, height / 2));
+			var link = vis3svg.append("g")
+				.attr("class", "links")
+				.selectAll("line")
+				.data(links)
+				.enter().append("line")
+				  .attr("stroke-width", function(d) { return '5px'; });
+			var node = vis3svg.append("g")
+				 .attr("class", "nodes")
+				.selectAll("circle")
+				.data(nodes)
+				.enter().append("circle")
+				  .attr("r", 15)
+				  .attr('id',function(d){return d.index})
+				  .attr("fill", function(d) { return genreColorMapping[d.id]; })
+				  .attr('stroke','#000');
+			simulation
+			  .nodes(nodes)
+			  .on("tick", ticked);
+			simulation.force("link")
+     		.links(links);
+		
+
+			function ticked() {
+			    link
+			        .attr("x1", function(d) { return d.source.x; })
+			        .attr("y1", function(d) { return d.source.y; })
+			        .attr("x2", function(d) { return d.target.x; })
+			        .attr("y2", function(d) { return d.target.y; });
+
+			    node
+			    	.attr('id',function(d){return d.id})
+			        .attr("cx", function(d) { return d.x; })
+			        .attr("cy", function(d) { return d.y; })
+			        .attr('stroke','#000');
+			  }
+			}
 		</script>
 
 
