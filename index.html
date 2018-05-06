@@ -3,6 +3,7 @@
 	<head>
 			<!--D3-->
 			<script src="https://d3js.org/d3.v4.min.js"></script>
+			<script src="https://d3js.org/d3-force.v1.min.js"></script>
 			<!--CSS file-->
 			<link rel="stylesheet" type="text/css" href="styles.css">
 			<!-- Font -->
@@ -227,7 +228,7 @@
 			var yScale = d3.scale.linear()
 					.domain([yMin-0.5, yMax+0.5])
 					.range([height, 0]);
-			var colorScale = d3.scale.category10();
+			colorScale = d3.scale.category10();
 
 			var xAxis = d3.svg.axis()
 					.scale(xScale)
@@ -324,8 +325,40 @@
 
 
 		<script>
-			var svg = d3.select('#viz3').append('svg');
+			var vis3svg = d3.select("#viz3").append("svg")
+				.attr("width", width + margin.left + margin.right)
+				.attr("height", height + margin.top + margin.bottom)
+			links = [];
+			d3.csv("models/genre_distances.csv", function(d){
+				for (var i = 0; i < d.length; i++) {
+				for (var key in d[i]) {
+					if(key!='index' && key!=d[i].index){
+				    	links.push({"source": d[i].index, "target": key, 'value':parseFloat(d[i][key]) })
+				    }
+				}
+			}
+				});
 
+		var simulation = d3.forceSimulation()
+		    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+		    .force("charge", d3.forceManyBody())
+			.force("center", d3.forceCenter(width + margin.left + margin.right / 2, height + margin.top + margin.bottom / 2));
+		var link = vis3svg.append("g")
+			.attr("class", "links")
+			.selectAll("line")
+			.data(links)
+			.enter().append("line")
+			  .attr("stroke-width", function(d) { return 1; });
+		var node = vis3svg.append("g")
+			 .attr("class", "nodes")
+			.selectAll("circle")
+			.data(vis3data)
+			.enter().append("circle")
+			  .attr("r", 5)
+			  .attr("fill", function(d) { return colorScale(d.index); });
+		simulation
+		  .nodes(vis3data.nodes)
+		  .on("tick", ticked);
 
 		</script>
 
