@@ -31,7 +31,8 @@ html, body {
   text-align: left;
   margin-left: 25%;
   width: 60%;
-  font-family: 'Helvetica Neue';
+  font-family: 'Futura';
+  font-weight: normal;
 }
 
 .record-header {
@@ -52,7 +53,14 @@ html, body {
   margin-top: 30px;
   margin-left: 80px;
 }
+.record-header .record-info .artist {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: "Futura", sans-serif;
+  font-weight: normal;
+}
 .record-header .record-info .title {
+  margin-top: 20px;
   font-family: Tiempos Headline, Tiempos, Georgia, serif;
   font-size: 64px;
   line-height: 1.25;
@@ -60,16 +68,30 @@ html, body {
   font-style: italic;
 }
 .record-header .record-score {
-  width: 40%;
+  width: 38%;
   float: right;
   margin-top: 25px;
+  text-align: left;
 }
 .record-header .record-score .record {
+  display: inline-block;
+}
+.record-header .record-score .record img {
   max-width: 200px;
-  margin-right: 15px;
+  margin-right: 20px;
+}
+.record-header .record-score .record figcaption {
+  text-align: center;
+  font-family: 'Futura';
+  width: 200px;
+  font-size: 10px;
+  color: #b3b3b3;
+  letter-spacing: .075em;
+  margin-top: 5px;
 }
 .record-header .record-score .score {
   max-width: 120px;
+  margin-bottom: 35px;
 }
 .body {
   width: 80%;

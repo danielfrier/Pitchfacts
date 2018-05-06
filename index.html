@@ -22,14 +22,18 @@
 		<div class="record-header">
 			<div class="record-info">
 				<h1 class="artist">
-					INFO 4310
+					Albert Caldarelli, Daniel Frier, <br />
+					Eliot Huang & Eric Porter
 				</h1>
 				<h1 class="title">
 					Pitchfacts
 				</h1>
 			</div>
 			<div class="record-score">
-				<img class="record" src="images/record.jpg" />
+				<div class="record">
+					<img src="images/record.jpg" />
+					<figcaption>INFO 4310, Spring 2018</figcaption>
+				</div>
 				<img class="score" src="images/score.png" />
 			</div>
 		</div>
@@ -42,17 +46,20 @@
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
-				<h4>Visualization</h4>
 			</div>
 
 			<div class="viz" id="viz1">
-				<h4>Could you write for Pitchfork?</h4>
+				<h3>Could you write for Pitchfork?</h3>
 				<textarea id="userreviewCheck" class="review_textarea"></textarea>
 				<button onclick="checkReview();" class="review_submit">Check!</button>
 				<div class="grade_container hidden" id="grade_container">
 					<p id="grade_letter"></p>
 					<p id="grade_percent"></p>
 				</div>
+			</div>
+
+			<div class="viz" id="viz2">
+				<h3>LSA Scatterplot</h3>
 			</div>
 		</div>
 
@@ -146,7 +153,116 @@
 					}
 				},"json");
 			}
+		</script>
 
+		<!-- LSA SCATTER PLOT  -->
+
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<style>
+			.axis path,
+			.axis line {
+			  fill: none;
+			  stroke: #000;
+			  shape-rendering: crispEdges;
+			}
+			.dot {
+			  stroke: #000;
+			}
+		</style>
+		<script>
+			var margin = {top: 20, right: 20, bottom: 30, left: 40},
+					width = 960 - margin.left - margin.right,
+					height = 500 - margin.top - margin.bottom;
+
+			var svg = d3.select("#viz2").append("svg")
+					.attr("width", width + margin.left + margin.right)
+					.attr("height", height + margin.top + margin.bottom)
+				.append("g")
+					.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+			d3.csv("models/lsa_coords.csv", function(d){
+				var data = d;
+
+				var xData = [];
+				var yData = [];
+				var genreData = [];
+				for (var i = 0; i < data.length; i++) {
+					xData.push(parseFloat(data[i]["x"]));
+					yData.push(parseFloat(data[i]["y"]));
+					genreData.push(data[i]["genre"]);
+				};
+
+				var xMin = d3.extent(xData)[0];
+				var xMax = d3.extent(xData)[1];
+				var yMin = d3.extent(yData)[0];
+				var yMax = d3.extent(yData)[1];
+
+				var xScale = d3.scale.linear()
+						.domain([xMin-0.5, xMax+2])
+						.range([0, width]);
+				var yScale = d3.scale.linear()
+						.domain([yMin-0.5, yMax+0.5])
+						.range([height, 0]);
+				var colorScale = d3.scale.category10();
+
+				var xAxis = d3.svg.axis()
+						.scale(xScale)
+						.orient("bottom");
+				var yAxis = d3.svg.axis()
+						.scale(yScale)
+						.orient("left");
+
+				svg.append("g")
+						.attr("class", "x axis")
+						.attr("transform", "translate(0," + height + ")")
+						.call(xAxis)
+					.append("text")
+						.attr("class", "label")
+						.attr("x", width)
+						.attr("y", -6)
+						.style("text-anchor", "end")
+						.text("LSA Dimension 1");
+
+				svg.append("g")
+						.attr("class", "y axis")
+						.call(yAxis)
+					.append("text")
+						.attr("class", "label")
+						.attr("transform", "rotate(-90)")
+						.attr("y", 6)
+						.attr("dy", ".71em")
+						.style("text-anchor", "end")
+						.text("LSA Dimension 2")
+
+				svg.selectAll(".dot")
+						.data(data)
+					.enter().append("circle")
+						.attr("class", "dot")
+						.attr("r", 3.5)
+						.attr("cx", function(d) { return xScale(d.x); })
+						.attr("cy", function(d) { return yScale(d.y); })
+						.style("fill", function(d) { return colorScale(d.genre); });
+
+				var legend = svg.selectAll(".legend")
+						.data(colorScale.domain())
+					.enter().append("g")
+						.attr("class", "legend")
+						.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+				legend.append("rect")
+						.attr("x", width - 18)
+						.attr("width", 18)
+						.attr("height", 18)
+						.style("fill", colorScale);
+
+				legend.append("text")
+						.attr("x", width - 24)
+						.attr("y", 9)
+						.attr("dy", ".35em")
+						.style("text-anchor", "end")
+						.text(function(d) { return d; });
+
+			});
 		</script>
 	</body>
 </html>
