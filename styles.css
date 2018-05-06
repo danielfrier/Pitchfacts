@@ -43,20 +43,30 @@ html, body {
   padding: 40px 0 60px;
   margin-bottom: 60px;
   margin-top: 40px;
+  height: 250px;
 }
 .record-header .record-info {
-  width: 60%;
+  width: 50%;
   display: inline-block;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.record-header .record-info .title {
+  font-family: Tiempos Headline, Tiempos, Georgia, serif;
+  font-size: 64px;
+  line-height: 1.25;
+  font-weight: 700;
+  font-style: italic;
 }
 .record-header .record-score {
-  width: 35%;
-  /* float: right; */
-  display: inline-block;
+  width: 40%;
+  float: right;
+  margin-top: 25px;
 }
 .record-header .record-score .record {
   max-width: 200px;
+  margin-right: 15px;
 }
 .record-header .record-score .score {
   max-width: 120px;
