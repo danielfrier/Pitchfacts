@@ -220,7 +220,11 @@ html, body {
 .grade_f{
   background-color:#db1613;
 }
+.lines{
+  stroke-width: 1px;
+  fill: none;
 
+}
 .overlay-container{
   fill: #e2e2e2;
 	stroke: #b2b2b2;
