@@ -75,9 +75,10 @@
 			</div>
 
 			<div class="viz" id="viz3">
+				<div class = 'point'>
 				<h3>Force Graph of Genre</h3>
 				<p>Every word in a text can be represented by a "word embedding model". These models represent the context a word appears in, so the word embedding model (WEM for short) of the word "king" might have things like 'throne','crown','palace','castle','powerful', whereas the WEM for "mouse" might have 'cheese','hole','trap','ears'. WEMs are very powerful at certain tasks such as linguistic analogy, determining which object doesn't match a group, and determining similarity between words <br><a href="https://radimrehurek.com/gensim/models/word2vec.html">(Read more about WEMs here)</a><br>In the below graph we have represented the common musical genres as nodes and they are linked by their WEM similarity. This has similar genres appearing close together, and distant ones far apart. Clicking on any genre node will bring up the sub graph of its subgenres, directed by their WEM similarity.</p>
-			</div>
+			</div></div>
 			<div class="viz" id="viz1">
 				<h4>Could you write for Pitchfork?</h4>
 				<div class="could-write-container">
@@ -527,13 +528,13 @@ function setCursor(x) {document.body.style.cursor = x;}
 					for(comp in sub){
 						try{
 							if(parseFloat(sub[comp])>=0.625){
-								links.push({"source": sub[''], "target": comp, 'value':parseFloat(sub[comp]) });
+								links.push({"source": sub.index, "target": comp, 'value':parseFloat(sub[comp]) });
 							}
 						}
 						catch(error){}
 					}
 
-					nodes.push({"id":sub['']})
+					nodes.push({"id":sub.index})
 				}
 				resetG.selectAll('*').attr('opacity',1)
 				global_genre=genre=='r&b'?'randb':genre;
