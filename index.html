@@ -117,6 +117,9 @@
 				If you got less than a "C" and are usually so used to stellar grades, don't feel bad! Our similarity algorithm relies on a 36-dimension topic model of the reviews, and a poor score just means that you didn't write about any of the topics that Pitchfork does (although this probably means you weren't even writing about music!). In fact, by this measure, almost 10% of all Pitchfork reviews are 'D' reviews, and this is usually due to rambling or novice writing.
 			</p>
 		</div>
+			<div id="vis4">
+			
+			</div>
 		</div>
 
 
@@ -140,9 +143,88 @@
 			function getReviewFromId(id){
 				return pitchforkReviews[parseInt(id)];
 			}
-
+			
+			xLineScale = d3.scaleLinear().domain([1999,2017]).range([35,935]);
+			yLineScale = d3.scaleLinear().domain([0,1]).range([840,5]);
 			d3.csv("data/p4kreviews.csv", function(d){
 				var data = d;
+				
+				//Eric
+				info = d;
+				time_dates={};
+	
+				info.forEach(function(obj){
+					// if the data exists 
+					year = obj.date.split(" ")[2];
+					// console.log(obj.date.split(" "));
+					if(!time_dates.hasOwnProperty(year)){
+						time_dates[year]= []; 
+						time_dates[year].push(obj);
+					}else if(obj.date.split(" ")[2] == year){
+						time_dates[year].push(obj)
+					}
+	
+	
+				});
+				genre_perc_per_year = {};
+				for(var year in time_dates){
+					genre_perc_per_year[year] = {}; //creates a object of all the genres per year
+					for(var i=0; i< time_dates[year].length;i++){// list of all the objects in one year 
+						genre = time_dates[year][i].genre; // create genre ... rap ,rock etc
+						if(!genre_perc_per_year[year].hasOwnProperty(genre)){ // does our object not have the genre  attribute in it
+						// for the first genre find the percentage  and add it into the list 
+							genre_perc_per_year[year][genre]= time_dates[year].filter(record => record.genre == genre).length/time_dates[year].length; // create it and make it a list containing genre and percentage of genre that year
+								// console.log(genre_perc_per_year);
+	
+						}else{
+							// console.log("I've seen this genre before");
+						}
+					} 
+				}
+					// console.log(genre_perc_per_year);
+					time_and_percentages={};
+					genre_colors={};
+					for( var year in genre_perc_per_year){
+						for(var genre in genre_perc_per_year[year]){
+							if(time_and_percentages[genre]==undefined){
+							time_and_percentages[genre] =[];
+						}
+							time_and_percentages[genre].push({x:parseInt(year),y:genre_perc_per_year[year][genre]});
+						}
+					}
+	
+				//final clean data (2:28am)
+	
+				var last_vis = d3.select("#vis4");
+				// svg dimensions
+				final_svg= last_vis.append("svg").attr('id',"last_svg" );
+				final_svg.attr('width',960)
+				.attr('height',960);
+				var pathmaker = d3.line().x(function(d) {return xLineScale(d.x)}).y(function(d){return yLineScale(d.y)});
+				finalColors = {};
+				for(var genre in time_and_percentages){
+					paff = final_svg.append("path").data([time_and_percentages[genre]]).attr('class', 'lines').attr('d',pathmaker).attr('id', genre).style('stroke', genreColorMapping[genre]);
+					finalColors[genre]=genreColorMapping[genre];
+				}
+	
+	
+					final_svg.append("g")
+				  .attr("transform", "translate(0," + 840 + ")")
+				  .call(d3.axisBottom(xLineScale));			
+				final_svg.append("g")
+				  .attr("transform", "translate(35," + 0 + ")")
+				  .call(d3.axisLeft(yLineScale));		
+				  
+				  color_list = Object.values(genreColorMapping);
+				  for(var i=0;i<10;i++){
+				  final_svg.append('text').attr('x', 820)
+				  .attr('y', 20+(i*20)).style('stroke',Object.values(finalColors)[i]).text(Object.keys(finalColors)[i]);
+				  }
+				  final_svg.append('text').attr('x',820 ).attr('y', 250).text("X axis Percentages");
+				  final_svg.append('text').attr('x',820 ).attr('y', 280).text("Y axis Time");
+	
+				  final_svg.append('text').attr('x',445 ).attr('y', 15).text("Percentages Of Genres X TIme");
+				//
 
 				pitchforkReviews = d;
 				console.log(d);

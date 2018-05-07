@@ -260,3 +260,8 @@ html, body {
 .inline{
   display:inline;
 }
+
+.lines{
+  stroke-width:1px;
+  fill:none;
+}
