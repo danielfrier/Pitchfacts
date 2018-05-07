@@ -17,7 +17,6 @@
 	</head>
 	<body>
 		<div class="main-header">
-			<!-- <h1>Pitchfacts</h1> -->
 			<img src="images/pitchfork3.png" />
 			<div class="names">
 				<a>The Latest</a>
@@ -66,6 +65,9 @@
 					Using a technique called Latent Semantic Analysis (LSA for short) it's possible to represent a whole corpus of texts, and their words, using only two dimensions. Text is a highly multidimensional type of data, our dataset of reviews is [19,555x50,000], so plotting it would be impossible! LSA reduces this to lower dimensional space by finding the dimensions, or "topics" that can represent the most "distinctiveness" possible in just two dimensions.
 				</p>
 				<p>
+					Read more about Latent Semantic Analysis <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis">here</a> and <a href="http://lsa.colorado.edu/papers/JASIS.lsi.90.pdf">here!</a>
+				</p>
+				<p>
 					If you notice in our graph below that it seems to be a split down the middle between "rock" and "rap" this is because the LSA algorithm has calculated these to be the most representative and distinct topic groupings. Interestingly, looking further, it appears that all of the other genres are very similar to rock and appear in the upper half of the graph, whereas only rap and scattered songs of other genres are in the bottom. Further down, we discuss the calculated similarities between genres, and rap has a mean similarity of 40% to the other genres (most have a mean similarity around 55%-60%), and is the only genre with a negative similarity-distance score, meaning that it is by far the most distinct of all genres.
 				</p>
 				<p>
@@ -80,7 +82,7 @@
 					Every word in a text can be represented by a "word embedding model". These models represent the context a word appears in, so the word embedding model (WEM for short) of the word "king" might have things like 'throne','crown','palace','castle','powerful', whereas the WEM for "mouse" might have 'cheese','hole','trap','ears'. WEMs are very powerful at certain tasks such as linguistic analogy, determining which object doesn't match a group, and determining similarity between words.
 				</p>
 				<p>
-					<a href="https://radimrehurek.com/gensim/models/word2vec.html">Read more about WEMs here!</a>
+					Read more about WEMs <a href="https://radimrehurek.com/gensim/models/word2vec.html">here!</a>
 				</p>
 				<p>
 					In the below graph we have represented the common musical genres as nodes and they are linked by their WEM similarity. This has similar genres appearing close together, and distant ones far apart. Clicking on any genre node will bring up the sub graph of its subgenres, directed by their WEM similarity.
@@ -500,8 +502,8 @@ function setCursor(x) {document.body.style.cursor = x;}
 			  .style("stroke", 'black')
 			  .style("fill", "none")
 			  .style("stroke-width", 1);
-			vis3svg.append('text').text('The further two points are from each other:').attr('x',width-280).attr('y',height-20).attr('font-size',15).attr('font-weight','bold')
-			vis3svg.append('text').text('the more distinct they are').attr('x',width-280).attr('y',height).attr('font-size',15).attr('font-weight','bold')
+			vis3svg.append('text').text('The further two points are from each other:').attr('x',width-320).attr('y',height-160).attr('font-size',15).attr('font-weight','bold')
+			vis3svg.append('text').text('the more distinct they are from each other').attr('x',width-315).attr('y',height-140).attr('font-size',15).attr('font-weight','bold')
 
 			var resetG = vis3svg.append('g')
 			var genreText = resetG.append('text').attr('x',width/4).attr('y',20).attr('font-size',20).attr('font-weight','bold');
@@ -547,6 +549,7 @@ function setCursor(x) {document.body.style.cursor = x;}
 				setCursor('default')
 				genre= genre=='randb'?'r&b':genre
 				genreText.text(genre.charAt(0).toUpperCase() + genre.substr(1))
+					.attr("y", height-420);
 				d3.csv("models/subgenre_distances/"+genre+".csv", function(d){
 				links = [];
 				nodes = [];
@@ -623,7 +626,6 @@ function setCursor(x) {document.body.style.cursor = x;}
 				  .attr('onclick',function(d){return genre==0?"buildGenreDiagram('"+d.id+"')":''})
 				  .attr('onmouseenter',global_genre?'':"setCursor('pointer')").attr('onmouseleave',"setCursor('default')")
 				  .attr('stroke','#000');
-
 			var label = vis3svg.selectAll('.labels')
 			    .data(nodes)
 			    .enter()
