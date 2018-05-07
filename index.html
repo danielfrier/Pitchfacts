@@ -499,6 +499,7 @@ function setCursor(x) {document.body.style.cursor = x;}
 					}
 					sub_holder_stable = sub_circle_holder;
 					});
+				subssss=[];
 			function buildGenreDiagram(genre){
 				setCursor('default')
 				genre= genre=='randb'?'r&b':genre
@@ -509,7 +510,7 @@ function setCursor(x) {document.body.style.cursor = x;}
 					for(comp in sub){
 						try{
 							if(parseFloat(sub[comp])>=0.625){
-								console.log(sub[''])
+								subssss.push(sub[''])
 								links.push({"source": sub[''], "target": comp, 'value':parseFloat(sub[comp]) });
 							}
 						}
