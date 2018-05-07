@@ -202,7 +202,11 @@
 			stroke: #000;
 		}
 	</style> 
-	<script>                                
+	<script>                  
+
+
+//SET CURSOR APPEARENCE
+function setCursor(x) {document.body.style.cursor = x;}              
 		genreColorMapping = {'rock':'#1f77b4','Rock':'#1f77b4',
 						'Folk/Country':'#2ca02c','country':'#2ca02c','Country':'#2ca02c',
 						'electronic':'#ff7f0e','Electronic':'#ff7f0e',
@@ -458,7 +462,7 @@
 			var resetG = vis3svg.append('g')
 			var resetRect = resetG.append('rect').attr('x',width/2).attr('y',20).attr('rx',5).attr('ry',5).style('stroke','black').style('stroke-width',2).style('fill','#EEE').attr('width',60).attr('height',20)
 			var resetText = resetG.append('text').attr('x',width/2+10).attr('y',35).text('Reset')
-			resetG.selectAll('*').attr('onclick','resetDiagram()').attr('opacity',0)
+			resetG.selectAll('*').attr('onclick','resetDiagram()').attr('opacity',0).attr('onmouseenter',"setCursor('pointer')").attr('onmouseleave',"setCursor('default')")
 
 			var subg = vis3svg.append('g');
 			subg.append('text').attr('x',width-195).attr('y',20).text('Subgenres').attr('font-size',20).attr('font-weight','bold')
@@ -496,6 +500,7 @@
 					sub_holder_stable = sub_circle_holder;
 					});
 			function buildGenreDiagram(genre){
+				setCursor('default')
 				genre= genre=='randb'?'r&b':genre
 				d3.csv("models/subgenre_distances/"+genre+".csv", function(d){
 				links = [];
@@ -538,6 +543,7 @@
 				});
 
 		function resetDiagram(){
+			setCursor('default')
 			d3.selectAll('.'+global_genre).each(function(d){
 			d3.select(this).transition().duration(200)
 				        .attr("cx",d3.select(this).attr('origx')).attr("cy",d3.select(this).attr('origy')).style('opacity',1);
@@ -552,7 +558,7 @@
 			vis3svg.selectAll('.labels').remove();
 			var simulation = d3.forceSimulation()
 			    .force("link", d3.forceLink().id(function(d) { return d.id; }))
-			    .force("charge", d3.forceManyBody().strength(-1500+(65*nodes.length)))
+			    .force("charge", d3.forceManyBody().strength(-1500+(66*nodes.length)))
 				.force("center", d3.forceCenter(width /4, height / 2));
 			var link = vis3svg.append("g")
 				.attr("class", "links")
@@ -565,10 +571,12 @@
 				.selectAll("circle")
 				.data(nodes)
 				.enter().append("circle")
+				.attr('style','stroke:#000')
 				  .attr("r", 15)
 				  .attr('id',function(d){return d.index})
 				  .attr("fill", function(d) { return genre==0?genreColorMapping[d.id]:genreColorMapping[genre]; })
 				  .attr('onclick',function(d){return genre==0?"buildGenreDiagram('"+d.id+"')":''})
+				  .attr('onmouseenter',global_genre?'':"setCursor('pointer')").attr('onmouseleave',"setCursor('default')")
 				  .attr('stroke','#000');
 			var label = vis3svg.selectAll('.labels')
 			    .data(nodes)
