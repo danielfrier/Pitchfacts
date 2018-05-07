@@ -118,7 +118,7 @@
 			</p>
 		</div>
 			<div id="vis4">
-			
+
 			</div>
 		</div>
 
@@ -143,7 +143,7 @@
 			function getReviewFromId(id){
 				return pitchforkReviews[parseInt(id)];
 			}
-			
+
 				orig_paths =[]
 				norm_paths =[]
 				orig_ds = []
@@ -153,23 +153,23 @@
 			yLineScale = d3.scaleLinear().domain([0,1]).range([840,5]);
 			d3.csv("data/p4kreviews.csv", function(d){
 				var data = d;
-				
+
 				//Eric
 				info = d;
 				time_dates={};
-	
+
 				info.forEach(function(obj){
-					// if the data exists 
+					// if the data exists
 					year = obj.date.split(" ")[2];
 					// console.log(obj.date.split(" "));
 					if(!time_dates.hasOwnProperty(year)){
-						time_dates[year]= []; 
+						time_dates[year]= [];
 						time_dates[year].push(obj);
 					}else if(obj.date.split(" ")[2] == year){
 						time_dates[year].push(obj)
 					}
-	
-	
+
+
 				});
 				genre_perc_per_year = {};
 				genre_val_maxes = {}
@@ -177,25 +177,25 @@
 				for(var year in time_dates){
 					genre_perc_per_year[year] = {}; //creates a object of all the genres per year
 					genre_maxes_percentages[year] = genre_maxes_percentages[year] || [];
-					for(var i=0; i< time_dates[year].length;i++){// list of all the objects in one year 
+					for(var i=0; i< time_dates[year].length;i++){// list of all the objects in one year
 						genre = time_dates[year][i].genre; // create genre ... rap ,rock etc
 						genre_val_maxes[genre] = genre_val_maxes[genre] || 0;
 						if(!genre_perc_per_year[year].hasOwnProperty(genre)){ // does our object not have the genre  attribute in it
-						// for the first genre find the percentage  and add it into the list 
+						// for the first genre find the percentage  and add it into the list
 							genre_perc_per_year[year][genre]= time_dates[year].filter(record => record.genre == genre).length/time_dates[year].length;
 							genre_val_maxes[genre]= time_dates[year].filter(record => record.genre == genre).length>genre_val_maxes[genre]?time_dates[year].filter(record => record.genre == genre).length:genre_val_maxes[genre]; // create it and make it a list containing genre and percentage of genre that year
 								// console.log(genre_perc_per_year);
-	
+
 						}else{
 							// console.log("I've seen this genre before");
 						}
-					} 
+					}
 				}
 				for(year in time_dates){
 					for(var i=0; i< time_dates[year].length;i++){
 						genre = time_dates[year][i].genre; // create genre ... rap ,rock etc
 						genre_maxes_percentages[year][genre] = genre_maxes_percentages[year][genre]||0;
-						if(genre_perc_per_year[year].hasOwnProperty(genre)){ 
+						if(genre_perc_per_year[year].hasOwnProperty(genre)){
 							genre_maxes_percentages[year][genre]= time_dates[year].filter(record => record.genre == genre).length/genre_val_maxes[genre];
 						}
 					}
@@ -215,9 +215,9 @@
 							time_and_percentages_maxes[genre].push({x:new Date(parseInt(year),0,0),y:genre_maxes_percentages[year][genre]});
 						}
 					}
-	
+
 				//final clean data (2:28am)
-	
+
 				var last_vis = d3.select("#vis4");
 				// svg dimensions
 				final_svg= last_vis.append("svg").attr('id',"last_svg" );
@@ -237,22 +237,22 @@
 				orig_paths.forEach(function(d){
 					orig_ds.push(d.attr('d'))
 				})
-		
+
 					final_svg.append("g")
 				  .attr("transform", "translate(0," + 840 + ")")
-				  .call(d3.axisBottom(xLineScale));			
+				  .call(d3.axisBottom(xLineScale));
 				final_svg.append("g")
 				  .attr("transform", "translate(35," + 0 + ")")
-				  .call(d3.axisLeft(yLineScale));		
-				  
+				  .call(d3.axisLeft(yLineScale));
+
 				  color_list = Object.values(genreColorMapping);
 				  for(var i=0;i<10;i++){
 				  final_svg.append('text').attr('x', 950)
 				  .attr('y', 20+(i*20)).style('stroke',Object.values(finalColors)[i]).text(Object.keys(finalColors)[i]);
 				  }
-				  final_svg.append('text').attr('x',950 ).attr('y', 250).text("X axis Percentages");
-				  final_svg.append('text').attr('x',950 ).attr('y', 280).text("Y axis Time");
-	
+				  // final_svg.append('text').attr('x',950 ).attr('y', 250).text("X axis Percentages");
+				  // final_svg.append('text').attr('x',950 ).attr('y', 280).text("Y axis Time");
+
 				  final_svg.append('text').attr('x',445 ).attr('y', 15).text("Percentages Of Genres over Time");
 				//
 
@@ -318,7 +318,7 @@
 
 				//Running on my web server so it stays up forever
 				$("#reviewLoading").removeClass("hidden");
-				
+
 				var apiUrl = "https://churchdeposit.com:5000";
 				$.post(apiUrl+"/userreview",{input:input},function(data){
 					console.log(data);
