@@ -198,8 +198,8 @@
 				//Running on my web server so it stays up forever
 				$("#reviewLoading").removeClass("hidden");
 				
-				var apiUrl = "http://churchdeposit.com:5000";
-				$.get(apiUrl+"/userreview",{input:input},function(data){
+				var apiUrl = "https://churchdeposit.com:5000";
+				$.post(apiUrl+"/userreview",{input:input},function(data){
 					console.log(data);
 					$("#reviewLoading").addClass("hidden");
 					if (data.success){
