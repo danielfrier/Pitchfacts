@@ -144,7 +144,12 @@
 				return pitchforkReviews[parseInt(id)];
 			}
 			
-			xLineScale = d3.scaleLinear().domain([1999,2017]).range([35,935]);
+				orig_paths =[]
+				norm_paths =[]
+				orig_ds = []
+				normal_genre=false;
+			xLineScale = d3.scaleTime()
+   			 .domain([new Date(1999, 0, 0), new Date(2018, 0, 0)]).range([35,935]);
 			yLineScale = d3.scaleLinear().domain([0,1]).range([840,5]);
 			d3.csv("data/p4kreviews.csv", function(d){
 				var data = d;
@@ -167,13 +172,18 @@
 	
 				});
 				genre_perc_per_year = {};
+				genre_val_maxes = {}
+				genre_maxes_percentages = {}
 				for(var year in time_dates){
 					genre_perc_per_year[year] = {}; //creates a object of all the genres per year
+					genre_maxes_percentages[year] = genre_maxes_percentages[year] || [];
 					for(var i=0; i< time_dates[year].length;i++){// list of all the objects in one year 
 						genre = time_dates[year][i].genre; // create genre ... rap ,rock etc
+						genre_val_maxes[genre] = genre_val_maxes[genre] || 0;
 						if(!genre_perc_per_year[year].hasOwnProperty(genre)){ // does our object not have the genre  attribute in it
 						// for the first genre find the percentage  and add it into the list 
-							genre_perc_per_year[year][genre]= time_dates[year].filter(record => record.genre == genre).length/time_dates[year].length; // create it and make it a list containing genre and percentage of genre that year
+							genre_perc_per_year[year][genre]= time_dates[year].filter(record => record.genre == genre).length/time_dates[year].length;
+							genre_val_maxes[genre]= time_dates[year].filter(record => record.genre == genre).length>genre_val_maxes[genre]?time_dates[year].filter(record => record.genre == genre).length:genre_val_maxes[genre]; // create it and make it a list containing genre and percentage of genre that year
 								// console.log(genre_perc_per_year);
 	
 						}else{
@@ -181,15 +191,28 @@
 						}
 					} 
 				}
+				for(year in time_dates){
+					for(var i=0; i< time_dates[year].length;i++){
+						genre = time_dates[year][i].genre; // create genre ... rap ,rock etc
+						genre_maxes_percentages[year][genre] = genre_maxes_percentages[year][genre]||0;
+						if(genre_perc_per_year[year].hasOwnProperty(genre)){ 
+							genre_maxes_percentages[year][genre]= time_dates[year].filter(record => record.genre == genre).length/genre_val_maxes[genre];
+						}
+					}
+
+				}
 					// console.log(genre_perc_per_year);
 					time_and_percentages={};
+					time_and_percentages_maxes = {}
 					genre_colors={};
 					for( var year in genre_perc_per_year){
 						for(var genre in genre_perc_per_year[year]){
 							if(time_and_percentages[genre]==undefined){
 							time_and_percentages[genre] =[];
+							time_and_percentages_maxes[genre] =[];
 						}
-							time_and_percentages[genre].push({x:parseInt(year),y:genre_perc_per_year[year][genre]});
+							time_and_percentages[genre].push({x:new Date(parseInt(year),0,0),y:genre_perc_per_year[year][genre]});
+							time_and_percentages_maxes[genre].push({x:new Date(parseInt(year),0,0),y:genre_maxes_percentages[year][genre]});
 						}
 					}
 	
@@ -198,16 +221,23 @@
 				var last_vis = d3.select("#vis4");
 				// svg dimensions
 				final_svg= last_vis.append("svg").attr('id',"last_svg" );
-				final_svg.attr('width',960)
+				final_svg.attr('width',1040)
 				.attr('height',960);
+				var normG = final_svg.append('g')
+				var normRect = normG.append('rect').attr('x',width/4).attr('y',30).attr('rx',5).attr('ry',5).style('stroke','black').style('stroke-width',2).style('fill','#EEE').attr('width',150).attr('height',20).attr('onclick','norm_genre()').attr('onmouseenter',"setCursor('pointer')").attr('onmouseleave',"setCursor('default')")
+				var normText = normG.append('text').attr('x',width/4+2).attr('y',43).attr('id','normTextButton').text('Normalize Data by Max').attr('onclick','norm_genre()').attr('onmouseenter',"setCursor('pointer')").attr('onmouseleave',"setCursor('default')").attr('font-size',14)
+
 				var pathmaker = d3.line().x(function(d) {return xLineScale(d.x)}).y(function(d){return yLineScale(d.y)});
 				finalColors = {};
 				for(var genre in time_and_percentages){
-					paff = final_svg.append("path").data([time_and_percentages[genre]]).attr('class', 'lines').attr('d',pathmaker).attr('id', genre).style('stroke', genreColorMapping[genre]);
+					orig_paths.push(final_svg.append("path").data([time_and_percentages[genre]]).attr('class', 'lines').attr('genre',genre.slice(0,3)).attr('id','linegraph'+genre.slice(0,3)).attr('d',pathmaker).style('stroke', genreColorMapping[genre]).style('stroke-width',3));
+					norm_paths.push(final_svg.append("path").data([time_and_percentages_maxes[genre]]).attr('class', 'lines').attr('d',pathmaker).style('stroke', genreColorMapping[genre]).attr('opacity',0));
 					finalColors[genre]=genreColorMapping[genre];
 				}
-	
-	
+				orig_paths.forEach(function(d){
+					orig_ds.push(d.attr('d'))
+				})
+		
 					final_svg.append("g")
 				  .attr("transform", "translate(0," + 840 + ")")
 				  .call(d3.axisBottom(xLineScale));			
@@ -217,14 +247,15 @@
 				  
 				  color_list = Object.values(genreColorMapping);
 				  for(var i=0;i<10;i++){
-				  final_svg.append('text').attr('x', 820)
+				  final_svg.append('text').attr('x', 950)
 				  .attr('y', 20+(i*20)).style('stroke',Object.values(finalColors)[i]).text(Object.keys(finalColors)[i]);
 				  }
-				  final_svg.append('text').attr('x',820 ).attr('y', 250).text("X axis Percentages");
-				  final_svg.append('text').attr('x',820 ).attr('y', 280).text("Y axis Time");
+				  final_svg.append('text').attr('x',950 ).attr('y', 250).text("X axis Percentages");
+				  final_svg.append('text').attr('x',950 ).attr('y', 280).text("Y axis Time");
 	
-				  final_svg.append('text').attr('x',445 ).attr('y', 15).text("Percentages Of Genres X TIme");
+				  final_svg.append('text').attr('x',445 ).attr('y', 15).text("Percentages Of Genres over Time");
 				//
+
 
 				pitchforkReviews = d;
 				console.log(d);
@@ -274,6 +305,14 @@
 				}
 			});
 
+				function norm_genre(){
+					normal_genre = !normal_genre;
+					d3.select('#normTextButton').text(normal_genre?"Show Original Data":"Normalize Data by Max")
+					orig_paths.forEach(function(d,i){
+						d3.select('#linegraph'+orig_paths[i].attr('genre')).transition().duration(200)
+				        .attr("d",normal_genre?norm_paths[i].attr('d'):orig_ds[i]);
+					})
+				}
 			function checkReview(){
 				var input = $("#userreviewCheck").val();
 
