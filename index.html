@@ -230,7 +230,7 @@
 				var pathmaker = d3.line().x(function(d) {return xLineScale(d.x)}).y(function(d){return yLineScale(d.y)});
 				finalColors = {};
 				for(var genre in time_and_percentages){
-					orig_paths.push(final_svg.append("path").data([time_and_percentages[genre]]).attr('class', 'lines').attr('genre',genre.slice(0,3)).attr('id','linegraph'+genre.slice(0,3)).attr('d',pathmaker).style('stroke', genreColorMapping[genre]).style('stroke-width',3));
+					orig_paths.push(final_svg.append("path").data([time_and_percentages[genre]]).attr('class', 'lines').attr('genre',genre.slice(0,3)).attr('id','linegraph'+genre.slice(0,3)).attr('d',pathmaker).style('stroke', genreColorMapping[genre]).style('stroke-width',2));
 					norm_paths.push(final_svg.append("path").data([time_and_percentages_maxes[genre]]).attr('class', 'lines').attr('d',pathmaker).style('stroke', genreColorMapping[genre]).attr('opacity',0));
 					finalColors[genre]=genreColorMapping[genre];
 				}
