@@ -70,13 +70,29 @@
 					<br>Hovering on a review brings up information about it, and clicking on the color key on the side filters the data by genre.
 				</p>
 			</div>
+			<div class="viz" id="viz2"></div>
 
-			<div class="viz" id="viz2">
+			<div class="point">
+				<h3>Force-Directed Graph of Genres</h3>
+				<p>
+					Every word in a text can be represented by a "word embedding model". These models represent the context a word appears in, so the word embedding model (WEM for short) of the word "king" might have things like 'throne','crown','palace','castle','powerful', whereas the WEM for "mouse" might have 'cheese','hole','trap','ears'. WEMs are very powerful at certain tasks such as linguistic analogy, determining which object doesn't match a group, and determining similarity between words.
+				</p>
+				<p>
+					<a href="https://radimrehurek.com/gensim/models/word2vec.html">Read more about WEMs here!</a>
+				</p>
+				<p>
+					In the below graph we have represented the common musical genres as nodes and they are linked by their WEM similarity. This has similar genres appearing close together, and distant ones far apart. Clicking on any genre node will bring up the sub graph of its subgenres, directed by their WEM similarity.
+				</p>
 			</div>
+			<div class="viz" id="viz3"></div>
 
-			<div class="viz" id="viz3">
-				<h3>Force Graph of Genre</h3>
-				<p>Every word in a text can be represented by a "word embedding model". These models represent the context a word appears in, so the word embedding model (WEM for short) of the word "king" might have things like 'throne','crown','palace','castle','powerful', whereas the WEM for "mouse" might have 'cheese','hole','trap','ears'. WEMs are very powerful at certain tasks such as linguistic analogy, determining which object doesn't match a group, and determining similarity between words <br><a href="https://radimrehurek.com/gensim/models/word2vec.html">(Read more about WEMs here)</a><br>In the below graph we have represented the common musical genres as nodes and they are linked by their WEM similarity. This has similar genres appearing close together, and distant ones far apart. Clicking on any genre node will bring up the sub graph of its subgenres, directed by their WEM similarity.</p>
+			<div class="point">
+				<p>
+					Over the years Pitchfork has seen countless different staff writers and editors writing music reviews and news for the latest music. Although each different writer has their own unique voice, they all loosely share the same tone of musical authority that is needed in Pitchfork criticism.
+				</p>
+				<p>
+					Below, we've made a tool that can test whether what you've written or not is lexically or tonally similar to Pitchfork writers. Enter what you want into the text field and click submit to see how similar your entry was to real Pitchfork reviews!
+				</p>
 			</div>
 			<div class="viz" id="viz1">
 				<h4>Could you write for Pitchfork?</h4>
@@ -275,21 +291,21 @@ function setCursor(x) {document.body.style.cursor = x;}
 			curHoveredReview = svg2Overlays.append("g").attr("transform","translate("+xScale(review.x)+","+yScale(review.y)+")");
 			curHoveredReview.append("rect")
 				.attr("class","overlay-container")
-				.attr("width",230)
-				.attr("height",200);
+				.attr("width",150)
+				.attr("height",100);
 			curHoveredReview.append("text")
 				.attr("class","overlay-artist")
-				.attr("x",115)
+				.attr("x",60)
 				.attr("y",12)
 				.text(review_raw.artist);
 			curHoveredReview.append("text")
 				.attr("class","overlay-album")
-				.attr("x",115)
+				.attr("x",60)
 				.attr("y",28)
 				.text(review_raw.album);
 			curHoveredReview.append("svg:foreignObject")
 				.attr("class","inline")
-				.attr("x",115)
+				.attr("x",0)
 				.attr("y",52)
 				.html(getStarString(review_raw.score));
 		}
