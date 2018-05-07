@@ -197,11 +197,13 @@
 
 				//Running on my web server so it stays up forever
 				$("#reviewLoading").removeClass("hidden");
-				$.get("http://churchdeposit.com:5000/userreview",{input:input},function(data){
+				
+				var apiUrl = "http://churchdeposit.com:5000";
+				$.get(apiUrl+"/userreview",{input:input},function(data){
 					console.log(data);
 					$("#reviewLoading").addClass("hidden");
 					if (data.success){
-						var grade = data.success;
+						var grade = data.success.grade;
 						$("#grade_container").removeClass("hidden");
 						var letterGrade = (grade>0.9)?"a":
 							(grade>0.8)?"b":

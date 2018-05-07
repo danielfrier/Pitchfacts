@@ -46,7 +46,6 @@ def userreview():
 	
 	REVIEW = request.args.get('input')
 	
-	
 	yackreview = re.sub('[\s\n\r\t]+',' ',re.sub(r'\w+(\-|\—|\.|\&|\’)?(\w+)?', remove_stop, clean_text(REVIEW))).split()
 	yackvec_bow = dictionary.doc2bow(yackreview)
 	yackvec_lda = lda[yackvec_bow]
@@ -66,3 +65,5 @@ def userreview():
 		grade=('a')
 
 	return jsonify({"success":{"grade":grade,"probability":round(pdf[grade],3)*100}})
+if __name__=='__main__':
+	app.run(host='churchdeposit.com')
