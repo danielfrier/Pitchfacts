@@ -58,16 +58,25 @@
 			</div>
 
 			<div class="point">
-				<h3>Could You Write for Pitchfork?</h3>
+				<h3>LSA Scatterplot</h3>
 				<p>
-					Over the years Pitchfork has seen countless different staff writers and editors writing music reviews and news for the latest music. Although each different writer has their own unique voice, they all loosely share the same tone of musical authority that is needed in Pitchfork criticism.
+					Using a technique called Latent Semantic Analysis (LSA for short) it's possible to represent a whole corpus of texts, and their words, using only two dimensions. Text is a highly multidimensional type of data, our dataset of reviews is [19,555x50,000], so plotting it would be impossible! LSA reduces this to lower dimensional space by finding the dimensions, or "topics" that can represent the most "distinctiveness" possible in just two dimensions.
 				</p>
 				<p>
-					Below, we've made a tool that can test whether what you've written or not is lexically or tonally similar to Pitchfork writers. Enter what you want into the text field and click submit to see how similar your entry was to real Pitchfork reviews!
+					If you notice in our graph below that it seems to be a split down the middle between "rock" and "rap" this is because the LSA algorithm has calculated these to be the most representative and distinct topic groupings. Interestingly, looking further, it appears that all of the other genres are very similar to rock and appear in the upper half of the graph, whereas only rap and scattered songs of other genres are in the bottom. Further down, we discuss the calculated similarities between genres, and rap hasmean similarity of 40% to the other genres (most have a mean similarity around 55%-60%), and is the only genre with a negative similarity score, meaning that it is by far the most distinct of all genres.
+					<br>Hovering on a review brings up information about it, and clicking on the color key on the side filters the data by genre.
 				</p>
 			</div>
 
+			<div class="viz" id="viz2">
+			</div>
+
+			<div class="viz" id="viz3">
+				<h3>Force Graph of Genre</h3>
+				<p>Every word in a text can be represented by a "word embedding model". These models represent the context a word appears in, so the word embedding model (WEM for short) of the word "king" might have things like 'throne','crown','palace','castle','powerful', whereas the WEM for "mouse" might have 'cheese','hole','trap','ears'. WEMs are very powerful at certain tasks such as linguistic analogy, determining which object doesn't match a group, and determining similarity between words <br><a href="https://radimrehurek.com/gensim/models/word2vec.html">(Read more about WEMs here)</a><br>In the below graph we have represented the common musical genres as nodes and they are linked by their WEM similarity. This has similar genres appearing close together, and distant ones far apart. Clicking on any genre node will bring up the sub graph of its subgenres, directed by their WEM similarity.</p>
+			</div>
 			<div class="viz" id="viz1">
+				<h4>Could you write for Pitchfork?</h4>
 				<div class="could-write-container">
 					<div class="could-write-textarea">
 						<textarea id="userreviewCheck" class="review_textarea"></textarea>
@@ -82,15 +91,6 @@
 					</div>
 				</div>
 			</div>
-
-			<div class="viz" id="viz2">
-				<h3>LSA Scatterplot</h3>
-			</div>
-
-			<div class="viz" id="viz3">
-				<h3>Force Graph of Genre</h3>
-			</div>
-
 		</div>
 
 		<!-- Jquery needed for AJAX -->
@@ -369,6 +369,7 @@ function setCursor(x) {document.body.style.cursor = x;}
 						.attr("width", 18)
 						.attr("height", 18)
 						.attr("onclick", function(d){return "filterScatter('"+d+"')"})
+						.attr('onmouseenter',"setCursor('pointer')").attr('onmouseleave',"setCursor('default')")
 						.text(function(d) { return d; })
 						.style("fill", function(d){return genreColorMapping[d]});
 
@@ -376,6 +377,7 @@ function setCursor(x) {document.body.style.cursor = x;}
 						.attr("x", width - 24)
 						.attr("y", 9)
 						.attr("dy", ".35em")
+						.attr('onmouseenter',"setCursor('pointer')").attr('onmouseleave',"setCursor('default')")
 						.attr("onclick", function(d){return "filterScatter('"+d+"')"})
 						.style("text-anchor", "end")
 						.text(function(d) { return d; });
@@ -472,9 +474,9 @@ function setCursor(x) {document.body.style.cursor = x;}
 			  .style("stroke-width", 1);
 
 			var resetG = vis3svg.append('g')
-			var resetRect = resetG.append('rect').attr('x',width/2).attr('y',20).attr('rx',5).attr('ry',5).style('stroke','black').style('stroke-width',2).style('fill','#EEE').attr('width',60).attr('height',20)
-			var resetText = resetG.append('text').attr('x',width/2+10).attr('y',35).text('Reset')
-			resetG.selectAll('*').attr('onclick','resetDiagram()').attr('opacity',0).attr('onmouseenter',"setCursor('pointer')").attr('onmouseleave',"setCursor('default')")
+			var genreText = resetG.append('text').attr('x',width/4).attr('y',20).attr('font-size',20).attr('font-weight','bold');
+			var resetRect = resetG.append('rect').attr('x',width/2).attr('y',20).attr('rx',5).attr('ry',5).style('stroke','black').style('stroke-width',2).style('fill','#EEE').attr('width',60).attr('height',20).attr('onclick','resetDiagram()').attr('opacity',0).attr('onmouseenter',"setCursor('pointer')").attr('onmouseleave',"setCursor('default')")
+			var resetText = resetG.append('text').attr('x',width/2+10).attr('y',35).text('Reset').attr('onclick','resetDiagram()').attr('opacity',0).attr('onmouseenter',"setCursor('pointer')").attr('onmouseleave',"setCursor('default')")
 
 			var subg = vis3svg.append('g');
 			subg.append('text').attr('x',width-195).attr('y',20).text('Subgenres').attr('font-size',20).attr('font-weight','bold')
@@ -514,6 +516,7 @@ function setCursor(x) {document.body.style.cursor = x;}
 			function buildGenreDiagram(genre){
 				setCursor('default')
 				genre= genre=='randb'?'r&b':genre
+				genreText.text(genre.charAt(0).toUpperCase() + genre.substr(1))
 				d3.csv("models/subgenre_distances/"+genre+".csv", function(d){
 				links = [];
 				nodes = [];
