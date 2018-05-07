@@ -596,6 +596,7 @@ function setCursor(x) {document.body.style.cursor = x;}
 				  .attr('onclick',function(d){return genre==0?"buildGenreDiagram('"+d.id+"')":''})
 				  .attr('onmouseenter',global_genre?'':"setCursor('pointer')").attr('onmouseleave',"setCursor('default')")
 				  .attr('stroke','#000');
+				  
 			var label = vis3svg.selectAll('.labels')
 			    .data(nodes)
 			    .enter()
