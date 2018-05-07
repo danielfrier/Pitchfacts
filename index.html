@@ -509,13 +509,13 @@ function setCursor(x) {document.body.style.cursor = x;}
 					for(comp in sub){
 						try{
 							if(parseFloat(sub[comp])>=0.625){
-								links.push({"source": sub[''], "target": comp, 'value':parseFloat(sub[comp]) });
+								links.push({"source": sub['index'], "target": comp, 'value':parseFloat(sub[comp]) });
 							}
 						}
 						catch(error){}
 					}
-				
-					nodes.push({"id":sub['']})
+					
+					nodes.push({"id":sub['index']})
 				}
 				resetG.selectAll('*').attr('opacity',1)
 				global_genre=genre=='r&b'?'randb':genre;
@@ -594,6 +594,7 @@ function setCursor(x) {document.body.style.cursor = x;}
      			.transition().duration(300)
 				        .attr("cx",width/4).attr('cy',height/2).style('opacity',0);
 			setTimeout(function(){
+				console.log(nodes,links);
 				   simulation
 				  .nodes(nodes)
 				  .on("tick", ticked);
