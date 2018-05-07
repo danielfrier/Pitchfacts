@@ -205,14 +205,10 @@
 					if (data.success){
 						var grade = data.success.grade;
 						$("#grade_container").removeClass("hidden");
-						var letterGrade = (grade>0.9)?"a":
-							(grade>0.8)?"b":
-							(grade>0.7)?"c":
-							(grade>0.6)?"d":"f";
 
-						$("#grade_container").attr("class","grade_container grade_"+letterGrade);
-						$("#grade_letter").html(letterGrade.toUpperCase());
-						$("#grade_percent").html((grade*100)+"% match");
+						$("#grade_container").attr("class","grade_container grade_"+grade);
+						$("#grade_letter").html(grade.toUpperCase());
+						$("#grade_percent").html((data.success.probability)+"% probability");
 					}
 				},"json");
 			}
