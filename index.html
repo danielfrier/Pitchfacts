@@ -635,6 +635,7 @@ function setCursor(x) {document.body.style.cursor = x;}
 			  .style("stroke-width", 1);
 			vis3svg.append('text').text('The further two points are from each other,').attr('x',width-320).attr('y',height-160).attr('font-size',15).attr('font-weight','bold')
 			vis3svg.append('text').text('the more distinct they are from each other!').attr('x',width-315).attr('y',height-140).attr('font-size',15).attr('font-weight','bold')
+			vis3svg.append('text').text('Click on a point to view its subgenres').attr('id','disatext').attr('x',width/4-200).attr('y',height-50).attr('font-size',20).attr('font-weight','bold')
 
 			var resetG = vis3svg.append('g')
 			var genreText = resetG.append('text').attr('x',width/4).attr('y',20).attr('font-size',20).attr('font-weight','bold');
@@ -677,6 +678,7 @@ function setCursor(x) {document.body.style.cursor = x;}
 					sub_holder_stable = sub_circle_holder;
 					});
 			function buildGenreDiagram(genre){
+				d3.select('#disatext').transition().duration(150).attr('opacity',0)
 				setCursor('default')
 				genre= genre=='randb'?'r&b':genre
 				genreText.text(genre.charAt(0).toUpperCase() + genre.substr(1))
